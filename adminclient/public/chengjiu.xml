@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<def>
+	<config>
+		<field define="id" field="id"/>
+		<field define="type" field="type"/>
+		<field define="level" field="level"/>
+		<field define="need" field="need"/>
+		<field define="reward" field="reward"/>
+	</config>
+	<unit id="1001" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到3阶0星" order="1001" level="1" modelOpen="1,3" need="30" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="1002" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到6阶0星" order="1001" level="2" modelOpen="1,3" need="60" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="1003" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到9阶0星" order="1001" level="3" modelOpen="1,3" need="90" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="1004" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到12阶0星" order="1001" level="4" modelOpen="1,3" need="120" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="1005" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到15阶0星" order="1001" level="5" modelOpen="1,3" need="150" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="1006" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到18阶0星" order="1001" level="6" modelOpen="1,3" need="180" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="1007" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到21阶0星" order="1001" level="7" modelOpen="1,3" need="210" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="1008" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到24阶0星" order="1001" level="8" modelOpen="1,3" need="240" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="1009" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到27阶0星" order="1001" level="9" modelOpen="1,3" need="270" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="1010" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到30阶0星" order="1001" level="10" modelOpen="1,3" need="300" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="1011" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到33阶0星" order="1001" level="11" modelOpen="1,3" need="330" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="1012" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到36阶0星" order="1001" level="12" modelOpen="1,3" need="360" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="1013" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到39阶0星" order="1001" level="13" modelOpen="1,3" need="390" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="1014" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到42阶0星" order="1001" level="14" modelOpen="1,3" need="420" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="1015" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到45阶0星" order="1001" level="15" modelOpen="1,3" need="450" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="1016" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到48阶0星" order="1001" level="16" modelOpen="1,3" need="480" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="1017" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到51阶0星" order="1001" level="17" modelOpen="1,3" need="510" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="1018" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到54阶0星" order="1001" level="18" modelOpen="1,3" need="540" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="1019" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到57阶0星" order="1001" level="19" modelOpen="1,3" need="570" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="1020" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到60阶0星" order="1001" level="20" modelOpen="1,3" need="600" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="1021" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到63阶0星" order="1001" level="21" modelOpen="1,3" need="630" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="1022" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到66阶0星" order="1001" level="22" modelOpen="1,3" need="660" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="1023" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到69阶0星" order="1001" level="23" modelOpen="1,3" need="690" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="1024" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到72阶0星" order="1001" level="24" modelOpen="1,3" need="720" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="1025" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到75阶0星" order="1001" level="25" modelOpen="1,3" need="750" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="1026" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到78阶0星" order="1001" level="26" modelOpen="1,3" need="780" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="1027" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到81阶0星" order="1001" level="27" modelOpen="1,3" need="810" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="1028" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到84阶0星" order="1001" level="28" modelOpen="1,3" need="840" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="1029" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到87阶0星" order="1001" level="29" modelOpen="1,3" need="870" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="1030" type="1" name="翅膀等级" icon="achievevip_1_png" desc="翅膀等阶达到90阶0星" order="1001" level="30" modelOpen="1,3" need="900" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="2001" type="2" name="装备强化" icon="achievevip_1_png" desc="装备总强化等级达到120级" order="1000" level="1" modelOpen="3,0" need="120" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="2002" type="2" name="装备强化" icon="achievevip_1_png" desc="装备总强化等级达到240级" order="1000" level="2" modelOpen="3,0" need="240" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="2003" type="2" name="装备强化" icon="achievevip_1_png" desc="装备总强化等级达到360级" order="1000" level="3" modelOpen="3,0" need="360" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="2004" type="2" name="装备强化" icon="achievevip_1_png" desc="装备总强化等级达到480级" order="1000" level="4" modelOpen="3,0" need="480" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="2005" type="2" name="装备强化" icon="achievevip_1_png" desc="装备总强化等级达到600级" order="1000" level="5" modelOpen="3,0" need="600" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="2006" type="2" name="装备强化" icon="achievevip_1_png" desc="装备总强化等级达到720级" order="1000" level="6" modelOpen="3,0" need="720" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="2007" type="2" name="装备强化" icon="achievevip_1_png" desc="装备总强化等级达到960级" order="1000" level="7" modelOpen="3,0" need="960" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="2008" type="2" name="装备强化" icon="achievevip_1_png" desc="装备总强化等级达到1200级" order="1000" level="8" modelOpen="3,0" need="1200" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="2009" type="2" name="装备强化" icon="achievevip_1_png" desc="装备总强化等级达到1440级" order="1000" level="9" modelOpen="3,0" need="1440" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="2010" type="2" name="装备强化" icon="achievevip_1_png" desc="装备总强化等级达到1680级" order="1000" level="10" modelOpen="3,0" need="1680" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="2011" type="2" name="装备强化" icon="achievevip_1_png" desc="装备总强化等级达到1920级" order="1000" level="11" modelOpen="3,0" need="1920" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="2012" type="2" name="装备强化" icon="achievevip_1_png" desc="装备总强化等级达到2160级" order="1000" level="12" modelOpen="3,0" need="2160" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="2013" type="2" name="装备强化" icon="achievevip_1_png" desc="装备总强化等级达到2400级" order="1000" level="13" modelOpen="3,0" need="2400" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="2014" type="2" name="装备强化" icon="achievevip_1_png" desc="装备总强化等级达到2640级" order="1000" level="14" modelOpen="3,0" need="2640" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="2015" type="2" name="装备强化" icon="achievevip_1_png" desc="装备总强化等级达到2880级" order="1000" level="15" modelOpen="3,0" need="2880" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="2016" type="2" name="装备强化" icon="achievevip_1_png" desc="装备总强化等级达到3120级" order="1000" level="16" modelOpen="3,0" need="3120" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="2017" type="2" name="装备强化" icon="achievevip_1_png" desc="装备总强化等级达到3360级" order="1000" level="17" modelOpen="3,0" need="3360" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="2018" type="2" name="装备强化" icon="achievevip_1_png" desc="装备总强化等级达到3600级" order="1000" level="18" modelOpen="3,0" need="3600" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="2019" type="2" name="装备强化" icon="achievevip_1_png" desc="装备总强化等级达到3840级" order="1000" level="19" modelOpen="3,0" need="3840" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="2020" type="2" name="装备强化" icon="achievevip_1_png" desc="装备总强化等级达到4080级" order="1000" level="20" modelOpen="3,0" need="4080" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="2021" type="2" name="装备强化" icon="achievevip_1_png" desc="装备总强化等级达到4320级" order="1000" level="21" modelOpen="3,0" need="4320" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="2022" type="2" name="装备强化" icon="achievevip_1_png" desc="装备总强化等级达到4560级" order="1000" level="22" modelOpen="3,0" need="4560" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="2023" type="2" name="装备强化" icon="achievevip_1_png" desc="装备总强化等级达到4800级" order="1000" level="23" modelOpen="3,0" need="4800" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="3001" type="3" name="装备精炼" icon="achievevip_1_png" desc="装备精炼总等级达到120级" order="999" level="1" modelOpen="3,1" need="120" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="3002" type="3" name="装备精炼" icon="achievevip_1_png" desc="装备精炼总等级达到240级" order="999" level="2" modelOpen="3,1" need="240" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="3003" type="3" name="装备精炼" icon="achievevip_1_png" desc="装备精炼总等级达到360级" order="999" level="3" modelOpen="3,1" need="360" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="3004" type="3" name="装备精炼" icon="achievevip_1_png" desc="装备精炼总等级达到480级" order="999" level="4" modelOpen="3,1" need="480" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="3005" type="3" name="装备精炼" icon="achievevip_1_png" desc="装备精炼总等级达到600级" order="999" level="5" modelOpen="3,1" need="600" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="3006" type="3" name="装备精炼" icon="achievevip_1_png" desc="装备精炼总等级达到720级" order="999" level="6" modelOpen="3,1" need="720" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="3007" type="3" name="装备精炼" icon="achievevip_1_png" desc="装备精炼总等级达到960级" order="999" level="7" modelOpen="3,1" need="960" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="3008" type="3" name="装备精炼" icon="achievevip_1_png" desc="装备精炼总等级达到1200级" order="999" level="8" modelOpen="3,1" need="1200" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="3009" type="3" name="装备精炼" icon="achievevip_1_png" desc="装备精炼总等级达到1440级" order="999" level="9" modelOpen="3,1" need="1440" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="3010" type="3" name="装备精炼" icon="achievevip_1_png" desc="装备精炼总等级达到1680级" order="999" level="10" modelOpen="3,1" need="1680" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="3011" type="3" name="装备精炼" icon="achievevip_1_png" desc="装备精炼总等级达到1920级" order="999" level="11" modelOpen="3,1" need="1920" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="3012" type="3" name="装备精炼" icon="achievevip_1_png" desc="装备精炼总等级达到2160级" order="999" level="12" modelOpen="3,1" need="2160" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="3013" type="3" name="装备精炼" icon="achievevip_1_png" desc="装备精炼总等级达到2400级" order="999" level="13" modelOpen="3,1" need="2400" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="3014" type="3" name="装备精炼" icon="achievevip_1_png" desc="装备精炼总等级达到2640级" order="999" level="14" modelOpen="3,1" need="2640" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="3015" type="3" name="装备精炼" icon="achievevip_1_png" desc="装备精炼总等级达到2880级" order="999" level="15" modelOpen="3,1" need="2880" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="3016" type="3" name="装备精炼" icon="achievevip_1_png" desc="装备精炼总等级达到3120级" order="999" level="16" modelOpen="3,1" need="3120" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="3017" type="3" name="装备精炼" icon="achievevip_1_png" desc="装备精炼总等级达到3360级" order="999" level="17" modelOpen="3,1" need="3360" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="3018" type="3" name="装备精炼" icon="achievevip_1_png" desc="装备精炼总等级达到3600级" order="999" level="18" modelOpen="3,1" need="3600" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="3019" type="3" name="装备精炼" icon="achievevip_1_png" desc="装备精炼总等级达到3840级" order="999" level="19" modelOpen="3,1" need="3840" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="4001" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到8级" order="998" level="1" modelOpen="3,2" need="8" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="4002" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到16级" order="998" level="2" modelOpen="3,2" need="16" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="4003" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到24级" order="998" level="3" modelOpen="3,2" need="24" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="4004" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到36级" order="998" level="4" modelOpen="3,2" need="36" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="4005" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到48级" order="998" level="5" modelOpen="3,2" need="48" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="4006" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到60级" order="998" level="6" modelOpen="3,2" need="60" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="4007" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到72级" order="998" level="7" modelOpen="3,2" need="72" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="4008" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到84级" order="998" level="8" modelOpen="3,2" need="84" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="4009" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到96级" order="998" level="9" modelOpen="3,2" need="96" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="4010" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到108级" order="998" level="10" modelOpen="3,2" need="108" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="4011" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到120级" order="998" level="11" modelOpen="3,2" need="120" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="4012" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到132级" order="998" level="12" modelOpen="3,2" need="132" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="4013" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到144级" order="998" level="13" modelOpen="3,2" need="144" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="4014" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到156级" order="998" level="14" modelOpen="3,2" need="156" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="4015" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到168级" order="998" level="15" modelOpen="3,2" need="168" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="4016" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到180级" order="998" level="16" modelOpen="3,2" need="180" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="4017" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到192级" order="998" level="17" modelOpen="3,2" need="192" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="4018" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到204级" order="998" level="18" modelOpen="3,2" need="204" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="4019" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到216级" order="998" level="19" modelOpen="3,2" need="216" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="4020" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到228级" order="998" level="20" modelOpen="3,2" need="228" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="4021" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到240级" order="998" level="21" modelOpen="3,2" need="240" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="4022" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到252级" order="998" level="22" modelOpen="3,2" need="252" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="4023" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到264级" order="998" level="23" modelOpen="3,2" need="264" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="4024" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到276级" order="998" level="24" modelOpen="3,2" need="276" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="4025" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到288级" order="998" level="25" modelOpen="3,2" need="288" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="4026" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到300级" order="998" level="26" modelOpen="3,2" need="300" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="4027" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到312级" order="998" level="27" modelOpen="3,2" need="312" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="4028" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到324级" order="998" level="28" modelOpen="3,2" need="324" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="4029" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到336级" order="998" level="29" modelOpen="3,2" need="336" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="4030" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到348级" order="998" level="30" modelOpen="3,2" need="348" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="4031" type="4" name="灵石强化等级" icon="achievevip_1_png" desc="灵石强化总等级达到360级" order="998" level="31" modelOpen="3,2" need="360" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="5001" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到3阶0星" order="997" level="1" modelOpen="2,1" need="30" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="5002" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到6阶0星" order="997" level="2" modelOpen="2,1" need="60" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="5003" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到9阶0星" order="997" level="3" modelOpen="2,1" need="90" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="5004" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到12阶0星" order="997" level="4" modelOpen="2,1" need="120" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="5005" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到15阶0星" order="997" level="5" modelOpen="2,1" need="150" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="5006" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到18阶0星" order="997" level="6" modelOpen="2,1" need="180" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="5007" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到21阶0星" order="997" level="7" modelOpen="2,1" need="210" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="5008" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到24阶0星" order="997" level="8" modelOpen="2,1" need="240" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="5009" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到27阶0星" order="997" level="9" modelOpen="2,1" need="270" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="5010" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到30阶0星" order="997" level="10" modelOpen="2,1" need="300" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="5011" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到33阶0星" order="997" level="11" modelOpen="2,1" need="330" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="5012" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到36阶0星" order="997" level="12" modelOpen="2,1" need="360" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="5013" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到39阶0星" order="997" level="13" modelOpen="2,1" need="390" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="5014" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到42阶0星" order="997" level="14" modelOpen="2,1" need="420" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="5015" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到45阶0星" order="997" level="15" modelOpen="2,1" need="450" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="5016" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到48阶0星" order="997" level="16" modelOpen="2,1" need="480" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="5017" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到51阶0星" order="997" level="17" modelOpen="2,1" need="510" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="5018" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到54阶0星" order="997" level="18" modelOpen="2,1" need="540" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="5019" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到57阶0星" order="997" level="19" modelOpen="2,1" need="570" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="5020" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到60阶0星" order="997" level="20" modelOpen="2,1" need="600" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="5021" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到63阶0星" order="997" level="21" modelOpen="2,1" need="630" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="5022" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到66阶0星" order="997" level="22" modelOpen="2,1" need="660" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="5023" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到69阶0星" order="997" level="23" modelOpen="2,1" need="690" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="5024" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到72阶0星" order="997" level="24" modelOpen="2,1" need="720" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="5025" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到75阶0星" order="997" level="25" modelOpen="2,1" need="750" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="5026" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到78阶0星" order="997" level="26" modelOpen="2,1" need="780" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="5027" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到81阶0星" order="997" level="27" modelOpen="2,1" need="810" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="5028" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到84阶0星" order="997" level="28" modelOpen="2,1" need="840" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="5029" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到87阶0星" order="997" level="29" modelOpen="2,1" need="870" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="5030" type="5" name="星宿等级" icon="achievevip_1_png" desc="星宿等级达到90阶0星" order="997" level="30" modelOpen="2,1" need="900" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="7001" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到3阶0星" order="996" level="1" modelOpen="4,0" need="30" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="7002" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到6阶0星" order="996" level="2" modelOpen="4,0" need="60" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="7003" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到9阶0星" order="996" level="3" modelOpen="4,0" need="90" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="7004" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到12阶0星" order="996" level="4" modelOpen="4,0" need="120" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="7005" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到15阶0星" order="996" level="5" modelOpen="4,0" need="150" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="7006" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到18阶0星" order="996" level="6" modelOpen="4,0" need="180" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="7007" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到21阶0星" order="996" level="7" modelOpen="4,0" need="210" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="7008" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到24阶0星" order="996" level="8" modelOpen="4,0" need="240" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="7009" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到27阶0星" order="996" level="9" modelOpen="4,0" need="270" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="7010" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到30阶0星" order="996" level="10" modelOpen="4,0" need="300" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="7011" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到33阶0星" order="996" level="11" modelOpen="4,0" need="330" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="7012" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到36阶0星" order="996" level="12" modelOpen="4,0" need="360" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="7013" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到39阶0星" order="996" level="13" modelOpen="4,0" need="390" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="7014" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到42阶0星" order="996" level="14" modelOpen="4,0" need="420" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="7015" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到45阶0星" order="996" level="15" modelOpen="4,0" need="450" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="7016" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到48阶0星" order="996" level="16" modelOpen="4,0" need="480" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="7017" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到51阶0星" order="996" level="17" modelOpen="4,0" need="510" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="7018" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到54阶0星" order="996" level="18" modelOpen="4,0" need="540" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="7019" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到57阶0星" order="996" level="19" modelOpen="4,0" need="570" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="7020" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到60阶0星" order="996" level="20" modelOpen="4,0" need="600" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="7021" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到63阶0星" order="996" level="21" modelOpen="4,0" need="630" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="7022" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到66阶0星" order="996" level="22" modelOpen="4,0" need="660" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="7023" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到69阶0星" order="996" level="23" modelOpen="4,0" need="690" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="7024" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到72阶0星" order="996" level="24" modelOpen="4,0" need="720" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="7025" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到75阶0星" order="996" level="25" modelOpen="4,0" need="750" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="7026" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到78阶0星" order="996" level="26" modelOpen="4,0" need="780" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="7027" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到81阶0星" order="996" level="27" modelOpen="4,0" need="810" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="7028" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到84阶0星" order="996" level="28" modelOpen="4,0" need="840" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="7029" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到87阶0星" order="996" level="29" modelOpen="4,0" need="870" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="7030" type="7" name="灵剑等级" icon="achievevip_1_png" desc="灵剑总等阶达到90阶0星" order="996" level="30" modelOpen="4,0" need="900" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8001" type="8" name="关卡" icon="achievevip_1_png" desc="通关第50关" order="1002" level="1" modelOpen="1,0" need="50" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8002" type="8" name="关卡" icon="achievevip_1_png" desc="通关第100关" order="1002" level="2" modelOpen="1,0" need="100" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8003" type="8" name="关卡" icon="achievevip_1_png" desc="通关第150关" order="1002" level="3" modelOpen="1,0" need="150" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8004" type="8" name="关卡" icon="achievevip_1_png" desc="通关第200关" order="1002" level="4" modelOpen="1,0" need="200" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8005" type="8" name="关卡" icon="achievevip_1_png" desc="通关第250关" order="1002" level="5" modelOpen="1,0" need="250" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8006" type="8" name="关卡" icon="achievevip_1_png" desc="通关第300关" order="1002" level="6" modelOpen="1,0" need="300" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8007" type="8" name="关卡" icon="achievevip_1_png" desc="通关第400关" order="1002" level="7" modelOpen="1,0" need="400" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8008" type="8" name="关卡" icon="achievevip_1_png" desc="通关第600关" order="1002" level="8" modelOpen="1,0" need="600" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8009" type="8" name="关卡" icon="achievevip_1_png" desc="通关第800关" order="1002" level="9" modelOpen="1,0" need="800" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8010" type="8" name="关卡" icon="achievevip_1_png" desc="通关第1000关" order="1002" level="10" modelOpen="1,0" need="1000" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8011" type="8" name="关卡" icon="achievevip_1_png" desc="通关第1200关" order="1002" level="11" modelOpen="1,0" need="1200" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8012" type="8" name="关卡" icon="achievevip_1_png" desc="通关第1400关" order="1002" level="12" modelOpen="1,0" need="1400" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8013" type="8" name="关卡" icon="achievevip_1_png" desc="通关第1600关" order="1002" level="13" modelOpen="1,0" need="1600" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8014" type="8" name="关卡" icon="achievevip_1_png" desc="通关第1800关" order="1002" level="14" modelOpen="1,0" need="1800" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8015" type="8" name="关卡" icon="achievevip_1_png" desc="通关第2000关" order="1002" level="15" modelOpen="1,0" need="2000" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8016" type="8" name="关卡" icon="achievevip_1_png" desc="通关第2200关" order="1002" level="16" modelOpen="1,0" need="2200" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8017" type="8" name="关卡" icon="achievevip_1_png" desc="通关第2400关" order="1002" level="17" modelOpen="1,0" need="2400" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8018" type="8" name="关卡" icon="achievevip_1_png" desc="通关第2600关" order="1002" level="18" modelOpen="1,0" need="2600" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8019" type="8" name="关卡" icon="achievevip_1_png" desc="通关第2800关" order="1002" level="19" modelOpen="1,0" need="2800" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8020" type="8" name="关卡" icon="achievevip_1_png" desc="通关第3000关" order="1002" level="20" modelOpen="1,0" need="3000" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8021" type="8" name="关卡" icon="achievevip_1_png" desc="通关第3200关" order="1002" level="21" modelOpen="1,0" need="3200" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8022" type="8" name="关卡" icon="achievevip_1_png" desc="通关第3400关" order="1002" level="22" modelOpen="1,0" need="3400" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8023" type="8" name="关卡" icon="achievevip_1_png" desc="通关第3600关" order="1002" level="23" modelOpen="1,0" need="3600" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8024" type="8" name="关卡" icon="achievevip_1_png" desc="通关第3800关" order="1002" level="24" modelOpen="1,0" need="3800" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8025" type="8" name="关卡" icon="achievevip_1_png" desc="通关第4000关" order="1002" level="25" modelOpen="1,0" need="4000" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8026" type="8" name="关卡" icon="achievevip_1_png" desc="通关第4200关" order="1002" level="26" modelOpen="1,0" need="4200" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8027" type="8" name="关卡" icon="achievevip_1_png" desc="通关第4400关" order="1002" level="27" modelOpen="1,0" need="4400" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8028" type="8" name="关卡" icon="achievevip_1_png" desc="通关第4600关" order="1002" level="28" modelOpen="1,0" need="4600" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8029" type="8" name="关卡" icon="achievevip_1_png" desc="通关第4800关" order="1002" level="29" modelOpen="1,0" need="4800" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8030" type="8" name="关卡" icon="achievevip_1_png" desc="通关第5000关" order="1002" level="30" modelOpen="1,0" need="5000" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8031" type="8" name="关卡" icon="achievevip_1_png" desc="通关第5200关" order="1002" level="31" modelOpen="1,0" need="5200" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8032" type="8" name="关卡" icon="achievevip_1_png" desc="通关第5400关" order="1002" level="32" modelOpen="1,0" need="5400" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8033" type="8" name="关卡" icon="achievevip_1_png" desc="通关第5600关" order="1002" level="33" modelOpen="1,0" need="5600" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8034" type="8" name="关卡" icon="achievevip_1_png" desc="通关第5800关" order="1002" level="34" modelOpen="1,0" need="5800" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8035" type="8" name="关卡" icon="achievevip_1_png" desc="通关第6000关" order="1002" level="35" modelOpen="1,0" need="6000" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8036" type="8" name="关卡" icon="achievevip_1_png" desc="通关第6200关" order="1002" level="36" modelOpen="1,0" need="6200" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8037" type="8" name="关卡" icon="achievevip_1_png" desc="通关第6400关" order="1002" level="37" modelOpen="1,0" need="6400" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8038" type="8" name="关卡" icon="achievevip_1_png" desc="通关第6600关" order="1002" level="38" modelOpen="1,0" need="6600" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8039" type="8" name="关卡" icon="achievevip_1_png" desc="通关第6800关" order="1002" level="39" modelOpen="1,0" need="6800" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8040" type="8" name="关卡" icon="achievevip_1_png" desc="通关第7000关" order="1002" level="40" modelOpen="1,0" need="7000" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8041" type="8" name="关卡" icon="achievevip_1_png" desc="通关第7200关" order="1002" level="41" modelOpen="1,0" need="7200" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8042" type="8" name="关卡" icon="achievevip_1_png" desc="通关第7400关" order="1002" level="42" modelOpen="1,0" need="7400" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8043" type="8" name="关卡" icon="achievevip_1_png" desc="通关第7600关" order="1002" level="43" modelOpen="1,0" need="7600" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8044" type="8" name="关卡" icon="achievevip_1_png" desc="通关第7800关" order="1002" level="44" modelOpen="1,0" need="7800" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="8045" type="8" name="关卡" icon="achievevip_1_png" desc="通关第8000关" order="1002" level="45" modelOpen="1,0" need="8000" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="9001" type="9" name="等级" icon="achievevip_1_png" desc="等级达到60级" order="1003" level="1" modelOpen="1,0" need="60" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="9002" type="9" name="等级" icon="achievevip_1_png" desc="等级达到70级" order="1003" level="2" modelOpen="1,0" need="70" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="9003" type="9" name="等级" icon="achievevip_1_png" desc="等级达到80级" order="1003" level="3" modelOpen="1,0" need="80" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="9004" type="9" name="等级" icon="achievevip_1_png" desc="转职达到1转" order="1003" level="4" modelOpen="1,2" need="1080" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="9005" type="9" name="等级" icon="achievevip_1_png" desc="转职达到2转" order="1003" level="5" modelOpen="1,2" need="2080" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="9006" type="9" name="等级" icon="achievevip_1_png" desc="转职达到3转" order="1003" level="6" modelOpen="1,2" need="3080" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="9007" type="9" name="等级" icon="achievevip_1_png" desc="转职达到4转" order="1003" level="7" modelOpen="1,2" need="4080" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="9008" type="9" name="等级" icon="achievevip_1_png" desc="转职达到5转" order="1003" level="8" modelOpen="1,2" need="5080" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="9009" type="9" name="等级" icon="achievevip_1_png" desc="转职达到6转" order="1003" level="9" modelOpen="1,2" need="6080" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="9010" type="9" name="等级" icon="achievevip_1_png" desc="转职达到7转" order="1003" level="10" modelOpen="1,2" need="7080" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="9011" type="9" name="等级" icon="achievevip_1_png" desc="转职达到8转" order="1003" level="11" modelOpen="1,2" need="8080" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="9012" type="9" name="等级" icon="achievevip_1_png" desc="转职达到9转" order="1003" level="12" modelOpen="1,2" need="9080" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="9013" type="9" name="等级" icon="achievevip_1_png" desc="转职达到10转" order="1003" level="13" modelOpen="1,2" need="10080" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="9014" type="9" name="等级" icon="achievevip_1_png" desc="转职达到11转" order="1003" level="14" modelOpen="1,2" need="11080" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="9015" type="9" name="等级" icon="achievevip_1_png" desc="转职达到12转" order="1003" level="15" modelOpen="1,2" need="12080" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="10001" type="10" name="VIP等级" icon="achievevip_1_png" desc="VIP等级达到1级" order="995" level="1" modelOpen="1,0" need="999" reward="VIPEXP:5,GOLD:50" isClose="1"/>
+	<unit id="10002" type="10" name="VIP等级" icon="achievevip_1_png" desc="VIP等级达到2级" order="995" level="2" modelOpen="1,0" need="999" reward="VIPEXP:5,GOLD:50" isClose="1"/>
+	<unit id="10003" type="10" name="VIP等级" icon="achievevip_1_png" desc="VIP等级达到3级" order="995" level="3" modelOpen="1,0" need="999" reward="VIPEXP:5,GOLD:50" isClose="1"/>
+	<unit id="10004" type="10" name="VIP等级" icon="achievevip_1_png" desc="VIP等级达到4级" order="995" level="4" modelOpen="1,0" need="999" reward="VIPEXP:5,GOLD:50" isClose="1"/>
+	<unit id="10005" type="10" name="VIP等级" icon="achievevip_1_png" desc="VIP等级达到5级" order="995" level="5" modelOpen="1,0" need="999" reward="VIPEXP:5,GOLD:200" isClose="1"/>
+	<unit id="10006" type="10" name="VIP等级" icon="achievevip_1_png" desc="VIP等级达到6级" order="995" level="6" modelOpen="1,0" need="999" reward="VIPEXP:5,GOLD:200" isClose="1"/>
+	<unit id="10007" type="10" name="VIP等级" icon="achievevip_1_png" desc="VIP等级达到7级" order="995" level="7" modelOpen="1,0" need="999" reward="VIPEXP:5,GOLD:200" isClose="1"/>
+	<unit id="10008" type="10" name="VIP等级" icon="achievevip_1_png" desc="VIP等级达到8级" order="995" level="8" modelOpen="1,0" need="999" reward="VIPEXP:5,GOLD:200" isClose="1"/>
+	<unit id="10009" type="10" name="VIP等级" icon="achievevip_1_png" desc="VIP等级达到9级" order="995" level="9" modelOpen="1,0" need="999" reward="VIPEXP:5,GOLD:200" isClose="1"/>
+	<unit id="10010" type="10" name="VIP等级" icon="achievevip_1_png" desc="VIP等级达到10级" order="995" level="10" modelOpen="1,0" need="999" reward="VIPEXP:5,GOLD:200" isClose="1"/>
+	<unit id="10011" type="10" name="VIP等级" icon="achievevip_1_png" desc="VIP等级达到11级" order="995" level="11" modelOpen="1,0" need="999" reward="VIPEXP:5,GOLD:200" isClose="1"/>
+	<unit id="10012" type="10" name="VIP等级" icon="achievevip_1_png" desc="VIP等级达到12级" order="995" level="12" modelOpen="1,0" need="999" reward="VIPEXP:5,GOLD:200" isClose="1"/>
+	<unit id="10013" type="10" name="VIP等级" icon="achievevip_1_png" desc="VIP等级达到13级" order="995" level="13" modelOpen="1,0" need="999" reward="VIPEXP:5,GOLD:200" isClose="1"/>
+	<unit id="11001" type="11" name="护送美女" icon="achievevip_1_png" desc="护送美女次数达到12次" order="994" level="1" modelOpen="37,1" need="12" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="11002" type="11" name="护送美女" icon="achievevip_1_png" desc="护送美女次数达到18次" order="994" level="2" modelOpen="37,1" need="18" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="11003" type="11" name="护送美女" icon="achievevip_1_png" desc="护送美女次数达到24次" order="994" level="3" modelOpen="37,1" need="24" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="11004" type="11" name="护送美女" icon="achievevip_1_png" desc="护送美女次数达到32次" order="994" level="4" modelOpen="37,1" need="32" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="11005" type="11" name="护送美女" icon="achievevip_1_png" desc="护送美女次数达到40次" order="994" level="5" modelOpen="37,1" need="40" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="11006" type="11" name="护送美女" icon="achievevip_1_png" desc="护送美女次数达到52次" order="994" level="6" modelOpen="37,1" need="52" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="11007" type="11" name="护送美女" icon="achievevip_1_png" desc="护送美女次数达到64次" order="994" level="7" modelOpen="37,1" need="64" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="11008" type="11" name="护送美女" icon="achievevip_1_png" desc="护送美女次数达到76次" order="994" level="8" modelOpen="37,1" need="76" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="11009" type="11" name="护送美女" icon="achievevip_1_png" desc="护送美女次数达到88次" order="994" level="9" modelOpen="37,1" need="88" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="11010" type="11" name="护送美女" icon="achievevip_1_png" desc="护送美女次数达到100次" order="994" level="10" modelOpen="37,1" need="100" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="12001" type="12" name="三界争霸次数" icon="achievevip_1_png" desc="三界争霸胜利次数达到10次" order="993" level="1" modelOpen="37,2" need="10" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="12002" type="12" name="三界争霸次数" icon="achievevip_1_png" desc="三界争霸胜利次数达到20次" order="993" level="2" modelOpen="37,2" need="20" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="12003" type="12" name="三界争霸次数" icon="achievevip_1_png" desc="三界争霸胜利次数达到30次" order="993" level="3" modelOpen="37,2" need="30" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="12004" type="12" name="三界争霸次数" icon="achievevip_1_png" desc="三界争霸胜利次数达到50次" order="993" level="4" modelOpen="37,2" need="50" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="12005" type="12" name="三界争霸次数" icon="achievevip_1_png" desc="三界争霸胜利次数达到75次" order="993" level="5" modelOpen="37,2" need="75" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="12006" type="12" name="三界争霸次数" icon="achievevip_1_png" desc="三界争霸胜利次数达到100次" order="993" level="6" modelOpen="37,2" need="100" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="12007" type="12" name="三界争霸次数" icon="achievevip_1_png" desc="三界争霸胜利次数达到125次" order="993" level="7" modelOpen="37,2" need="125" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="12008" type="12" name="三界争霸次数" icon="achievevip_1_png" desc="三界争霸胜利次数达到150次" order="993" level="8" modelOpen="37,2" need="150" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="12009" type="12" name="三界争霸次数" icon="achievevip_1_png" desc="三界争霸胜利次数达到175次" order="993" level="9" modelOpen="37,2" need="175" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="12010" type="12" name="三界争霸次数" icon="achievevip_1_png" desc="三界争霸胜利次数达到200次" order="993" level="10" modelOpen="37,2" need="200" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="12011" type="12" name="三界争霸次数" icon="achievevip_1_png" desc="三界争霸胜利次数达到225次" order="993" level="11" modelOpen="37,2" need="225" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="12012" type="12" name="三界争霸次数" icon="achievevip_1_png" desc="三界争霸胜利次数达到250次" order="993" level="12" modelOpen="37,2" need="250" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="12013" type="12" name="三界争霸次数" icon="achievevip_1_png" desc="三界争霸胜利次数达到275次" order="993" level="13" modelOpen="37,2" need="275" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="12014" type="12" name="三界争霸次数" icon="achievevip_1_png" desc="三界争霸胜利次数达到300次" order="993" level="14" modelOpen="37,2" need="300" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="12015" type="12" name="三界争霸次数" icon="achievevip_1_png" desc="三界争霸胜利次数达到325次" order="993" level="15" modelOpen="37,2" need="325" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="12016" type="12" name="三界争霸次数" icon="achievevip_1_png" desc="三界争霸胜利次数达到350次" order="993" level="16" modelOpen="37,2" need="350" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="12017" type="12" name="三界争霸次数" icon="achievevip_1_png" desc="三界争霸胜利次数达到375次" order="993" level="17" modelOpen="37,2" need="375" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="12018" type="12" name="三界争霸次数" icon="achievevip_1_png" desc="三界争霸胜利次数达到400次" order="993" level="18" modelOpen="37,2" need="400" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="12019" type="12" name="三界争霸次数" icon="achievevip_1_png" desc="三界争霸胜利次数达到425次" order="993" level="19" modelOpen="37,2" need="425" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="12020" type="12" name="三界争霸次数" icon="achievevip_1_png" desc="三界争霸胜利次数达到450次" order="993" level="20" modelOpen="37,2" need="450" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="12021" type="12" name="三界争霸次数" icon="achievevip_1_png" desc="三界争霸胜利次数达到475次" order="993" level="21" modelOpen="37,2" need="475" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="12022" type="12" name="三界争霸次数" icon="achievevip_1_png" desc="三界争霸胜利次数达到500次" order="993" level="22" modelOpen="37,2" need="500" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="13001" type="13" name="三界争霸段位" icon="achievevip_1_png" desc="三界争霸段位达到青铜" order="992" level="1" modelOpen="37,2" need="1" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="13002" type="13" name="三界争霸段位" icon="achievevip_1_png" desc="三界争霸段位达到白银" order="992" level="2" modelOpen="37,2" need="2" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="13003" type="13" name="三界争霸段位" icon="achievevip_1_png" desc="三界争霸段位达到黄金" order="992" level="3" modelOpen="37,2" need="3" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="13004" type="13" name="三界争霸段位" icon="achievevip_1_png" desc="三界争霸段位达到钻石" order="992" level="4" modelOpen="37,2" need="4" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="13005" type="13" name="三界争霸段位" icon="achievevip_1_png" desc="三界争霸段位达到王者" order="992" level="5" modelOpen="37,2" need="5" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="14001" type="14" name="仙盟开启宝箱" icon="achievevip_1_png" desc="开启10个仙盟宝箱" order="991" level="1" modelOpen="9,0" need="10" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="14002" type="14" name="仙盟开启宝箱" icon="achievevip_1_png" desc="开启15个仙盟宝箱" order="991" level="2" modelOpen="9,0" need="15" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="14003" type="14" name="仙盟开启宝箱" icon="achievevip_1_png" desc="开启20个仙盟宝箱" order="991" level="3" modelOpen="9,0" need="20" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="14004" type="14" name="仙盟开启宝箱" icon="achievevip_1_png" desc="开启30个仙盟宝箱" order="991" level="4" modelOpen="9,0" need="30" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="14005" type="14" name="仙盟开启宝箱" icon="achievevip_1_png" desc="开启50个仙盟宝箱" order="991" level="5" modelOpen="9,0" need="50" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="14006" type="14" name="仙盟开启宝箱" icon="achievevip_1_png" desc="开启75个仙盟宝箱" order="991" level="6" modelOpen="9,0" need="75" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="14007" type="14" name="仙盟开启宝箱" icon="achievevip_1_png" desc="开启100个仙盟宝箱" order="991" level="7" modelOpen="9,0" need="100" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="14008" type="14" name="仙盟开启宝箱" icon="achievevip_1_png" desc="开启125个仙盟宝箱" order="991" level="8" modelOpen="9,0" need="125" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="14009" type="14" name="仙盟开启宝箱" icon="achievevip_1_png" desc="开启150个仙盟宝箱" order="991" level="9" modelOpen="9,0" need="150" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="14010" type="14" name="仙盟开启宝箱" icon="achievevip_1_png" desc="开启175个仙盟宝箱" order="991" level="10" modelOpen="9,0" need="175" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="14011" type="14" name="仙盟开启宝箱" icon="achievevip_1_png" desc="开启200个仙盟宝箱" order="991" level="11" modelOpen="9,0" need="200" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15001" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第10关" order="990" level="1" modelOpen="11,1" need="10" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15002" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第20关" order="990" level="2" modelOpen="11,1" need="20" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15003" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第30关" order="990" level="3" modelOpen="11,1" need="30" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15004" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第40关" order="990" level="4" modelOpen="11,1" need="40" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15005" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第50关" order="990" level="5" modelOpen="11,1" need="50" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15006" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第60关" order="990" level="6" modelOpen="11,1" need="60" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15007" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第70关" order="990" level="7" modelOpen="11,1" need="70" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15008" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第80关" order="990" level="8" modelOpen="11,1" need="80" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15009" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第90关" order="990" level="9" modelOpen="11,1" need="90" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15010" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第100关" order="990" level="10" modelOpen="11,1" need="100" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15011" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第110关" order="990" level="11" modelOpen="11,1" need="110" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15012" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第120关" order="990" level="12" modelOpen="11,1" need="120" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15013" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第130关" order="990" level="13" modelOpen="11,1" need="130" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15014" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第140关" order="990" level="14" modelOpen="11,1" need="140" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15015" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第150关" order="990" level="15" modelOpen="11,1" need="150" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15016" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第160关" order="990" level="16" modelOpen="11,1" need="160" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15017" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第170关" order="990" level="17" modelOpen="11,1" need="170" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15018" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第180关" order="990" level="18" modelOpen="11,1" need="180" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15019" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第190关" order="990" level="19" modelOpen="11,1" need="190" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15020" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第200关" order="990" level="20" modelOpen="11,1" need="200" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15021" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第210关" order="990" level="21" modelOpen="11,1" need="210" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15022" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第220关" order="990" level="22" modelOpen="11,1" need="220" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15023" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第230关" order="990" level="23" modelOpen="11,1" need="230" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15024" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第240关" order="990" level="24" modelOpen="11,1" need="240" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15025" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第250关" order="990" level="25" modelOpen="11,1" need="250" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15026" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第260关" order="990" level="26" modelOpen="11,1" need="260" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15027" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第270关" order="990" level="27" modelOpen="11,1" need="270" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15028" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第280关" order="990" level="28" modelOpen="11,1" need="280" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15029" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第290关" order="990" level="29" modelOpen="11,1" need="290" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15030" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第300关" order="990" level="30" modelOpen="11,1" need="300" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15031" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第310关" order="990" level="31" modelOpen="11,1" need="310" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15032" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第320关" order="990" level="32" modelOpen="11,1" need="320" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15033" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第330关" order="990" level="33" modelOpen="11,1" need="330" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15034" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第340关" order="990" level="34" modelOpen="11,1" need="340" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15035" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第350关" order="990" level="35" modelOpen="11,1" need="350" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15036" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第360关" order="990" level="36" modelOpen="11,1" need="360" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15037" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第370关" order="990" level="37" modelOpen="11,1" need="370" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15038" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第380关" order="990" level="38" modelOpen="11,1" need="380" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15039" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第390关" order="990" level="39" modelOpen="11,1" need="390" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15040" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第400关" order="990" level="40" modelOpen="11,1" need="400" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15041" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第410关" order="990" level="41" modelOpen="11,1" need="410" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15042" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第420关" order="990" level="42" modelOpen="11,1" need="420" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15043" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第430关" order="990" level="43" modelOpen="11,1" need="430" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15044" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第440关" order="990" level="44" modelOpen="11,1" need="440" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15045" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第450关" order="990" level="45" modelOpen="11,1" need="450" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15046" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第460关" order="990" level="46" modelOpen="11,1" need="460" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15047" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第470关" order="990" level="47" modelOpen="11,1" need="470" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15048" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第480关" order="990" level="48" modelOpen="11,1" need="480" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15049" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第490关" order="990" level="49" modelOpen="11,1" need="490" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15050" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第500关" order="990" level="50" modelOpen="11,1" need="500" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15051" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第510关" order="990" level="51" modelOpen="11,1" need="510" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15052" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第520关" order="990" level="52" modelOpen="11,1" need="520" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15053" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第530关" order="990" level="53" modelOpen="11,1" need="530" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15054" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第540关" order="990" level="54" modelOpen="11,1" need="540" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15055" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第550关" order="990" level="55" modelOpen="11,1" need="550" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15056" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第560关" order="990" level="56" modelOpen="11,1" need="560" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15057" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第570关" order="990" level="57" modelOpen="11,1" need="570" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15058" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第580关" order="990" level="58" modelOpen="11,1" need="580" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15059" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第590关" order="990" level="59" modelOpen="11,1" need="590" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="15060" type="15" name="万妖塔通关次数" icon="achievevip_1_png" desc="万妖塔通过第600关" order="990" level="60" modelOpen="11,1" need="600" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="16001" type="16" name="激活神器件数" icon="achievevip_1_png" desc="激活1件神器" order="989" level="1" modelOpen="17,0" need="1" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="16002" type="16" name="激活神器件数" icon="achievevip_1_png" desc="激活2件神器" order="989" level="2" modelOpen="17,0" need="2" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="16003" type="16" name="激活神器件数" icon="achievevip_1_png" desc="激活3件神器" order="989" level="3" modelOpen="17,0" need="3" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="16004" type="16" name="激活神器件数" icon="achievevip_1_png" desc="激活4件神器" order="989" level="4" modelOpen="17,0" need="4" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="16005" type="16" name="激活神器件数" icon="achievevip_1_png" desc="激活5件神器" order="989" level="5" modelOpen="17,0" need="5" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="16006" type="16" name="激活神器件数" icon="achievevip_1_png" desc="激活6件神器" order="989" level="6" modelOpen="17,0" need="6" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="16007" type="16" name="激活神器件数" icon="achievevip_1_png" desc="激活7件神器" order="989" level="7" modelOpen="17,0" need="7" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="16008" type="16" name="激活神器件数" icon="achievevip_1_png" desc="激活8件神器" order="989" level="8" modelOpen="17,0" need="8" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="16009" type="16" name="激活神器件数" icon="achievevip_1_png" desc="激活9件神器" order="989" level="9" modelOpen="17,0" need="9" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="16010" type="16" name="激活神器件数" icon="achievevip_1_png" desc="激活10件神器" order="989" level="10" modelOpen="17,0" need="10" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="16011" type="16" name="激活神器件数" icon="achievevip_1_png" desc="激活11件神器" order="989" level="11" modelOpen="17,0" need="11" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="16012" type="16" name="激活神器件数" icon="achievevip_1_png" desc="激活12件神器" order="989" level="12" modelOpen="17,0" need="12" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="16013" type="16" name="激活神器件数" icon="achievevip_1_png" desc="激活13件神器" order="989" level="13" modelOpen="17,0" need="13" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="16014" type="16" name="激活神器件数" icon="achievevip_1_png" desc="激活14件神器" order="989" level="14" modelOpen="17,0" need="14" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="16015" type="16" name="激活神器件数" icon="achievevip_1_png" desc="激活15件神器" order="989" level="15" modelOpen="17,0" need="15" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="16016" type="16" name="激活神器件数" icon="achievevip_1_png" desc="激活16件神器" order="989" level="16" modelOpen="17,0" need="16" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="16017" type="16" name="激活神器件数" icon="achievevip_1_png" desc="激活17件神器" order="989" level="17" modelOpen="17,0" need="17" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="16018" type="16" name="激活神器件数" icon="achievevip_1_png" desc="激活18件神器" order="989" level="18" modelOpen="17,0" need="18" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="16019" type="16" name="激活神器件数" icon="achievevip_1_png" desc="激活19件神器" order="989" level="19" modelOpen="17,0" need="19" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="16020" type="16" name="激活神器件数" icon="achievevip_1_png" desc="激活20件神器" order="989" level="20" modelOpen="17,0" need="20" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="16021" type="16" name="激活神器件数" icon="achievevip_1_png" desc="激活21件神器" order="989" level="21" modelOpen="17,0" need="21" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17001" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到15阶" order="988" level="1" modelOpen="17,3" need="15" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="17002" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到30阶" order="988" level="2" modelOpen="17,3" need="30" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="17003" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到45阶" order="988" level="3" modelOpen="17,3" need="45" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="17004" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到60阶" order="988" level="4" modelOpen="17,3" need="60" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="17005" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到90阶" order="988" level="5" modelOpen="17,3" need="90" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="17006" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到120阶" order="988" level="6" modelOpen="17,3" need="120" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17007" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到150阶" order="988" level="7" modelOpen="17,3" need="150" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17008" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到180阶" order="988" level="8" modelOpen="17,3" need="180" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17009" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到210阶" order="988" level="9" modelOpen="17,3" need="210" reward="VIPEXP:5,100065:1"/>
+	<unit id="17010" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到240阶" order="988" level="10" modelOpen="17,3" need="240" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17011" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到270阶" order="988" level="11" modelOpen="17,3" need="270" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17012" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到300阶" order="988" level="12" modelOpen="17,3" need="300" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17013" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到330阶" order="988" level="13" modelOpen="17,3" need="330" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17014" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到360阶" order="988" level="14" modelOpen="17,3" need="360" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17015" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到390阶" order="988" level="15" modelOpen="17,3" need="390" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17016" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到420阶" order="988" level="16" modelOpen="17,3" need="420" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17017" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到450阶" order="988" level="17" modelOpen="17,3" need="450" reward="VIPEXP:5,100067:1"/>
+	<unit id="17018" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到480阶" order="988" level="18" modelOpen="17,3" need="480" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17019" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到510阶" order="988" level="19" modelOpen="17,3" need="510" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17020" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到540阶" order="988" level="20" modelOpen="17,3" need="540" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17021" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到570阶" order="988" level="21" modelOpen="17,3" need="570" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17022" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到600阶" order="988" level="22" modelOpen="17,3" need="600" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17023" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到630阶" order="988" level="23" modelOpen="17,3" need="630" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17024" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到660阶" order="988" level="24" modelOpen="17,3" need="660" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17025" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到690阶" order="988" level="25" modelOpen="17,3" need="690" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17026" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到720阶" order="988" level="26" modelOpen="17,3" need="720" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17027" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到750阶" order="988" level="27" modelOpen="17,3" need="750" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17028" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到780阶" order="988" level="28" modelOpen="17,3" need="780" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17029" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到810阶" order="988" level="29" modelOpen="17,3" need="810" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17030" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到840阶" order="988" level="30" modelOpen="17,3" need="840" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17031" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到870阶" order="988" level="31" modelOpen="17,3" need="870" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17032" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到900阶" order="988" level="32" modelOpen="17,3" need="900" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17033" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到930阶" order="988" level="33" modelOpen="17,3" need="930" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17034" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到960阶" order="988" level="34" modelOpen="17,3" need="960" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17035" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到990阶" order="988" level="35" modelOpen="17,3" need="990" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17036" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到1020阶" order="988" level="36" modelOpen="17,3" need="1020" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17037" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到1050阶" order="988" level="37" modelOpen="17,3" need="1050" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17038" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到1080阶" order="988" level="38" modelOpen="17,3" need="1080" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17039" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到1110阶" order="988" level="39" modelOpen="17,3" need="1110" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17040" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到1140阶" order="988" level="40" modelOpen="17,3" need="1140" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17041" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到1170阶" order="988" level="41" modelOpen="17,3" need="1170" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17042" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到1200阶" order="988" level="42" modelOpen="17,3" need="1200" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17043" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到1230阶" order="988" level="43" modelOpen="17,3" need="1230" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17044" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到1260阶" order="988" level="44" modelOpen="17,3" need="1260" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17045" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到1290阶" order="988" level="45" modelOpen="17,3" need="1290" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17046" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到1320阶" order="988" level="46" modelOpen="17,3" need="1320" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17047" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到1350阶" order="988" level="47" modelOpen="17,3" need="1350" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17048" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到1380阶" order="988" level="48" modelOpen="17,3" need="1380" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17049" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到1410阶" order="988" level="49" modelOpen="17,3" need="1410" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17050" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到1440阶" order="988" level="50" modelOpen="17,3" need="1440" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17051" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到1470阶" order="988" level="51" modelOpen="17,3" need="1470" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="17052" type="17" name="伙伴总阶级" icon="achievevip_1_png" desc="伙伴总等阶达到1500阶" order="988" level="52" modelOpen="17,3" need="1500" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18001" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到50级" order="987" level="1" modelOpen="17,4" need="50" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18002" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到75级" order="987" level="2" modelOpen="17,4" need="75" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18003" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到100级" order="987" level="3" modelOpen="17,4" need="100" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18004" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到125级" order="987" level="4" modelOpen="17,4" need="125" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18005" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到150级" order="987" level="5" modelOpen="17,4" need="150" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18006" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到200级" order="987" level="6" modelOpen="17,4" need="200" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18007" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到250级" order="987" level="7" modelOpen="17,4" need="250" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18008" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到300级" order="987" level="8" modelOpen="17,4" need="300" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18009" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到350级" order="987" level="9" modelOpen="17,4" need="350" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18010" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到400级" order="987" level="10" modelOpen="17,4" need="400" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18011" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到450级" order="987" level="11" modelOpen="17,4" need="450" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18012" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到500级" order="987" level="12" modelOpen="17,4" need="500" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18013" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到550级" order="987" level="13" modelOpen="17,4" need="550" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18014" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到600级" order="987" level="14" modelOpen="17,4" need="600" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18015" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到650级" order="987" level="15" modelOpen="17,4" need="650" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18016" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到700级" order="987" level="16" modelOpen="17,4" need="700" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18017" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到750级" order="987" level="17" modelOpen="17,4" need="750" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18018" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到800级" order="987" level="18" modelOpen="17,4" need="800" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18019" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到850级" order="987" level="19" modelOpen="17,4" need="850" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18020" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到900级" order="987" level="20" modelOpen="17,4" need="900" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18021" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到950级" order="987" level="21" modelOpen="17,4" need="950" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18022" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到1000级" order="987" level="22" modelOpen="17,4" need="1000" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18023" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到1050级" order="987" level="23" modelOpen="17,4" need="1050" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18024" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到1100级" order="987" level="24" modelOpen="17,4" need="1100" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18025" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到1150级" order="987" level="25" modelOpen="17,4" need="1150" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18026" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到1200级" order="987" level="26" modelOpen="17,4" need="1200" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18027" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到1250级" order="987" level="27" modelOpen="17,4" need="1250" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18028" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到1300级" order="987" level="28" modelOpen="17,4" need="1300" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18029" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到1350级" order="987" level="29" modelOpen="17,4" need="1350" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18030" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到1400级" order="987" level="30" modelOpen="17,4" need="1400" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18031" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到1450级" order="987" level="31" modelOpen="17,4" need="1450" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18032" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到1500级" order="987" level="32" modelOpen="17,4" need="1500" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18033" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到1550级" order="987" level="33" modelOpen="17,4" need="1550" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18034" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到1600级" order="987" level="34" modelOpen="17,4" need="1600" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18035" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到1650级" order="987" level="35" modelOpen="17,4" need="1650" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18036" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到1700级" order="987" level="36" modelOpen="17,4" need="1700" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18037" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到1750级" order="987" level="37" modelOpen="17,4" need="1750" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18038" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到1800级" order="987" level="38" modelOpen="17,4" need="1800" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18039" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到1850级" order="987" level="39" modelOpen="17,4" need="1850" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18040" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到1900级" order="987" level="40" modelOpen="17,4" need="1900" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18041" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到1950级" order="987" level="41" modelOpen="17,4" need="1950" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18042" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到2000级" order="987" level="42" modelOpen="17,4" need="2000" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18043" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到2050级" order="987" level="43" modelOpen="17,4" need="2050" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18044" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到2100级" order="987" level="44" modelOpen="17,4" need="2100" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18045" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到2150级" order="987" level="45" modelOpen="17,4" need="2150" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18046" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到2200级" order="987" level="46" modelOpen="17,4" need="2200" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18047" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到2250级" order="987" level="47" modelOpen="17,4" need="2250" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18048" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到2300级" order="987" level="48" modelOpen="17,4" need="2300" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18049" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到2350级" order="987" level="49" modelOpen="17,4" need="2350" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18050" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到2400级" order="987" level="50" modelOpen="17,4" need="2400" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18051" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到2450级" order="987" level="51" modelOpen="17,4" need="2450" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18052" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到2500级" order="987" level="52" modelOpen="17,4" need="2500" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18053" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到2550级" order="987" level="53" modelOpen="17,4" need="2550" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18054" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到2600级" order="987" level="54" modelOpen="17,4" need="2600" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18055" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到2650级" order="987" level="55" modelOpen="17,4" need="2650" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18056" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到2700级" order="987" level="56" modelOpen="17,4" need="2700" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18057" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到2750级" order="987" level="57" modelOpen="17,4" need="2750" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18058" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到2800级" order="987" level="58" modelOpen="17,4" need="2800" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18059" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到2850级" order="987" level="59" modelOpen="17,4" need="2850" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18060" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到2900级" order="987" level="60" modelOpen="17,4" need="2900" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18061" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到2950级" order="987" level="61" modelOpen="17,4" need="2950" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18062" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到3000级" order="987" level="62" modelOpen="17,4" need="3000" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18063" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到3100级" order="987" level="63" modelOpen="17,4" need="3100" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18064" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到3200级" order="987" level="64" modelOpen="17,4" need="3200" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18065" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到3300级" order="987" level="65" modelOpen="17,4" need="3300" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18066" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到3400级" order="987" level="66" modelOpen="17,4" need="3400" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18067" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到3500级" order="987" level="67" modelOpen="17,4" need="3500" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18068" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到3600级" order="987" level="68" modelOpen="17,4" need="3600" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18069" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到3700级" order="987" level="69" modelOpen="17,4" need="3700" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18070" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到3800级" order="987" level="70" modelOpen="17,4" need="3800" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18071" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到3900级" order="987" level="71" modelOpen="17,4" need="3900" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18072" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到4000级" order="987" level="72" modelOpen="17,4" need="4000" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18073" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到4100级" order="987" level="73" modelOpen="17,4" need="4100" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18074" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到4200级" order="987" level="74" modelOpen="17,4" need="4200" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18075" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到4300级" order="987" level="75" modelOpen="17,4" need="4300" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18076" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到4400级" order="987" level="76" modelOpen="17,4" need="4400" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18077" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到4500级" order="987" level="77" modelOpen="17,4" need="4500" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18078" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到4600级" order="987" level="78" modelOpen="17,4" need="4600" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18079" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到4700级" order="987" level="79" modelOpen="17,4" need="4700" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="18080" type="18" name="圣魂总阶级" icon="achievevip_1_png" desc="圣魂总等级达到4800级" order="987" level="80" modelOpen="17,4" need="4800" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="19001" type="19" name="激活角色数量" icon="achievevip_3_png" desc="激活2个角色数量" order="986" level="1" modelOpen="1,0" need="2" reward="VIPEXP:20,GOLD:200"/>
+	<unit id="19002" type="19" name="激活角色数量" icon="achievevip_3_png" desc="激活3个角色数量" order="986" level="2" modelOpen="1,0" need="3" reward="VIPEXP:20,GOLD:200"/>
+	<unit id="20001" type="20" name="武器时装件数" icon="achievevip_1_png" desc="拥有1件武器时装" order="985" level="1" modelOpen="200,0" need="1" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="20002" type="20" name="武器时装件数" icon="achievevip_1_png" desc="拥有2件武器时装" order="985" level="2" modelOpen="200,0" need="2" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="20003" type="20" name="武器时装件数" icon="achievevip_1_png" desc="拥有3件武器时装" order="985" level="3" modelOpen="200,0" need="3" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="20004" type="20" name="武器时装件数" icon="achievevip_1_png" desc="拥有4件武器时装" order="985" level="4" modelOpen="200,0" need="4" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="20005" type="20" name="武器时装件数" icon="achievevip_1_png" desc="拥有5件武器时装" order="985" level="5" modelOpen="200,0" need="5" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="20006" type="20" name="武器时装件数" icon="achievevip_1_png" desc="拥有6件武器时装" order="985" level="6" modelOpen="200,0" need="6" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="20007" type="20" name="武器时装件数" icon="achievevip_1_png" desc="拥有7件武器时装" order="985" level="7" modelOpen="200,0" need="7" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="20008" type="20" name="武器时装件数" icon="achievevip_1_png" desc="拥有8件武器时装" order="985" level="8" modelOpen="200,0" need="8" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="21001" type="21" name="衣服时装件数" icon="achievevip_1_png" desc="拥有1件衣服时装" order="984" level="1" modelOpen="200,1" need="1" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="21002" type="21" name="衣服时装件数" icon="achievevip_1_png" desc="拥有2件衣服时装" order="984" level="2" modelOpen="200,1" need="2" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="21003" type="21" name="衣服时装件数" icon="achievevip_1_png" desc="拥有3件衣服时装" order="984" level="3" modelOpen="200,1" need="3" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="21004" type="21" name="衣服时装件数" icon="achievevip_1_png" desc="拥有4件衣服时装" order="984" level="4" modelOpen="200,1" need="4" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="21005" type="21" name="衣服时装件数" icon="achievevip_1_png" desc="拥有5件衣服时装" order="984" level="5" modelOpen="200,1" need="5" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="21006" type="21" name="衣服时装件数" icon="achievevip_1_png" desc="拥有6件衣服时装" order="984" level="6" modelOpen="200,1" need="6" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="21007" type="21" name="衣服时装件数" icon="achievevip_1_png" desc="拥有7件衣服时装" order="984" level="7" modelOpen="200,1" need="7" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="21008" type="21" name="衣服时装件数" icon="achievevip_1_png" desc="拥有8件衣服时装" order="984" level="8" modelOpen="200,1" need="8" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="22001" type="22" name="翎羽时装件数" icon="achievevip_1_png" desc="拥有1件翎羽时装" order="983" level="1" modelOpen="200,2" need="1" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="22002" type="22" name="翎羽时装件数" icon="achievevip_1_png" desc="拥有2件翎羽时装" order="983" level="2" modelOpen="200,2" need="2" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="22003" type="22" name="翎羽时装件数" icon="achievevip_1_png" desc="拥有3件翎羽时装" order="983" level="3" modelOpen="200,2" need="3" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="22004" type="22" name="翎羽时装件数" icon="achievevip_1_png" desc="拥有4件翎羽时装" order="983" level="4" modelOpen="200,2" need="4" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="22005" type="22" name="翎羽时装件数" icon="achievevip_1_png" desc="拥有5件翎羽时装" order="983" level="5" modelOpen="200,2" need="5" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="22006" type="22" name="翎羽时装件数" icon="achievevip_1_png" desc="拥有6件翎羽时装" order="983" level="6" modelOpen="200,2" need="6" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="22007" type="22" name="翎羽时装件数" icon="achievevip_1_png" desc="拥有7件翎羽时装" order="983" level="7" modelOpen="200,2" need="7" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="22008" type="22" name="翎羽时装件数" icon="achievevip_1_png" desc="拥有8件翎羽时装" order="983" level="8" modelOpen="200,2" need="8" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="23001" type="23" name="天书等级" icon="achievevip_1_png" desc="天书等阶达到6阶0星" order="982" level="1" modelOpen="4,1" need="10" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="23002" type="23" name="天书等级" icon="achievevip_1_png" desc="天书等阶达到12阶0星" order="982" level="2" modelOpen="4,1" need="20" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="23003" type="23" name="天书等级" icon="achievevip_1_png" desc="天书等阶达到18阶0星" order="982" level="3" modelOpen="4,1" need="30" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="23004" type="23" name="天书等级" icon="achievevip_1_png" desc="天书等阶达到24阶0星" order="982" level="4" modelOpen="4,1" need="40" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="23005" type="23" name="天书等级" icon="achievevip_1_png" desc="天书等阶达到30阶0星" order="982" level="5" modelOpen="4,1" need="50" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="23006" type="23" name="天书等级" icon="achievevip_1_png" desc="天书等阶达到36阶0星" order="982" level="6" modelOpen="4,1" need="60" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="23007" type="23" name="天书等级" icon="achievevip_1_png" desc="天书等阶达到42阶0星" order="982" level="7" modelOpen="4,1" need="70" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="23008" type="23" name="天书等级" icon="achievevip_1_png" desc="天书等阶达到48阶0星" order="982" level="8" modelOpen="4,1" need="80" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="23009" type="23" name="天书等级" icon="achievevip_1_png" desc="天书等阶达到54阶0星" order="982" level="9" modelOpen="4,1" need="90" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="23010" type="23" name="天书等级" icon="achievevip_1_png" desc="天书等阶达到60阶0星" order="982" level="10" modelOpen="4,1" need="100" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="23011" type="23" name="天书等级" icon="achievevip_1_png" desc="天书等阶达到66阶0星" order="982" level="11" modelOpen="4,1" need="110" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="23012" type="23" name="天书等级" icon="achievevip_1_png" desc="天书等阶达到72阶0星" order="982" level="12" modelOpen="4,1" need="120" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="23013" type="23" name="天书等级" icon="achievevip_1_png" desc="天书等阶达到78阶0星" order="982" level="13" modelOpen="4,1" need="130" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="23014" type="23" name="天书等级" icon="achievevip_1_png" desc="天书等阶达到84阶0星" order="982" level="14" modelOpen="4,1" need="140" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="23015" type="23" name="天书等级" icon="achievevip_1_png" desc="天书等阶达到90阶0星" order="982" level="15" modelOpen="4,1" need="150" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="23016" type="23" name="天书等级" icon="achievevip_1_png" desc="天书等阶达到96阶0星" order="982" level="16" modelOpen="4,1" need="160" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="23017" type="23" name="天书等级" icon="achievevip_1_png" desc="天书等阶达到102阶0星" order="982" level="17" modelOpen="4,1" need="170" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="23018" type="23" name="天书等级" icon="achievevip_1_png" desc="天书等阶达到108阶0星" order="982" level="18" modelOpen="4,1" need="180" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="23019" type="23" name="天书等级" icon="achievevip_1_png" desc="天书等阶达到114阶0星" order="982" level="19" modelOpen="4,1" need="190" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="23020" type="23" name="天书等级" icon="achievevip_1_png" desc="天书等阶达到120阶0星" order="982" level="20" modelOpen="4,1" need="200" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="23021" type="23" name="天书等级" icon="achievevip_1_png" desc="天书等阶达到126阶0星" order="982" level="21" modelOpen="4,1" need="210" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="23022" type="23" name="天书等级" icon="achievevip_1_png" desc="天书等阶达到132阶0星" order="982" level="22" modelOpen="4,1" need="220" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="23023" type="23" name="天书等级" icon="achievevip_1_png" desc="天书等阶达到138阶0星" order="982" level="23" modelOpen="4,1" need="230" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="23024" type="23" name="天书等级" icon="achievevip_1_png" desc="天书等阶达到144阶0星" order="982" level="24" modelOpen="4,1" need="240" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="23025" type="23" name="天书等级" icon="achievevip_1_png" desc="天书等阶达到150阶0星" order="982" level="25" modelOpen="4,1" need="250" reward="VIPEXP:5,GOLD:200"/>
+	
+	<unit id="24001" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到3阶0星" order="981" level="2" modelOpen="4,2" need="30" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24002" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到6阶0星" order="981" level="3" modelOpen="4,2" need="60" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24003" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到9阶0星" order="981" level="4" modelOpen="4,2" need="90" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24004" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到12阶0星" order="981" level="5" modelOpen="4,2" need="120" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24005" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到15阶0星" order="981" level="6" modelOpen="4,2" need="150" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24006" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到18阶0星" order="981" level="7" modelOpen="4,2" need="180" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24007" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到21阶0星" order="981" level="8" modelOpen="4,2" need="210" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24008" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到24阶0星" order="981" level="9" modelOpen="4,2" need="240" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24009" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到27阶0星" order="981" level="10" modelOpen="4,2" need="270" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24010" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到30阶0星" order="981" level="11" modelOpen="4,2" need="300" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24011" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到33阶0星" order="981" level="12" modelOpen="4,2" need="330" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24012" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到36阶0星" order="981" level="13" modelOpen="4,2" need="360" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24013" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到39阶0星" order="981" level="14" modelOpen="4,2" need="390" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24014" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到42阶0星" order="981" level="15" modelOpen="4,2" need="420" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24015" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到45阶0星" order="981" level="16" modelOpen="4,2" need="450" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24016" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到48阶0星" order="981" level="17" modelOpen="4,2" need="480" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24017" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到51阶0星" order="981" level="18" modelOpen="4,2" need="510" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24018" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到54阶0星" order="981" level="19" modelOpen="4,2" need="540" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24019" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到57阶0星" order="981" level="20" modelOpen="4,2" need="570" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24020" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到60阶0星" order="981" level="21" modelOpen="4,2" need="600" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24021" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到63阶0星" order="981" level="22" modelOpen="4,2" need="630" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24022" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到66阶0星" order="981" level="23" modelOpen="4,2" need="660" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24023" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到69阶0星" order="981" level="24" modelOpen="4,2" need="690" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24024" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到72阶0星" order="981" level="25" modelOpen="4,2" need="720" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24025" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到75阶0星" order="981" level="26" modelOpen="4,2" need="750" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24026" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到78阶0星" order="981" level="27" modelOpen="4,2" need="780" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24027" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到81阶0星" order="981" level="28" modelOpen="4,2" need="810" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24028" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到84阶0星" order="981" level="29" modelOpen="4,2" need="840" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24029" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到87阶0星" order="981" level="30" modelOpen="4,2" need="870" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="24030" type="24" name="足迹等级" icon="achievevip_1_png" desc="足迹等阶达到90阶0星" order="981" level="31" modelOpen="4,2" need="900" reward="VIPEXP:5,GOLD:200"/>
+	
+	<unit id="25001" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到10级" order="980" level="1" modelOpen="4,3" need="10" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25002" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到20级" order="980" level="2" modelOpen="4,3" need="20" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25003" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到30级" order="980" level="3" modelOpen="4,3" need="30" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25004" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到40级" order="980" level="4" modelOpen="4,3" need="40" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25005" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到50级" order="980" level="5" modelOpen="4,3" need="50" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25006" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到60级" order="980" level="6" modelOpen="4,3" need="60" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25007" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到70级" order="980" level="7" modelOpen="4,3" need="70" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25008" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到80级" order="980" level="8" modelOpen="4,3" need="80" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25009" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到90级" order="980" level="9" modelOpen="4,3" need="90" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25010" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到100级" order="980" level="10" modelOpen="4,3" need="100" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25011" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到110级" order="980" level="11" modelOpen="4,3" need="110" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25012" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到120级" order="980" level="12" modelOpen="4,3" need="120" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25013" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到130级" order="980" level="13" modelOpen="4,3" need="130" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25014" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到140级" order="980" level="14" modelOpen="4,3" need="140" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25015" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到150级" order="980" level="15" modelOpen="4,3" need="150" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25016" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到160级" order="980" level="16" modelOpen="4,3" need="160" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25017" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到170级" order="980" level="17" modelOpen="4,3" need="170" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25018" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到180级" order="980" level="18" modelOpen="4,3" need="180" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25019" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到190级" order="980" level="19" modelOpen="4,3" need="190" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25020" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到200级" order="980" level="20" modelOpen="4,3" need="200" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25021" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到210级" order="980" level="21" modelOpen="4,3" need="210" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25022" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到220级" order="980" level="22" modelOpen="4,3" need="220" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25023" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到230级" order="980" level="23" modelOpen="4,3" need="230" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25024" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到240级" order="980" level="24" modelOpen="4,3" need="240" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25025" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到250级" order="980" level="25" modelOpen="4,3" need="250" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25026" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到260级" order="980" level="26" modelOpen="4,3" need="260" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25027" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到270级" order="980" level="27" modelOpen="4,3" need="270" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25028" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到280级" order="980" level="28" modelOpen="4,3" need="280" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25029" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到290级" order="980" level="29" modelOpen="4,3" need="290" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="25030" type="25" name="昆仑镜等级" icon="achievevip_3_png" desc="元神等级达到300级" order="980" level="30" modelOpen="4,3" need="300" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="26001" type="26" name="称号个数件数" icon="achievevip_1_png" desc="拥3个称号" order="979" level="1" modelOpen="200,3" need="3" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="26002" type="26" name="称号个数件数" icon="achievevip_1_png" desc="拥5个称号" order="979" level="2" modelOpen="200,3" need="5" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="26003" type="26" name="称号个数件数" icon="achievevip_1_png" desc="拥7个称号" order="979" level="3" modelOpen="200,3" need="7" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="26004" type="26" name="称号个数件数" icon="achievevip_1_png" desc="拥9个称号" order="979" level="4" modelOpen="200,3" need="9" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="26005" type="26" name="称号个数件数" icon="achievevip_1_png" desc="拥11个称号" order="979" level="5" modelOpen="200,3" need="11" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="26006" type="26" name="称号个数件数" icon="achievevip_1_png" desc="拥13个称号" order="979" level="6" modelOpen="200,3" need="13" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="26007" type="26" name="称号个数件数" icon="achievevip_1_png" desc="拥15个称号" order="979" level="7" modelOpen="200,3" need="15" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="26008" type="26" name="称号个数件数" icon="achievevip_1_png" desc="拥17个称号" order="979" level="8" modelOpen="200,3" need="17" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="27001" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到10级" order="978" level="1" modelOpen="1,4" need="10" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27002" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到20级" order="978" level="2" modelOpen="1,4" need="20" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27003" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到30级" order="978" level="3" modelOpen="1,4" need="30" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27004" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到40级" order="978" level="4" modelOpen="1,4" need="40" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27005" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到50级" order="978" level="5" modelOpen="1,4" need="50" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27006" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到60级" order="978" level="6" modelOpen="1,4" need="60" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27007" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到70级" order="978" level="7" modelOpen="1,4" need="70" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27008" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到80级" order="978" level="8" modelOpen="1,4" need="80" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27009" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到90级" order="978" level="9" modelOpen="1,4" need="90" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27010" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到100级" order="978" level="10" modelOpen="1,4" need="100" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27011" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到110级" order="978" level="11" modelOpen="1,4" need="110" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27012" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到120级" order="978" level="12" modelOpen="1,4" need="120" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27013" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到130级" order="978" level="13" modelOpen="1,4" need="130" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27014" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到140级" order="978" level="14" modelOpen="1,4" need="140" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27015" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到150级" order="978" level="15" modelOpen="1,4" need="150" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27016" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到160级" order="978" level="16" modelOpen="1,4" need="160" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27017" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到170级" order="978" level="17" modelOpen="1,4" need="170" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27018" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到180级" order="978" level="18" modelOpen="1,4" need="180" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27019" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到190级" order="978" level="19" modelOpen="1,4" need="190" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27020" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到200级" order="978" level="20" modelOpen="1,4" need="200" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27021" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到210级" order="978" level="21" modelOpen="1,4" need="210" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27022" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到220级" order="978" level="22" modelOpen="1,4" need="220" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27023" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到230级" order="978" level="23" modelOpen="1,4" need="230" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27024" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到240级" order="978" level="24" modelOpen="1,4" need="240" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27025" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到250级" order="978" level="25" modelOpen="1,4" need="250" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27026" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到260级" order="978" level="26" modelOpen="1,4" need="260" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27027" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到270级" order="978" level="27" modelOpen="1,4" need="270" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27028" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到280级" order="978" level="28" modelOpen="1,4" need="280" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27029" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到290级" order="978" level="29" modelOpen="1,4" need="290" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="27030" type="27" name="法阵等级" icon="achievevip_3_png" desc="法阵等级达到300级" order="978" level="30" modelOpen="1,4" need="300" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="28001" type="28" name="心法数量" icon="achievevip_1_png" desc="装备心法达到4件" order="977" level="1" modelOpen="2,2" need="4" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="28002" type="28" name="心法数量" icon="achievevip_1_png" desc="装备心法达到8件" order="977" level="2" modelOpen="2,2" need="8" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="28003" type="28" name="心法数量" icon="achievevip_1_png" desc="装备心法达到12件" order="977" level="3" modelOpen="2,2" need="12" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="28004" type="28" name="心法数量" icon="achievevip_1_png" desc="装备心法达到16件" order="977" level="4" modelOpen="2,2" need="16" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="28005" type="28" name="心法数量" icon="achievevip_1_png" desc="装备心法达到24件" order="977" level="5" modelOpen="2,2" need="24" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="29001" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到10级" order="976" level="1" modelOpen="2,3" need="10" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29002" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到20级" order="976" level="2" modelOpen="2,3" need="20" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29003" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到30级" order="976" level="3" modelOpen="2,3" need="30" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29004" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到40级" order="976" level="4" modelOpen="2,3" need="40" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29005" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到50级" order="976" level="5" modelOpen="2,3" need="50" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29006" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到60级" order="976" level="6" modelOpen="2,3" need="60" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29007" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到70级" order="976" level="7" modelOpen="2,3" need="70" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29008" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到80级" order="976" level="8" modelOpen="2,3" need="80" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29009" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到90级" order="976" level="9" modelOpen="2,3" need="90" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29010" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到100级" order="976" level="10" modelOpen="2,3" need="100" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29011" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到110级" order="976" level="11" modelOpen="2,3" need="110" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29012" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到120级" order="976" level="12" modelOpen="2,3" need="120" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29013" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到130级" order="976" level="13" modelOpen="2,3" need="130" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29014" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到140级" order="976" level="14" modelOpen="2,3" need="140" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29015" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到150级" order="976" level="15" modelOpen="2,3" need="150" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29016" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到160级" order="976" level="16" modelOpen="2,3" need="160" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29017" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到170级" order="976" level="17" modelOpen="2,3" need="170" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29018" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到180级" order="976" level="18" modelOpen="2,3" need="180" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29019" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到190级" order="976" level="19" modelOpen="2,3" need="190" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29020" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到200级" order="976" level="20" modelOpen="2,3" need="200" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29021" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到210级" order="976" level="21" modelOpen="2,3" need="210" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29022" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到220级" order="976" level="22" modelOpen="2,3" need="220" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29023" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到230级" order="976" level="23" modelOpen="2,3" need="230" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29024" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到240级" order="976" level="24" modelOpen="2,3" need="240" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29025" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到250级" order="976" level="25" modelOpen="2,3" need="250" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29026" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到260级" order="976" level="26" modelOpen="2,3" need="260" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29027" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到270级" order="976" level="27" modelOpen="2,3" need="270" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29028" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到280级" order="976" level="28" modelOpen="2,3" need="280" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29029" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到290级" order="976" level="29" modelOpen="2,3" need="290" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="29030" type="29" name="战神等级" icon="achievevip_3_png" desc="战神等级达到300级" order="976" level="30" modelOpen="2,3" need="300" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="30001" type="30" name="境界等级" icon="achievevip_2_png" desc="境界到达璇光期" order="975" level="1" modelOpen="45,2" need="10" reward="VIPEXP:10,GOLD:200"/>
+	<unit id="30002" type="30" name="境界等级" icon="achievevip_2_png" desc="境界到达分神期" order="975" level="2" modelOpen="45,2" need="20" reward="VIPEXP:10,GOLD:200"/>
+	<unit id="30003" type="30" name="境界等级" icon="achievevip_2_png" desc="境界到达大乘期" order="975" level="3" modelOpen="45,2" need="30" reward="VIPEXP:10,GOLD:200"/>
+	<unit id="30004" type="30" name="境界等级" icon="achievevip_2_png" desc="境界到达仙人期" order="975" level="4" modelOpen="45,2" need="40" reward="VIPEXP:10,GOLD:200"/>
+	<unit id="30005" type="30" name="境界等级" icon="achievevip_2_png" desc="境界到达天仙期" order="975" level="5" modelOpen="45,2" need="50" reward="VIPEXP:10,GOLD:200"/>
+	<unit id="30006" type="30" name="境界等级" icon="achievevip_2_png" desc="境界到达仙帝期" order="975" level="6" modelOpen="45,2" need="60" reward="VIPEXP:10,GOLD:200"/>
+	<unit id="30007" type="30" name="境界等级" icon="achievevip_2_png" desc="境界到达神使期" order="975" level="7" modelOpen="45,2" need="70" reward="VIPEXP:10,GOLD:200"/>
+	<unit id="30008" type="30" name="境界等级" icon="achievevip_2_png" desc="境界到达天神期" order="975" level="8" modelOpen="45,2" need="80" reward="VIPEXP:10,GOLD:200"/>
+	<unit id="30009" type="30" name="境界等级" icon="achievevip_2_png" desc="境界到达天尊期" order="975" level="9" modelOpen="45,2" need="90" reward="VIPEXP:10,GOLD:200"/>
+	<unit id="30010" type="30" name="境界等级" icon="achievevip_2_png" desc="境界到达混沌期" order="975" level="10" modelOpen="45,2" need="100" reward="VIPEXP:10,GOLD:200"/>
+	<unit id="31001" type="31" name="伙伴个数" icon="achievevip_2_png" desc="伙伴拥有1个" order="974" level="1" modelOpen="17,3" need="1" reward="VIPEXP:10,GOLD:200"/>
+	<unit id="31002" type="31" name="伙伴个数" icon="achievevip_2_png" desc="伙伴拥有2个" order="974" level="2" modelOpen="17,3" need="2" reward="VIPEXP:10,GOLD:200"/>
+	<unit id="31003" type="31" name="伙伴个数" icon="achievevip_2_png" desc="伙伴拥有3个" order="974" level="3" modelOpen="17,3" need="3" reward="VIPEXP:10,GOLD:200"/>
+	<unit id="31004" type="31" name="伙伴个数" icon="achievevip_2_png" desc="伙伴拥有4个" order="974" level="4" modelOpen="17,3" need="4" reward="VIPEXP:10,GOLD:200"/>
+	<unit id="31005" type="31" name="伙伴个数" icon="achievevip_2_png" desc="伙伴拥有5个" order="974" level="5" modelOpen="17,3" need="5" reward="VIPEXP:10,GOLD:200"/>
+	<unit id="31006" type="31" name="伙伴个数" icon="achievevip_2_png" desc="伙伴拥有6个" order="974" level="6" modelOpen="17,3" need="6" reward="VIPEXP:10,GOLD:200"/>
+	<unit id="31007" type="31" name="伙伴个数" icon="achievevip_2_png" desc="伙伴拥有7个" order="974" level="7" modelOpen="17,3" need="7" reward="VIPEXP:10,GOLD:200"/>
+	<unit id="31008" type="31" name="伙伴个数" icon="achievevip_2_png" desc="伙伴拥有8个" order="974" level="8" modelOpen="17,3" need="8" reward="VIPEXP:10,GOLD:200"/>
+	<unit id="31009" type="31" name="伙伴个数" icon="achievevip_2_png" desc="伙伴拥有9个" order="974" level="9" modelOpen="17,3" need="9" reward="VIPEXP:10,GOLD:200"/>
+	<unit id="31010" type="31" name="伙伴个数" icon="achievevip_2_png" desc="伙伴拥有10个" order="974" level="10" modelOpen="17,3" need="10" reward="VIPEXP:10,GOLD:200"/>
+	<unit id="32001" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到10级" order="973" level="1" modelOpen="3,4" need="10" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32002" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到20级" order="973" level="2" modelOpen="3,4" need="20" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32003" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到30级" order="973" level="3" modelOpen="3,4" need="30" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32004" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到40级" order="973" level="4" modelOpen="3,4" need="40" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32005" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到50级" order="973" level="5" modelOpen="3,4" need="50" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32006" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到60级" order="973" level="6" modelOpen="3,4" need="60" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32007" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到70级" order="973" level="7" modelOpen="3,4" need="70" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32008" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到80级" order="973" level="8" modelOpen="3,4" need="80" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32009" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到90级" order="973" level="9" modelOpen="3,4" need="90" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32010" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到100级" order="973" level="10" modelOpen="3,4" need="100" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32011" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到110级" order="973" level="11" modelOpen="3,4" need="110" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32012" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到120级" order="973" level="12" modelOpen="3,4" need="120" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32013" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到130级" order="973" level="13" modelOpen="3,4" need="130" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32014" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到140级" order="973" level="14" modelOpen="3,4" need="140" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32015" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到150级" order="973" level="15" modelOpen="3,4" need="150" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32016" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到160级" order="973" level="16" modelOpen="3,4" need="160" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32017" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到170级" order="973" level="17" modelOpen="3,4" need="170" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32018" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到180级" order="973" level="18" modelOpen="3,4" need="180" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32019" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到190级" order="973" level="19" modelOpen="3,4" need="190" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32020" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到200级" order="973" level="20" modelOpen="3,4" need="200" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32021" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到210级" order="973" level="21" modelOpen="3,4" need="210" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32022" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到220级" order="973" level="22" modelOpen="3,4" need="220" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32023" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到230级" order="973" level="23" modelOpen="3,4" need="230" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32024" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到240级" order="973" level="24" modelOpen="3,4" need="240" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32025" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到250级" order="973" level="25" modelOpen="3,4" need="250" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32026" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到260级" order="973" level="26" modelOpen="3,4" need="260" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32027" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到270级" order="973" level="27" modelOpen="3,4" need="270" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32028" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到280级" order="973" level="28" modelOpen="3,4" need="280" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32029" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到290级" order="973" level="29" modelOpen="3,4" need="290" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="32030" type="32" name="异兽等级" icon="achievevip_3_png" desc="异兽等级达到300级" order="973" level="30" modelOpen="3,4" need="300" reward="VIPEXP:20,GOLD:200" isClose="1"/>
+	<unit id="33001" type="33" name="异闻录数量" icon="achievevip_1_png" desc="拥有6个异闻录" order="972" level="1" modelOpen="17,1" need="6" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="33002" type="33" name="异闻录数量" icon="achievevip_1_png" desc="拥有9个异闻录" order="972" level="2" modelOpen="17,1" need="9" reward="VIPEXP:5,GOLD:100"/>
+	<unit id="33003" type="33" name="异闻录数量" icon="achievevip_1_png" desc="拥有12个异闻录" order="972" level="3" modelOpen="17,1" need="12" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="33004" type="33" name="异闻录数量" icon="achievevip_1_png" desc="拥有16个异闻录" order="972" level="4" modelOpen="17,1" need="16" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="33005" type="33" name="异闻录数量" icon="achievevip_1_png" desc="拥有20个异闻录" order="972" level="5" modelOpen="17,1" need="20" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="33006" type="33" name="异闻录数量" icon="achievevip_1_png" desc="拥有24个异闻录" order="972" level="6" modelOpen="17,1" need="24" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="33007" type="33" name="异闻录数量" icon="achievevip_1_png" desc="拥有29个异闻录" order="972" level="7" modelOpen="17,1" need="29" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="33008" type="33" name="异闻录数量" icon="achievevip_1_png" desc="拥有34个异闻录" order="972" level="8" modelOpen="17,1" need="34" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="33009" type="33" name="异闻录数量" icon="achievevip_1_png" desc="拥有40个异闻录" order="972" level="9" modelOpen="17,1" need="40" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="33010" type="33" name="异闻录数量" icon="achievevip_1_png" desc="拥有46个异闻录" order="972" level="10" modelOpen="17,1" need="46" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="33011" type="33" name="异闻录数量" icon="achievevip_1_png" desc="拥有52个异闻录" order="972" level="11" modelOpen="17,1" need="52" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="33012" type="33" name="异闻录数量" icon="achievevip_1_png" desc="拥有58个异闻录" order="972" level="12" modelOpen="17,1" need="58" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="33013" type="33" name="异闻录数量" icon="achievevip_1_png" desc="拥有64个异闻录" order="972" level="13" modelOpen="17,1" need="64" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="33014" type="33" name="异闻录数量" icon="achievevip_1_png" desc="拥有71个异闻录" order="972" level="14" modelOpen="17,1" need="71" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="34001" type="34" name="击杀世界BOSS" icon="achievevip_1_png" desc="击杀10只世界BOSS" order="971" level="1" modelOpen="7,1" need="10" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="34002" type="34" name="击杀世界BOSS" icon="achievevip_1_png" desc="击杀20只世界BOSS" order="971" level="2" modelOpen="7,1" need="20" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="34003" type="34" name="击杀世界BOSS" icon="achievevip_1_png" desc="击杀30只世界BOSS" order="971" level="3" modelOpen="7,1" need="30" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="34004" type="34" name="击杀世界BOSS" icon="achievevip_1_png" desc="击杀45只世界BOSS" order="971" level="4" modelOpen="7,1" need="45" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="34005" type="34" name="击杀世界BOSS" icon="achievevip_1_png" desc="击杀60只世界BOSS" order="971" level="5" modelOpen="7,1" need="60" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="34006" type="34" name="击杀世界BOSS" icon="achievevip_1_png" desc="击杀75只世界BOSS" order="971" level="6" modelOpen="7,1" need="75" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="34007" type="34" name="击杀世界BOSS" icon="achievevip_1_png" desc="击杀100只世界BOSS" order="971" level="7" modelOpen="7,1" need="100" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="34008" type="34" name="击杀世界BOSS" icon="achievevip_1_png" desc="击杀125只世界BOSS" order="971" level="8" modelOpen="7,1" need="125" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="34009" type="34" name="击杀世界BOSS" icon="achievevip_1_png" desc="击杀150只世界BOSS" order="971" level="9" modelOpen="7,1" need="150" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="34010" type="34" name="击杀世界BOSS" icon="achievevip_1_png" desc="击杀175只世界BOSS" order="971" level="10" modelOpen="7,1" need="175" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="34011" type="34" name="击杀世界BOSS" icon="achievevip_1_png" desc="击杀200只世界BOSS" order="971" level="11" modelOpen="7,1" need="200" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="34012" type="34" name="击杀世界BOSS" icon="achievevip_1_png" desc="击杀225只世界BOSS" order="971" level="12" modelOpen="7,1" need="225" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="34013" type="34" name="击杀世界BOSS" icon="achievevip_1_png" desc="击杀250只世界BOSS" order="971" level="13" modelOpen="7,1" need="250" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="34014" type="34" name="击杀世界BOSS" icon="achievevip_1_png" desc="击杀275只世界BOSS" order="971" level="14" modelOpen="7,1" need="275" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="34015" type="34" name="击杀世界BOSS" icon="achievevip_1_png" desc="击杀300只世界BOSS" order="971" level="15" modelOpen="7,1" need="300" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="35001" type="35" name="击杀翎羽BOSS" icon="achievevip_1_png" desc="击杀10只翎羽BOSS" order="970" level="1" modelOpen="7,3" need="10" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="35002" type="35" name="击杀翎羽BOSS" icon="achievevip_1_png" desc="击杀20只翎羽BOSS" order="970" level="2" modelOpen="7,3" need="20" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="35003" type="35" name="击杀翎羽BOSS" icon="achievevip_1_png" desc="击杀30只翎羽BOSS" order="970" level="3" modelOpen="7,3" need="30" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="35004" type="35" name="击杀翎羽BOSS" icon="achievevip_1_png" desc="击杀45只翎羽BOSS" order="970" level="4" modelOpen="7,3" need="45" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="35005" type="35" name="击杀翎羽BOSS" icon="achievevip_1_png" desc="击杀60只翎羽BOSS" order="970" level="5" modelOpen="7,3" need="60" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="35006" type="35" name="击杀翎羽BOSS" icon="achievevip_1_png" desc="击杀75只翎羽BOSS" order="970" level="6" modelOpen="7,3" need="75" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="35007" type="35" name="击杀翎羽BOSS" icon="achievevip_1_png" desc="击杀90只翎羽BOSS" order="970" level="7" modelOpen="7,3" need="90" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="35008" type="35" name="击杀翎羽BOSS" icon="achievevip_1_png" desc="击杀115只翎羽BOSS" order="970" level="8" modelOpen="7,3" need="115" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="35009" type="35" name="击杀翎羽BOSS" icon="achievevip_1_png" desc="击杀140只翎羽BOSS" order="970" level="9" modelOpen="7,3" need="140" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="35010" type="35" name="击杀翎羽BOSS" icon="achievevip_1_png" desc="击杀165只翎羽BOSS" order="970" level="10" modelOpen="7,3" need="165" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="35011" type="35" name="击杀翎羽BOSS" icon="achievevip_1_png" desc="击杀190只翎羽BOSS" order="970" level="11" modelOpen="7,3" need="190" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="35012" type="35" name="击杀翎羽BOSS" icon="achievevip_1_png" desc="击杀215只翎羽BOSS" order="970" level="12" modelOpen="7,3" need="215" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="35013" type="35" name="击杀翎羽BOSS" icon="achievevip_1_png" desc="击杀250只翎羽BOSS" order="970" level="13" modelOpen="7,3" need="250" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="36001" type="36" name="击杀神魂BOSS" icon="achievevip_1_png" desc="击杀6只神魂BOSS" order="969" level="1" modelOpen="7,2" need="6" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="36002" type="36" name="击杀神魂BOSS" icon="achievevip_1_png" desc="击杀12只神魂BOSS" order="969" level="2" modelOpen="7,2" need="12" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="36003" type="36" name="击杀神魂BOSS" icon="achievevip_1_png" desc="击杀18只神魂BOSS" order="969" level="3" modelOpen="7,2" need="18" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="36004" type="36" name="击杀神魂BOSS" icon="achievevip_1_png" desc="击杀27只神魂BOSS" order="969" level="4" modelOpen="7,2" need="27" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="36005" type="36" name="击杀神魂BOSS" icon="achievevip_1_png" desc="击杀36只神魂BOSS" order="969" level="5" modelOpen="7,2" need="36" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="36006" type="36" name="击杀神魂BOSS" icon="achievevip_1_png" desc="击杀45只神魂BOSS" order="969" level="6" modelOpen="7,2" need="45" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="36007" type="36" name="击杀神魂BOSS" icon="achievevip_1_png" desc="击杀54只神魂BOSS" order="969" level="7" modelOpen="7,2" need="54" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="36008" type="36" name="击杀神魂BOSS" icon="achievevip_1_png" desc="击杀69只神魂BOSS" order="969" level="8" modelOpen="7,2" need="69" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="36009" type="36" name="击杀神魂BOSS" icon="achievevip_1_png" desc="击杀84只神魂BOSS" order="969" level="9" modelOpen="7,2" need="84" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="36010" type="36" name="击杀神魂BOSS" icon="achievevip_1_png" desc="击杀99只神魂BOSS" order="969" level="10" modelOpen="7,2" need="99" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="36011" type="36" name="击杀神魂BOSS" icon="achievevip_1_png" desc="击杀114只神魂BOSS" order="969" level="11" modelOpen="7,2" need="114" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="36012" type="36" name="击杀神魂BOSS" icon="achievevip_1_png" desc="击杀129只神魂BOSS" order="969" level="12" modelOpen="7,2" need="129" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="36013" type="36" name="击杀神魂BOSS" icon="achievevip_1_png" desc="击杀150只神魂BOSS" order="969" level="13" modelOpen="7,2" need="150" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="37001" type="37" name="击杀BOSS之家BOSS" icon="achievevip_1_png" desc="击杀15只BOSS之家" order="968" level="1" modelOpen="7,4" need="15" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="37002" type="37" name="击杀BOSS之家BOSS" icon="achievevip_1_png" desc="击杀30只BOSS之家" order="968" level="2" modelOpen="7,4" need="30" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="37003" type="37" name="击杀BOSS之家BOSS" icon="achievevip_1_png" desc="击杀45只BOSS之家" order="968" level="3" modelOpen="7,4" need="45" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="37004" type="37" name="击杀BOSS之家BOSS" icon="achievevip_1_png" desc="击杀68只BOSS之家" order="968" level="4" modelOpen="7,4" need="68" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="37005" type="37" name="击杀BOSS之家BOSS" icon="achievevip_1_png" desc="击杀90只BOSS之家" order="968" level="5" modelOpen="7,4" need="90" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="37006" type="37" name="击杀BOSS之家BOSS" icon="achievevip_1_png" desc="击杀113只BOSS之家" order="968" level="6" modelOpen="7,4" need="113" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="37007" type="37" name="击杀BOSS之家BOSS" icon="achievevip_1_png" desc="击杀135只BOSS之家" order="968" level="7" modelOpen="7,4" need="135" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="37008" type="37" name="击杀BOSS之家BOSS" icon="achievevip_1_png" desc="击杀173只BOSS之家" order="968" level="8" modelOpen="7,4" need="173" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="37009" type="37" name="击杀BOSS之家BOSS" icon="achievevip_1_png" desc="击杀210只BOSS之家" order="968" level="9" modelOpen="7,4" need="210" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="37010" type="37" name="击杀BOSS之家BOSS" icon="achievevip_1_png" desc="击杀248只BOSS之家" order="968" level="10" modelOpen="7,4" need="248" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="37011" type="37" name="击杀BOSS之家BOSS" icon="achievevip_1_png" desc="击杀285只BOSS之家" order="968" level="11" modelOpen="7,4" need="285" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="37012" type="37" name="击杀BOSS之家BOSS" icon="achievevip_1_png" desc="击杀323只BOSS之家" order="968" level="12" modelOpen="7,4" need="323" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="37013" type="37" name="击杀BOSS之家BOSS" icon="achievevip_1_png" desc="击杀375只BOSS之家" order="968" level="13" modelOpen="7,4" need="375" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="38001" type="38" name="帝君塔" icon="achievevip_1_png" desc="通关帝君塔5层" order="967" level="1" modelOpen="48,2" need="5" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="38002" type="38" name="帝君塔" icon="achievevip_1_png" desc="通关帝君塔10层" order="967" level="2" modelOpen="48,2" need="10" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="38003" type="38" name="帝君塔" icon="achievevip_1_png" desc="通关帝君塔15层" order="967" level="3" modelOpen="48,2" need="15" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="38004" type="38" name="帝君塔" icon="achievevip_1_png" desc="通关帝君塔20层" order="967" level="4" modelOpen="48,2" need="20" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="38005" type="38" name="帝君塔" icon="achievevip_1_png" desc="通关帝君塔25层" order="967" level="5" modelOpen="48,2" need="25" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="38006" type="38" name="帝君塔" icon="achievevip_1_png" desc="通关帝君塔30层" order="967" level="6" modelOpen="48,2" need="30" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="39001" type="39" name="材料副本" icon="achievevip_1_png" desc="通关材料副本8次" order="966" level="1" modelOpen="11,0" need="8" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="39002" type="39" name="材料副本" icon="achievevip_1_png" desc="通关材料副本16次" order="966" level="2" modelOpen="11,0" need="16" reward="VIPEXP:5,GOLD:150"/>
+	<unit id="39003" type="39" name="材料副本" icon="achievevip_1_png" desc="通关材料副本32次" order="966" level="3" modelOpen="11,0" need="32" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="39004" type="39" name="材料副本" icon="achievevip_1_png" desc="通关材料副本64次" order="966" level="4" modelOpen="11,0" need="64" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="39005" type="39" name="材料副本" icon="achievevip_1_png" desc="通关材料副本96次" order="966" level="5" modelOpen="11,0" need="96" reward="VIPEXP:5,100081:1"/>
+	<unit id="39006" type="39" name="材料副本" icon="achievevip_1_png" desc="通关材料副本128次" order="966" level="6" modelOpen="11,0" need="128" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="39007" type="39" name="材料副本" icon="achievevip_1_png" desc="通关材料副本160次" order="966" level="7" modelOpen="11,0" need="160" reward="VIPEXP:5,100082:1"/>
+	<unit id="39008" type="39" name="材料副本" icon="achievevip_1_png" desc="通关材料副本192次" order="966" level="8" modelOpen="11,0" need="192" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="39009" type="39" name="材料副本" icon="achievevip_1_png" desc="通关材料副本224次" order="966" level="9" modelOpen="11,0" need="224" reward="VIPEXP:5,100083:1"/>
+	<unit id="39010" type="39" name="材料副本" icon="achievevip_1_png" desc="通关材料副本256次" order="966" level="10" modelOpen="11,0" need="256" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="39011" type="39" name="材料副本" icon="achievevip_1_png" desc="通关材料副本288次" order="966" level="11" modelOpen="11,0" need="288" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="39012" type="39" name="材料副本" icon="achievevip_1_png" desc="通关材料副本320次" order="966" level="12" modelOpen="11,0" need="320" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="39013" type="39" name="材料副本" icon="achievevip_1_png" desc="通关材料副本352次" order="966" level="13" modelOpen="11,0" need="352" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="39014" type="39" name="材料副本" icon="achievevip_1_png" desc="通关材料副本384次" order="966" level="14" modelOpen="11,0" need="384" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="39015" type="39" name="材料副本" icon="achievevip_1_png" desc="通关材料副本416次" order="966" level="15" modelOpen="11,0" need="416" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="39016" type="39" name="材料副本" icon="achievevip_1_png" desc="通关材料副本448次" order="966" level="16" modelOpen="11,0" need="448" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="39017" type="39" name="材料副本" icon="achievevip_1_png" desc="通关材料副本480次" order="966" level="17" modelOpen="11,0" need="480" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="39018" type="39" name="材料副本" icon="achievevip_1_png" desc="通关材料副本512次" order="966" level="18" modelOpen="11,0" need="512" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="39019" type="39" name="材料副本" icon="achievevip_1_png" desc="通关材料副本544次" order="966" level="19" modelOpen="11,0" need="544" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="39020" type="39" name="材料副本" icon="achievevip_1_png" desc="通关材料副本576次" order="966" level="20" modelOpen="11,0" need="576" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="39021" type="39" name="材料副本" icon="achievevip_1_png" desc="通关材料副本608次" order="966" level="21" modelOpen="11,0" need="608" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="39022" type="39" name="材料副本" icon="achievevip_1_png" desc="通关材料副本640次" order="966" level="22" modelOpen="11,0" need="640" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="40001" type="40" name="经验副本" icon="achievevip_1_png" desc="通关经验副本3次" order="965" level="1" modelOpen="11,11" need="3" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="40002" type="40" name="经验副本" icon="achievevip_1_png" desc="通关经验副本6次" order="965" level="2" modelOpen="11,11" need="6" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="40003" type="40" name="经验副本" icon="achievevip_1_png" desc="通关经验副本9次" order="965" level="3" modelOpen="11,11" need="9" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="40004" type="40" name="经验副本" icon="achievevip_1_png" desc="通关经验副本13次" order="965" level="4" modelOpen="11,11" need="13" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="40005" type="40" name="经验副本" icon="achievevip_1_png" desc="通关经验副本17次" order="965" level="5" modelOpen="11,11" need="17" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="40006" type="40" name="经验副本" icon="achievevip_1_png" desc="通关经验副本21次" order="965" level="6" modelOpen="11,11" need="21" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="40007" type="40" name="经验副本" icon="achievevip_1_png" desc="通关经验副本25次" order="965" level="7" modelOpen="11,11" need="25" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="40008" type="40" name="经验副本" icon="achievevip_1_png" desc="通关经验副本30次" order="965" level="8" modelOpen="11,11" need="30" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="40009" type="40" name="经验副本" icon="achievevip_1_png" desc="通关经验副本35次" order="965" level="9" modelOpen="11,11" need="35" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="40010" type="40" name="经验副本" icon="achievevip_1_png" desc="通关经验副本40次" order="965" level="10" modelOpen="11,11" need="40" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="40011" type="40" name="经验副本" icon="achievevip_1_png" desc="通关经验副本45次" order="965" level="11" modelOpen="11,11" need="45" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="40012" type="40" name="经验副本" icon="achievevip_1_png" desc="通关经验副本50次" order="965" level="12" modelOpen="11,11" need="50" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="40013" type="40" name="经验副本" icon="achievevip_1_png" desc="通关经验副本55次" order="965" level="13" modelOpen="11,11" need="55" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="40014" type="40" name="经验副本" icon="achievevip_1_png" desc="通关经验副本60次" order="965" level="14" modelOpen="11,11" need="60" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="40015" type="40" name="经验副本" icon="achievevip_1_png" desc="通关经验副本65次" order="965" level="15" modelOpen="11,11" need="65" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="40016" type="40" name="经验副本" icon="achievevip_1_png" desc="通关经验副本70次" order="965" level="16" modelOpen="11,11" need="70" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="40017" type="40" name="经验副本" icon="achievevip_1_png" desc="通关经验副本75次" order="965" level="17" modelOpen="11,11" need="75" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="40018" type="40" name="经验副本" icon="achievevip_1_png" desc="通关经验副本80次" order="965" level="18" modelOpen="11,11" need="80" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="40019" type="40" name="经验副本" icon="achievevip_1_png" desc="通关经验副本85次" order="965" level="19" modelOpen="11,11" need="85" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="40020" type="40" name="经验副本" icon="achievevip_1_png" desc="通关经验副本90次" order="965" level="20" modelOpen="11,11" need="90" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="40021" type="40" name="经验副本" icon="achievevip_1_png" desc="通关经验副本95次" order="965" level="21" modelOpen="11,11" need="95" reward="VIPEXP:5,GOLD:200"/>
+	<unit id="40022" type="40" name="经验副本" icon="achievevip_1_png" desc="通关经验副本100次" order="965" level="22" modelOpen="11,11" need="100" reward="VIPEXP:5,GOLD:200"/>
+	
+	<unit id="41001" type="41" name="守护兽等级" icon="achievevip_2_png" desc="守护等级达到10级" order="964" level="1" modelOpen="557,0" need="10" reward="VIPEXP:10,100092:1"/>
+	<unit id="41002" type="41" name="守护兽等级" icon="achievevip_2_png" desc="守护等级达到20级" order="964" level="2" modelOpen="557,0" need="20" reward="VIPEXP:10,100093:1"/>
+	<unit id="41003" type="41" name="守护兽等级" icon="achievevip_2_png" desc="守护等级达到30级" order="964" level="3" modelOpen="557,0" need="30" reward="VIPEXP:10,100094:1"/>
+	<unit id="41004" type="41" name="守护兽等级" icon="achievevip_2_png" desc="守护等级达到40级" order="964" level="4" modelOpen="557,0" need="40" reward="VIPEXP:10,100095:1"/>
+	<unit id="41005" type="41" name="守护兽等级" icon="achievevip_2_png" desc="守护等级达到50级" order="964" level="5" modelOpen="557,0" need="50" reward="VIPEXP:10,100096:1"/>
+	<unit id="41006" type="41" name="守护兽等级" icon="achievevip_2_png" desc="守护等级达到60级" order="964" level="6" modelOpen="557,0" need="60" reward="VIPEXP:10,100097:1"/>
+	<unit id="41007" type="41" name="守护兽等级" icon="achievevip_2_png" desc="守护等级达到70级" order="964" level="7" modelOpen="557,0" need="70" reward="VIPEXP:10,100098:1"/>
+	<unit id="41008" type="41" name="守护兽等级" icon="achievevip_2_png" desc="守护等级达到80级" order="964" level="8" modelOpen="557,0" need="80" reward="VIPEXP:10,100099:1"/>
+	<unit id="41009" type="41" name="守护兽等级" icon="achievevip_2_png" desc="守护等级达到90级" order="964" level="9" modelOpen="557,0" need="90" reward="VIPEXP:10,100100:1"/>
+
+</def>

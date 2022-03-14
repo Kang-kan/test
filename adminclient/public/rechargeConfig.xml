@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+		界面排列顺序有策划定义    表里面数据顺序和界面顺序一致
+		id： 
+		name：
+		image：显示图标
+		price：价格（单位为分）
+		gold：获得的仙晶数量(1金币等于1角)
+		reward：首次送的仙晶
+ -->
+<def>
+    <config>
+        <field define="id" field="id"/>
+        <field define="name" field="name"/> <!-- 名字-->
+        <field define="price" field="price"/>
+        <field define="gold" field="gold"/>
+        <field define="reward" field="reward"/>
+		<field define="reward2" field="reward2"/>
+        <field define="cardId" field="cardId"/> <!-- 对应的特权卡 -->
+        <field define="relationType" field="relationType"/> <!-- 特殊关联类型 1神盾 2活动礼包 -->
+        <field define="relationValue" field="relationValue"/><!-- 特殊关联的值  1神盾填id，2活动礼包填活动配置项id-->
+		<field define="sharefanli" field="sharefanli"/>  <!--好友邀请后充值返利 -->
+		<!--type 1.五倍首充用  2.普通首充用 3.五倍和普通通用 4.与首充无关-->
+		  <!--rechargetype  1.安卓 2.IOS主包 3.IOS普通提审 4.小程序 -->
+		  <!--relationValue=活动id*10000+child id-->
+
+    </config>
+		<unit id="1" type="2" name="1000仙晶" image="recharge_1" price="1000" gold="1000" reward="1000" rechargetype="1" sharefanli="PMCOIN:10" />   
+		<unit id="2" type="2" name="2000仙晶" image="recharge_2" price="2000" gold="2000" reward="2000" rechargetype="1" sharefanli="PMCOIN:20"/>
+		<unit id="3" type="3" name="5000仙晶" image="recharge_3" price="5000" gold="5000" reward="5000" reward2="15000"  rechargetype="1,2,3,4" sharefanli="PMCOIN:50" iosid=""/>
+		<unit id="4" type="2" name="10000仙晶" image="recharge_4" price="10000" gold="10000" reward="10000" rechargetype="1" sharefanli="PMCOIN:100"/>
+		<unit id="5" type="2" name="20000仙晶" image="recharge_5" price="20000" gold="20000" reward="20000" rechargetype="1" sharefanli="PMCOIN:200"/>		
+		<unit id="6" type="2" name="50000仙晶" image="recharge_6" price="50000" gold="50000" reward="50000" rechargetype="1" sharefanli="PMCOIN:500"/>		
+		<unit id="7" type="2" name="100000仙晶" image="recharge_7" price="100000" gold="100000" reward="100000" rechargetype="1" sharefanli="PMCOIN:1000"/>
+		<unit id="8" type="2" name="150000仙晶" image="recharge_8" price="150000" gold="150000" reward="150000" rechargetype="1" sharefanli="PMCOIN:1500"/>		
+		<unit id="9" type="2" name="200000仙晶" image="recharge_9" price="200000" gold="200000" reward="200000" rechargetype="1" sharefanli="PMCOIN:2000"/>
+		<unit id="10" type="2" name="300000仙晶" image="recharge_10" price="300000" gold="300000" reward="300000" rechargetype="1" sharefanli="PMCOIN:3000"/>
+		
+		
+		<unit id="13" type="" name="月卡" image="recharge_1" price="3000" gold="3000" reward="" cardId="1" rechargetype="1,2,3,4" iosid=""/>
+		<unit id="14" type="" name="至尊特权" image="recharge_1" price="8000" gold="8000" reward="" cardId="2" rechargetype="1" iosid=""/>
+		<unit id="15" type="" name="月卡+至尊特权" image="recharge_1" price="8800" gold="11000" reward="" cardId="1,2" rechargetype="1,2,3,4" iosid=""/>
+		
+		<unit id="16" type="" name="至尊特权" image="recharge_1" price="7800" gold="7800" reward="" cardId="2" rechargetype="2,3,4" iosid=""/>
+		
+		<unit id="30" type="" name="称号礼包" image="recharge_1" price="800" gold="800" relationType="2" relationValue="1" rechargetype="1" sharefanli="PMCOIN:8"/>
+		<unit id="31" type="" name="翅膀礼包" image="recharge_1" price="1000" gold="1000" relationType="2" relationValue="2" rechargetype="1" sharefanli="PMCOIN:10"/>
+		<unit id="32" type="" name="传世礼包" image="recharge_1" price="2000" gold="2000" relationType="2" relationValue="3" rechargetype="1" sharefanli="PMCOIN:20"/>
+		<unit id="33" type="" name="衣服礼包" image="recharge_1" price="2000" gold="2000" relationType="2" relationValue="4" rechargetype="1" sharefanli="PMCOIN:20"/>			
+		<unit id="34" type="" name="转生礼包" image="recharge_1" price="2800" gold="2800" relationType="2" relationValue="5" rechargetype="1" sharefanli="PMCOIN:28"/>
+		<unit id="35" type="" name="武器礼包" image="recharge_1" price="3800" gold="3800" relationType="2" relationValue="6" rechargetype="1" sharefanli="PMCOIN:38"/>
+		<unit id="36" type="" name="心法礼包" image="recharge_1" price="4800" gold="4800" relationType="2" relationValue="7" rechargetype="1" sharefanli="PMCOIN:48"/>		
+		<unit id="37" type="" name="符文礼包" image="recharge_1" price="5800" gold="5800" relationType="2" relationValue="100" rechargetype="1" sharefanli="PMCOIN:58"/>				
+		
+		<!--投资计划-->
+		<unit id="38" type="" name="七日投资" image="vip_yuanbao5" price="9900" gold="" relationType="4" relationValue=""  sharefanli="PMCOIN:99" iostype="0"/>
+		<unit id="39" type="" name="等级投资" image="vip_yuanbao5" price="11800" gold="" relationType="5" relationValue="" sharefanli="PMCOIN:118" iostype="0"/>
+	    <unit id="40" type="" name="转生投资" image="vip_yuanbao5" price="11800" gold="" relationType="7" relationValue="" sharefanli="PMCOIN:118" iostype="0"/>
+		
+		<unit id="41" type="1" name="800仙晶" image="recharge_1" price="800" gold="800" reward="" reward2="800" rechargetype="1,2,3,4" sharefanli="PMCOIN:8" iosid=""/>   
+		<unit id="42" type="1" name="1800仙晶" image="recharge_1" price="1800" gold="1800" reward="" reward2="3600" rechargetype="1,2,3,4" sharefanli="PMCOIN:18" iosid=""/>
+		<unit id="44" type="1" name="9800仙晶" image="vip_yuanbao2" price="9800" gold="9800" reward="" reward2="39200" rechargetype="1,2,3,4" sharefanli="PMCOIN:98" iosid=""/>	
+		
+		<!-- 新的投资计划 -->
+		<unit id="45" type="" name="千服投资" image="vip_yuanbao5" price="16800" gold="" relationType="6" relationValue="" iostype="0"/>
+
+		<unit id="50" type="" name="称号礼包" image="recharge_1" price="800" gold="800" relationType="2" relationValue="1" rechargetype="1,2,3,4" sharefanli="PMCOIN:8" iosid=""/>	
+		<unit id="51" type="" name="天罚礼包" image="recharge_1" price="2800" gold="2800" relationType="2" relationValue="2" rechargetype="1,2,3" sharefanli="PMCOIN:28" iosid=""/>		
+		<unit id="52" type="" name="符文礼包" image="recharge_1" price="5800" gold="5800" relationType="2" relationValue="3" rechargetype="1" sharefanli="PMCOIN:58" iosid=""/>				
+		<unit id="53" type="" name="防御仙戒礼包" image="recharge_1" price="9800" gold="9800" relationType="2" relationValue="4" rechargetype="1,2,3,4" sharefanli="PMCOIN:98" iosid=""/>			
+		<unit id="54" type="" name="绝地时装礼包" image="recharge_1" price="12800" gold="12800" relationType="2" relationValue="5" rechargetype="1,2,3,4" sharefanli="PMCOIN:128" iosid=""/>			
+		<unit id="55" type="" name="至尊心法礼包" image="recharge_1" price="29800" gold="29800" relationType="2" relationValue="6" rechargetype="1,2,3" sharefanli="PMCOIN:298" iosid=""/>
+		
+		<unit id="56" type="" name="符文礼包" image="recharge_1" price="6000" gold="6000" relationType="2" relationValue="3" rechargetype="2,3" sharefanli="PMCOIN:60" iosid=""/>	
+
+		
+		<unit id="57" type="" name="双倍返利3600仙晶仅" image="recharge_1" price="1800" gold="1800" relationType="3" relationValue="1" rechargetype="1,4" sharefanli="PMCOIN:18" iosid=""/>	
+		<unit id="58" type="" name="双倍返利7600仙晶仅" image="recharge_1" price="3800" gold="3800" relationType="3" relationValue="2" rechargetype="1" sharefanli="PMCOIN:38" iosid=""/>		
+		<unit id="59" type="" name="双倍返利11600仙晶仅" image="recharge_1" price="5800" gold="5800" relationType="3" relationValue="3" rechargetype="1" sharefanli="PMCOIN:58" iosid=""/>				
+		<unit id="60" type="" name="双倍返利19600仙晶仅" image="recharge_1" price="9800" gold="9800" relationType="3" relationValue="4" rechargetype="1,4" sharefanli="PMCOIN:98" iosid=""/>			
+	
+		<!--小程序双倍-->
+		<unit id="61" type="" name="双倍充值40" image="recharge_1" price="4000" gold="4000" relationType="3" relationValue="2" rechargetype="4" sharefanli="PMCOIN:40" />		
+		<unit id="62" type="" name="双倍充值60" image="recharge_1" price="6000" gold="6000" relationType="3" relationValue="3" rechargetype="4" sharefanli="PMCOIN:60" />				
+		<!--小程序直购-->		
+		<unit id="63" type="" name="天罚礼包" image="recharge_1" price="2500" gold="2500" relationType="2" relationValue="2" rechargetype="4" sharefanli="PMCOIN:25" />	
+		<unit id="64" type="" name="符文礼包" image="recharge_1" price="5000" gold="5000" relationType="2" relationValue="3" rechargetype="4" sharefanli="PMCOIN:50"/>			
+		<unit id="65" type="" name="至尊心法礼包" image="recharge_1" price="32800" gold="32800" relationType="2" relationValue="6" rechargetype="4" sharefanli="PMCOIN:328"/>
+	
+		<unit id="90" type="2" name="800仙晶" image="recharge_1" price="800" gold="800" reward="800" rechargetype="4" sharefanli="PMCOIN:8" />
+		<unit id="91" type="2" name="1800仙晶" image="recharge_2" price="1800" gold="1800" reward="1800" rechargetype="4" sharefanli="PMCOIN:18" />		
+		<unit id="92" type="2" name="9800仙晶" image="recharge_3" price="9800" gold="9800" reward="9800" rechargetype="4" sharefanli="PMCOIN:98"/>
+	
+	
+		<!-- ios用普通充值档位-->
+		<unit id="101" type="2" name="600仙晶" image="recharge_1" price="600" gold="600" reward="600" rechargetype="2,3" sharefanli="PMCOIN:6" iosid=""/>
+		<unit id="102" type="2" name="1200仙晶" image="recharge_1" price="1200" gold="1200" reward="1200" rechargetype="2" sharefanli="PMCOIN:12" iosid=""/>
+		<unit id="103" type="2" name="2500仙晶" image="recharge_2" price="2500" gold="2500" reward="2500" rechargetype="2,3" sharefanli="PMCOIN:25" iosid=""/>	
+		<unit id="104" type="2" name="4500仙晶" image="recharge_2" price="4500" gold="4500" reward="4500" rechargetype="2" sharefanli="PMCOIN:45" iosid=""/>	
+		<unit id="105" type="2" name="6000仙晶" image="recharge_3" price="6000" gold="6000" reward="6000" rechargetype="2,3" sharefanli="PMCOIN:60" iosid=""/>	
+		<unit id="106" type="2" name="6800仙晶" image="recharge_3" price="6800" gold="6800" reward="6800" rechargetype="2" sharefanli="PMCOIN:68" iosid=""/>	
+		<unit id="107" type="2" name="10800仙晶" image="recharge_4" price="10800" gold="10800" reward="10800" rechargetype="2,3" sharefanli="PMCOIN:108" iosid=""/>		
+		<unit id="108" type="2" name="11800仙晶" image="recharge_4" price="11800" gold="11800" reward="11800" rechargetype="2" sharefanli="PMCOIN:118" iosid=""/>
+		<unit id="109" type="2" name="15800仙晶" image="recharge_4" price="15800" gold="15800" reward="15800" rechargetype="2" sharefanli="PMCOIN:158" iosid=""/>
+		<unit id="110" type="2" name="16800仙晶" image="recharge_4" price="16800" gold="16800" reward="16800" rechargetype="2" sharefanli="PMCOIN:168" iosid=""/>		
+		<unit id="111" type="2" name="19800仙晶" image="recharge_4" price="19800" gold="19800" reward="19800" rechargetype="2,3,4" sharefanli="PMCOIN:198" iosid=""/>		
+		<unit id="112" type="2" name="21800仙晶" image="recharge_5" price="21800" gold="21800" reward="21800" rechargetype="2" sharefanli="PMCOIN:218" iosid=""/>
+		<unit id="113" type="2" name="22800仙晶" image="recharge_5" price="22800" gold="22800" reward="22800" rechargetype="2" sharefanli="PMCOIN:228" iosid=""/>
+		<unit id="114" type="2" name="23800仙晶" image="recharge_5" price="23800" gold="23800" reward="23800" rechargetype="2" sharefanli="PMCOIN:238" iosid=""/>
+		<unit id="115" type="2" name="24800仙晶" image="recharge_5" price="24800" gold="24800" reward="24800" rechargetype="2" sharefanli="PMCOIN:248" iosid=""/>
+		<unit id="116" type="2" name="25800仙晶" image="recharge_5" price="25800" gold="25800" reward="25800" rechargetype="2" sharefanli="PMCOIN:258" iosid=""/>
+		<unit id="117" type="2" name="26800仙晶" image="recharge_5" price="26800" gold="26800" reward="26800" rechargetype="2" sharefanli="PMCOIN:268" iosid=""/>		
+		<unit id="118" type="2" name="28800仙晶" image="recharge_5" price="28800" gold="28800" reward="28800" rechargetype="2,3" sharefanli="PMCOIN:288" iosid=""/>		
+		<unit id="119" type="2" name="30800仙晶" image="recharge_6" price="30800" gold="30800" reward="30800" rechargetype="2" sharefanli="PMCOIN:308" iosid=""/>
+		<unit id="120" type="2" name="31800仙晶" image="recharge_6" price="31800" gold="31800" reward="31800" rechargetype="2" sharefanli="PMCOIN:318" iosid=""/>
+		<unit id="121" type="2" name="32800仙晶" image="recharge_6" price="32800" gold="32800" reward="32800" rechargetype="2,4" sharefanli="PMCOIN:328" iosid=""/>
+		<unit id="122" type="2" name="34800仙晶" image="recharge_6" price="34800" gold="34800" reward="34800" rechargetype="2" sharefanli="PMCOIN:348" iosid=""/>		
+		<unit id="123" type="2" name="38800仙晶" image="recharge_6" price="38800" gold="38800" reward="38800" rechargetype="2,3" sharefanli="PMCOIN:388" iosid=""/>		
+		<unit id="124" type="2" name="41800仙晶" image="recharge_7" price="41800" gold="41800" reward="41800" rechargetype="2" sharefanli="PMCOIN:418" iosid=""/>
+		<unit id="125" type="2" name="44800仙晶" image="recharge_7" price="44800" gold="44800" reward="44800" rechargetype="2" sharefanli="PMCOIN:448" iosid=""/>		
+		<unit id="126" type="2" name="48800仙晶" image="recharge_7" price="48800" gold="48800" reward="48800" rechargetype="2,3" sharefanli="PMCOIN:488" iosid=""/>		
+		<unit id="127" type="2" name="51800仙晶" image="recharge_8" price="51800" gold="51800" reward="51800" rechargetype="2" sharefanli="PMCOIN:518" iosid=""/>
+		<unit id="128" type="2" name="54800仙晶" image="recharge_8" price="54800" gold="54800" reward="54800" rechargetype="2" sharefanli="PMCOIN:548" iosid=""/>	
+		<unit id="129" type="2" name="58800仙晶" image="recharge_8" price="58800" gold="58800" reward="58800" rechargetype="2,3" sharefanli="PMCOIN:588" iosid=""/>			
+		<unit id="130" type="2" name="61800仙晶" image="recharge_9" price="61800" gold="61800" reward="61800" rechargetype="2" sharefanli="PMCOIN:618" iosid=""/>		
+		<unit id="131" type="2" name="64800仙晶" image="recharge_9" price="64800" gold="64800" reward="64800" rechargetype="2,3,4" sharefanli="PMCOIN:648" iosid=""/>	
+		
+		<unit id="200" type="" name="关卡投资" image="vip_yuanbao5" price="5800" gold="" relationType="8" relationValue="" sharefanli="PMCOIN:58" iostype="0"/>
+		
+		<unit id="201" type="" name="鼠年时装礼包" image="recharge_1" price="9800" gold="" relationType="9" relationValue="210001" rechargetype="1,2,3,4" sharefanli="PMCOIN:98" iosid=""/>
+		
+		<!--分期付款-->
+		<unit id="202" type="" name="首付" image="recharge_1" price="2800" relationType="10" gold="2800" reward="" reward2="" rechargetype="1,2,3,4" sharefanli="PMCOIN:28" iosid=""/>   
+		<unit id="203" type="" name="分期金额" image="recharge_1" price="1000" relationType="10" gold="1000" reward="" reward2="" rechargetype="1,2,3,4" sharefanli="PMCOIN:12" iosid=""/>   
+		<unit id="204" type="" name="一期+尾款" image="recharge_1" price="7000" relationType="10" gold="7000" reward="" reward2="" rechargetype="1,2,3,4" sharefanli="PMCOIN:70" iosid=""/>   
+		<unit id="205" type="" name="二期+尾款" image="recharge_1" price="6000" relationType="10" gold="6000" reward="" reward2="" rechargetype="1,2,3,4" sharefanli="PMCOIN:60" iosid=""/>   
+		<unit id="206" type="" name="三期+尾款" image="recharge_1" price="5000" relationType="10" gold="5000" reward="" reward2="" rechargetype="1,2,3,4" sharefanli="PMCOIN:50" iosid=""/>   
+		<unit id="207" type="" name="四期+尾款" image="recharge_1" price="4000" relationType="10" gold="4000" reward="" reward2="" rechargetype="1,2,3,4" sharefanli="PMCOIN:40" iosid=""/>   
+		<unit id="208" type="" name="五期+尾款" image="recharge_1" price="3000" relationType="10" gold="3000" reward="" reward2="" rechargetype="1,2,3,4" sharefanli="PMCOIN:30" iosid=""/>   
+		<unit id="209" type="" name="六期+尾款" image="recharge_1" price="2000" relationType="10" gold="2000" reward="" reward2="" rechargetype="1,2,3,4" sharefanli="PMCOIN:20" iosid=""/>   
+		<unit id="210" type="" name="全款付清" image="recharge_1" price="7800" relationType="10" gold="9800" reward="" reward2="" rechargetype="1,2,3,4" sharefanli="PMCOIN:78" iosid=""/>   
+		
+		<!--通行证-->
+		<unit id="211" type="" name="通行证" image="recharge_1" price="9800" relationType="11" gold="" reward="" reward2="" rechargetype="1,2,3,4" sharefanli="PMCOIN:98" iosid=""/>   
+		<unit id="212" type="" name="通行证礼包" image="recharge_1" price="12800" relationType="11" gold="" relationValue="6000" reward="" reward2="" rechargetype="1,2,3,4" sharefanli="PMCOIN:128" relationValueiosid=""/>   
+		
+		
+</def>

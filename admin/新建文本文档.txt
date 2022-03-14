@@ -1,0 +1,11 @@
+admin  后台
+losrv  日志消费端 
+改数据库 配置 ，重新启动 产生 数据库表
+mqnameserv.cmd  mqbroker.cmd
+从 plain_acl.yml 配置中  将  topicB  GroupB 填入gameserver 的配置中 server.proper
+从仙侠中 log  目录拷贝过去。调用loghelper 参考
+然后再 日志收集端  logsrv 中修改  application-op.yml 中  中的 rockitmq的配置
+从logsrv 中 LogCollectServiceImpl 收集端 入库 。xxx_log 表
+rockmq  消息队列
+
+

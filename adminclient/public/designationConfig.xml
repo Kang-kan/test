@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<def>
+    <config>
+        <field define="id" field="id"/>
+        <field define="name" field="name"/>
+        <field define="quality" field="quality"/>
+        <field define="limit" field="limit"/> <!-- 人数限制，没有定义表示无限制 -->
+        <field define="type" field="type"/> <!--类型 0表示获得之后永远有，1表示全服限量，当type=1时，duration不能有-->
+        <field define="prop" field="prop"/>
+        <field define="property" field="property" enum="arpg.common.convertor.PropertyConvertor"/> 	<!--特殊属性 -->
+        <field define="desc" field="desc"/> <!--获得途径-->
+        <field define="duration" field="duration"/> <!--持续时间(秒）  0：表示没有持续时间-->
+        <field define="noticeId" field="noticeId"/> <!--获取时候公告-->
+        <field define="loginNoticeId" field="loginNoticeId"/> <!--登录时候仙盟-->
+		<field define="intimacy" field="intimacy"/> <!--仙缘升级称号需要的亲密度 visualeffect 用于UI，是否显示称号特效。-->
+    </config>
+
+		<!--
+		<unit id="4037" name="首充膨胀" res="shouchongchenghao" quality="6" icon="item_4037" type="0" prop="HP:15000,ATT:1000,PDEF:250,SDEF:250" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【首充膨胀】&lt;/font&gt;\n首充奖励" tipsdesc="首充奖励"/> 
+		-->
+		<unit id="4027" name="仙界至尊" res="ihavemoney" quality="5" icon="item_4027" type="0" prop="HP:45000,ATT:3000,PDEF:750,SDEF:750" limit="" duration="2592000" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【仙界至尊】&lt;/font&gt;\n至尊特权卡专享称号！" tipsdesc="至尊特权卡专享称号"/>		
+		
+		<!--<unit id="4014" name="壕气冲天·家里矿" res="More_Money_Than_God" quality="6" icon="item_4014" type="0" prop="HP:7200,ATT:480,PDEF:120,SDEF:120,STONE_MULTI:500" limit="1" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【壕气冲天·家里矿】&lt;/font&gt;\n开服宝石比拼第一名奖励" tipsdesc="开服宝石比拼第一名奖励"/>
+		<unit id="4015" name="寻龙点穴·闷油瓶" res="Stand_your_ground" quality="6" icon="item_4015" type="0" prop="HP:7200,ATT:480,PDEF:120,SDEF:120,LONGPO_MULTI:500" limit="1" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【寻龙点穴·闷油瓶】&lt;/font&gt;\n开服龙魄比拼榜第一名奖励" tipsdesc="开服龙魄比拼榜第一名奖励"/>
+		<unit id="4016" name="国产飞机·舔空投" res="swallow" quality="6" icon="item_4016" type="0" prop="HP:7200,ATT:480,PDEF:120,SDEF:120,WING_MULTI:500" limit="1" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【国产飞机·舔空投】&lt;/font&gt;\n开服光翼比拼榜第一名奖励" tipsdesc="开服光翼比拼榜第一名奖励"/>
+		<unit id="4018" name="人体描边·真大师" res="destroyer" quality="6" icon="item_4018" type="0" prop="HP:7200,ATT:480,PDEF:120,SDEF:120,POKEDEX_MULTI:500" limit="1" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【人体描边·真大师】&lt;/font&gt;\n开服图鉴比拼榜第一名奖励" tipsdesc="开服图鉴比拼榜第一名奖励"/>
+		<unit id="4017" name="一马当先·我先跑" res="A_sublime_side" quality="6" icon="item_4017" type="0" prop="HP:7200,ATT:480,PDEF:120,SDEF:120,BOSSINCHURT:500" limit="1" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【一马当先·我先跑】&lt;/font&gt;\n开服等级比拼榜第一名奖励" tipsdesc="开服等级比拼榜第一名奖励"/>
+		<unit id="4019" name="全副武装·伏地魔" res="Saint_War" quality="6" icon="item_4019" type="0" prop="HP:7200,ATT:480,PDEF:120,SDEF:120,BOSSDECHURT:500" limit="1" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【全副武装·伏地魔】&lt;/font&gt;\n开服装备比拼榜第一名奖励" tipsdesc="开服装备比拼榜第一名奖励"/>
+		<unit id="4020" name="战无不胜·98K" res="unrivaled" quality="6" icon="item_4020" type="0" prop="HP:7200,ATT:480,PDEF:120,SDEF:120,ATT_MULTI:100" limit="1" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【战无不胜·98K】&lt;/font&gt;\n开服战力比拼榜第一名奖励" tipsdesc="开服战力比拼榜第一名奖励"/>
+		<unit id="4021" name="战无不胜·98K" res="unrivaled" quality="6" icon="item_4020" type="0" prop="HP:7200,ATT:480,PDEF:120,SDEF:120,ATT_MULTI:100" limit="1" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【战无不胜·98K】&lt;/font&gt;\n开服消费比拼榜第一名奖励" tipsdesc="开服消费比拼榜第一名奖励"/>
+		<unit id="4023" name="超级富豪" res="hefu_superricher" quality="6" icon="item_4023" type="0" prop="HP:12000,ATT:800,PDEF:200,SDEF:200" limit="1" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【超级富豪】&lt;/font&gt;\n合服消费比拼榜第一名奖励" tipsdesc="合服消费比拼榜第一名奖励"/>
+		<unit id="4038" name="无坚不摧·真男人" res="wujianbucui" quality="6" icon="item_4038" type="0" prop="HP:7200,ATT:480,PDEF:120,SDEF:120,SHIELD_MULTI:500" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【无坚不摧·真男人】&lt;/font&gt;\n开服神盾比拼榜第一名" tipsdesc="开服神盾比拼榜第一名"/>	-->	
+		
+		<unit id="4001" name="第一剑修" res="LastRanker" quality="5" icon="item_4001" type="1" prop="HP:3000,ATT:200,PDEF:50,SDEF:50" limit="1" duration="" loginNoticeId="95" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【第一剑修】&lt;/font&gt;\n剑修榜第1名" tipsdesc="剑修榜第1名"/>
+		<unit id="4002" name="第一法修" res="LastMaster" quality="5" icon="item_4002" type="1" prop="HP:3000,ATT:200,PDEF:50,SDEF:50" limit="1" duration="" loginNoticeId="96" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【第一法修】&lt;/font&gt;\n法修榜第1名" tipsdesc="法修榜第1名"/>
+		<unit id="4003" name="第一灵修" res="LastTaoist" quality="5" icon="item_4003" type="1" prop="HP:3000,ATT:200,PDEF:50,SDEF:50" limit="1" duration="" loginNoticeId="97" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【第一灵修】&lt;/font&gt;\n灵修榜第1名" tipsdesc="灵修榜第1名"/>
+		<unit id="4007" name="帝君" res="invincible" quality="5" icon="item_4007" type="1" prop="HP:6000,ATT:400,PDEF:100,SDEF:100" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【帝君】&lt;/font&gt;\n战力排行榜第1名" tipsdesc="战力排行榜第1名"/>
+		<unit id="4008" name="十大高手" res="Ten_great_masters" quality="5" icon="item_4008" type="1" prop="HP:1800,ATT:120,PDEF:30,SDEF:30" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【十大高手】&lt;/font&gt;\n战力排行榜第2~10名" tipsdesc="战力排行榜第2~10名"/>
+		<unit id="4009" name="出神入化" res="peerless" quality="5" icon="item_4009" type="1" prop="HP:6000,ATT:400,PDEF:100,SDEF:100" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【出神入化】&lt;/font&gt;\n等级排行榜第1名" tipsdesc="等级排行榜第1名"/>
+		<unit id="4010" name="威震八方" res="Famous_earthquake" quality="5" icon="item_4010" type="1" prop="HP:1800,ATT:120,PDEF:30,SDEF:30" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【威震八方】&lt;/font&gt;\n等级排行榜第2~10名" tipsdesc="等级排行榜第2~10名"/>
+		<unit id="4011" name="一拳一个嘤嘤怪" res="A_buzzing_and_kicking" quality="5" icon="item_4011" type="1" prop="HP:6000,ATT:400,PDEF:100,SDEF:100" limit="1" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【一拳一个嘤嘤怪】&lt;/font&gt;\n野战榜第1名" tipsdesc="野战榜第1名"/>
+		<unit id="4012" name="嘤嘤怪" res="Make_a_buzzing" quality="5" icon="item_4012" type="1" prop="HP:1800,ATT:120,PDEF:30,SDEF:30" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【嘤嘤怪】&lt;/font&gt;\n野战榜第2~10名" tipsdesc="野战榜第2~10名"/>
+		<unit id="4013" name="仙界战神" res="Supremacy" quality="5" icon="item_4013" type="1" prop="HP:6000,ATT:400,PDEF:100,SDEF:100" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【仙界战神】&lt;/font&gt;\n天梯榜第1名" tipsdesc="天梯榜第1名"/>
+		<unit id="4034" name="威震三界" res="Duguqiubai" quality="5" icon="item_4034" type="1" prop="HP:9000,ATT:600,PDEF:150,SDEF:150" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【威震三界】&lt;/font&gt;\n威望榜第1名" tipsdesc="威望榜第1名"/>
+		<unit id="4035" name="三界争霸" res="Zonghengtianxia" quality="5" icon="item_4035" type="1" prop="HP:7200,ATT:480,PDEF:120,SDEF:120" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【三界争霸】&lt;/font&gt;\n威望榜第2名" tipsdesc="威望榜第2名"/>
+		<unit id="4036" name="三界争霸" res="Shuiyuzhengfeng" quality="5" icon="item_4036" type="1" prop="HP:5400,ATT:360,PDEF:90,SDEF:90" limit="" duration="86400" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【三界争霸】&lt;/font&gt;\n威望榜第3名" tipsdesc="威望榜第3名"/>
+		<unit id="4100" name="风华绝代" res="meilidongren" quality="6" icon="item_4100" type="1" prop="HP:6000,ATT:400,PDEF:100,SDEF:100" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【风华绝代】&lt;/font&gt;\n魅力榜第一名" tipsdesc="魅力榜第一名，称号每周结算一次"/>
+		
+		<!--<unit id="4022" name="是兄dei就一起来" res="brotherly_love" quality="5" icon="item_4022" type="0" prop="HP:3600,ATT:240,PDEF:60,SDEF:60" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【是兄dei就一起来】&lt;/font&gt;\n仙盟商店购买获得" tipsdesc="仙盟商店购买获得"/>	
+		<unit id="4030" name="天命铲翔官" res="shit_officer" quality="5" icon="item_4030" type="0" prop="HP:9000,ATT:600,PDEF:150,SDEF:150" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【天命铲翔官】&lt;/font&gt;\n仙盟商店购买获得" tipsdesc="仙盟商店购买获得"/>
+		<unit id="4031" name="送人头快递员" res="courier" quality="5" icon="item_4031" type="0" prop="HP:6000,ATT:400,PDEF:100,SDEF:100" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【送人头快递员】&lt;/font&gt;\n竞技商店购买获得" tipsdesc="竞技商店购买获得"/>
+		<unit id="4028" name="荒野大镖客" res="armed_escort" quality="5" icon="item_4028" type="0" prop="HP:6000,ATT:400,PDEF:100,SDEF:100" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【荒野大镖客】&lt;/font&gt;\n押镖商店兑换获得" tipsdesc="押镖商店兑换获得"/>-->
+		
+		<unit id="4004" name="天帝" res="DragonCity_supremacy" quality="5" icon="item_4004" type="1" prop="HP:27000,ATT:1800,PDEF:450,SDEF:450" limit="1" duration=""  loginNoticeId="94" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【天帝】&lt;/font&gt;\n天域城主专享称号！\n在天域争霸中获得胜利仙盟盟主奖励。" tipsdesc="天域争霸中获得胜利（盟主）"/>
+		<unit id="4005" name="仙君" res="DragonCity_Elite" quality="4" icon="item_4005" type="1" prop="HP:4500,ATT:300,PDEF:75,SDEF:75" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【仙君】&lt;/font&gt;\n天域仙盟成员称号！\n在天域争霸中获得胜利仙盟成员奖励。" tipsdesc="天域争霸中获得胜利（会员）"/>
+		<unit id="4006" name="仙魔之主" res="Godofwar" quality="5" icon="item_4006" type="1" prop="HP:6000,ATT:400,PDEF:100,SDEF:100" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【仙界战神】&lt;/font&gt;\n仙魔战场第1名" tipsdesc="仙魔战场第1名"/>
+		<!--<unit id="4032" name="刷怪好辛苦" res="grave_demon" quality="5" icon="item_4033" type="0" prop="HP:9000,ATT:600,PDEF:150,SDEF:150" limit="" duration="86400" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【刷怪好辛苦】&lt;/font&gt;\n石墓烧猪通关奖励\n多次获得称号可累计增加称号时限" tipsdesc="石墓烧猪通关奖励"/>-->
+        <unit id="4039" name="家里有矿" res="grave_demon" quality="5" icon="item_4033" type="0" prop="HP:15000,ATT:1000,PDEF:250,SDEF:250" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【家里有矿】&lt;/font&gt;\n寻宝次数专享称号！" tipsdesc="寻宝次数榜第1名"/>
+		<unit id="4040" name="兜里有钱" res="supervip" quality="5" icon="item_4050" type="0" prop="HP:22500,ATT:1500,PDEF:375,SDEF:375" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【兜里有钱】&lt;/font&gt;\n寻宝消费专享称号！" tipsdesc="寻宝消费第1名"/>
+
+		<!--<unit id="4039" name="宝石达人" res="baoshidaren" quality="5" icon="item_4039" type="0" prop="HP:3000,ATT:200,PDEF:50,SDEF:50,STONE_MULTI:500" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【宝石达人】&lt;/font&gt;\n开服宝石比拼榜第2~10名" tipsdesc="开服宝石比拼榜第2~10名"/>
+		<unit id="4040" name="龙魄达人" res="longpodaren" quality="5" icon="item_4039" type="0" prop="HP:3000,ATT:200,PDEF:50,SDEF:50,LONGPO_MULTI:500" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【龙魄达人】&lt;/font&gt;\n开服龙魄比拼榜第2~10名" tipsdesc="开服龙魄比拼榜第2~10名"/>
+		<unit id="4041" name="光翼达人" res="guangyidaren" quality="5" icon="item_4039" type="0" prop="HP:3000,ATT:200,PDEF:50,SDEF:50,WING_MULTI:500" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【光翼达人】&lt;/font&gt;\n开服光翼比拼榜第2~10名" tipsdesc="开服光翼比拼榜第2~10名"/>
+		<unit id="4042" name="图鉴达人" res="tujiandaren" quality="5" icon="item_4039" type="0" prop="HP:3000,ATT:200,PDEF:50,SDEF:50,POKEDEX_MULTI:500" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【图鉴达人】&lt;/font&gt;\n开服图鉴比拼榜第2~10名" tipsdesc="开服图鉴比拼榜第2~10名"/>
+		<unit id="4043" name="冲级达人" res="chongjidaren" quality="5" icon="item_4039" type="0" prop="HP:3000,ATT:200,PDEF:50,SDEF:50,BOSSINCHURT:500" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【冲级达人】&lt;/font&gt;\n开服等级比拼榜第2~10名" tipsdesc="开服等级比拼榜第2~10名"/>
+		<unit id="4044" name="装备达人" res="zhuangbeidaren" quality="5" icon="item_4039" type="0" prop="HP:3000,ATT:200,PDEF:50,SDEF:50,BOSSDECHURT:500" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【装备达人】&lt;/font&gt;\n开服装备比拼榜第2~10名" tipsdesc="开服装备比拼榜第2~10名"/>
+		<unit id="4045" name="战力达人" res="zhanlidaren" quality="5" icon="item_4039" type="0" prop="HP:3000,ATT:200,PDEF:50,SDEF:50,ATT_MULTI:100" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【战力达人】&lt;/font&gt;\n开服战力比拼榜第2~10名" tipsdesc="开服战力比拼榜第2~10名"/>
+		<unit id="4046" name="神盾达人" res="shendundaren" quality="5" icon="item_4039" type="0" prop="HP:3000,ATT:200,PDEF:50,SDEF:50,SHIELD_MULTI:500" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【神盾达人】&lt;/font&gt;\n开服神盾比拼榜第2~10名" tipsdesc="开服神盾比拼榜第2~10名"/>
+		<unit id="4048" name="消费达人" res="xiaofeidaren" quality="5" icon="item_4039" type="0" prop="HP:3000,ATT:200,PDEF:50,SDEF:50,ATT_MULTI:100" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【消费达人】&lt;/font&gt;\n开服消费比拼榜第2~10名" tipsdesc="开服消费比拼榜第2~10名"/>
+		<unit id="4049" name="小富豪" res="hefu_littlericher" quality="5" icon="item_4049" type="0" prop="HP:4800,ATT:320,PDEF:80,SDEF:80" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【小富豪】&lt;/font&gt;\n合服消费比拼榜第2~3奖励" tipsdesc="合服消费比拼榜2~3奖励"/>-->	
+
+		<unit id="4047" name="修仙社会人" res="zhanchuanqi" quality="6" icon="item_4047" type="0" prop="HP:7500,ATT:500,PDEF:125,SDEF:125" property="MONEYGET:5" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【修仙社会人】&lt;/font&gt;\n限时直购礼包购买获得" tipsdesc="限时直购礼包购买获得"/>
+
+		<!--<unit id="4050" name="超级VIP" res="supervip" quality="6" icon="item_4050" type="0" prop="HP:12000,ATT:800,PDEF:160,SDEF:160" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【超级VIP】&lt;/font&gt;\n超级VIP用户获得" tipsdesc="超级VIP用户获得"/>-->
+		
+		<!--渠道返利称号-->
+
+		<unit id="4051" name="欧皇至尊" res="oppo01" quality="5" icon="item_4039" type="0" prop="HP:6000,ATT:400,PDEF:100,SDEF:100" limit="" duration="" desc="" tipsdesc="OPPO专属称号" ischannel="1"/>
+		
+		<unit id="4052" name="欧珀达人" res="oppo02" quality="5" icon="item_4039" type="0" prop="HP:1500,ATT:100,PDEF:25,SDEF:25" limit="" duration="" desc="" tipsdesc="OPPO专属称号" ischannel="1"/>
+
+		<unit id="4053" name="V我独尊" res="vivo01" quality="5" icon="item_4039" type="0" prop="HP:6000,ATT:400,PDEF:100,SDEF:100" limit="" duration="" desc="" tipsdesc="VIVO专属称号" ischannel="1"/>
+
+		<unit id="4054" name="维沃达人" res="vivo02" quality="5" icon="item_4039" type="0" prop="HP:1500,ATT:100,PDEF:25,SDEF:25" limit="" duration="" desc="" tipsdesc="VIVO专属称号" ischannel="1"/>
+
+		<unit id="4055" name="竞技王者" res="jj01" quality="5" icon="item_4039" type="0" prop="HP:6000,ATT:400,PDEF:100,SDEF:100" limit="" duration="" desc="" tipsdesc="JJ比赛专属称号" ischannel="1"/>
+
+		<unit id="4056" name="竞技达人" res="jj02" quality="5" icon="item_4039" type="0" prop="HP:1500,ATT:100,PDEF:25,SDEF:25" limit="" duration="" desc="" tipsdesc="JJ比赛专属称号" ischannel="1"/>
+
+		<unit id="4057" name="微游王者" res="aiweiyou01" quality="5" icon="item_4039" type="0" prop="HP:6000,ATT:400,PDEF:100,SDEF:100" limit="" duration="" desc="" tipsdesc="爱微游专属称号" ischannel="1"/>
+
+		<unit id="4058" name="爱玩达人" res="aiweiyou02" quality="5" icon="item_4039" type="0" prop="HP:1500,ATT:100,PDEF:25,SDEF:25" limit="" duration="" desc="" tipsdesc="定制称号" ischannel="1"/>
+
+		<unit id="4059" name="疯狂王者" res="crazy01" quality="5" icon="item_4039" type="0" prop="HP:6000,ATT:400,PDEF:100,SDEF:100" limit="" duration="" desc="" tipsdesc="定制称号" ischannel="1"/>
+
+		<unit id="4060" name="我爱疯狂" res="crazy02" quality="5" icon="item_4039" type="0" prop="HP:1500,ATT:100,PDEF:25,SDEF:25" limit="" duration="" desc="" tipsdesc="定制称号" ischannel="1"/>
+
+		<unit id="4061" name="九五至尊" res="9you01" quality="5" icon="item_4039" type="0" prop="HP:6000,ATT:400,PDEF:100,SDEF:100" limit="" duration="" desc="" tipsdesc="九游专属称号" ischannel="1"/>
+		
+		<unit id="4062" name="九游达人" res="9you02" quality="5" icon="item_4039" type="0" prop="HP:1500,ATT:100,PDEF:25,SDEF:25" limit="" duration="" desc="" tipsdesc="九游专属称号" ischannel="1"/>
+
+		<unit id="4063" name="主宰空间" res="qq01" quality="5" icon="item_4039" type="0" prop="HP:6000,ATT:400,PDEF:100,SDEF:100" limit="" duration="" desc="" tipsdesc="QQ空间专属称号" ischannel="1"/>
+
+		<unit id="4064" name="极地空间" res="qq02" quality="5" icon="item_4039" type="0" prop="HP:1500,ATT:100,PDEF:25,SDEF:25" limit="" duration="" desc="" tipsdesc="QQ空间专属称号" ischannel="1"/>
+
+		<unit id="4065" name="荣耀至尊" res="huawei01" quality="5" icon="item_4039" type="0" prop="HP:6000,ATT:400,PDEF:100,SDEF:100" limit="" duration="" desc="" tipsdesc="华为专属称号" ischannel="1"/>
+
+		<unit id="4066" name="华贵达人" res="huawei02" quality="5" icon="item_4039" type="0" prop="HP:1500,ATT:100,PDEF:25,SDEF:25" limit="" duration="" desc="" tipsdesc="华为专属称号" ischannel="1"/>
+
+		<unit id="4067" name="企鹅王者" res="yingyongbao01" quality="5" icon="item_4039" type="0" prop="HP:6000,ATT:400,PDEF:100,SDEF:100" limit="" duration="" desc="" tipsdesc="应用宝专属称号" ischannel="1"/>
+
+		<unit id="4068" name="企鹅达人" res="yingyongbao02" quality="5" icon="item_4039" type="0" prop="HP:1500,ATT:100,PDEF:25,SDEF:25" limit="" duration="" desc="" tipsdesc="应用宝专属称号" ischannel="1"/>
+
+		<unit id="4069" name="王者气息" res="3701" quality="5" icon="item_4039" type="0" prop="HP:6000,ATT:400,PDEF:100,SDEF:100" limit="" duration="" desc="" tipsdesc="37专属称号" ischannel="1"/>
+
+		<unit id="4070" name="洋葱超人" res="3702" quality="5" icon="item_4039" type="0" prop="HP:1500,ATT:100,PDEF:25,SDEF:25" limit="" duration="" desc="" tipsdesc="37专属称号" ischannel="1"/>
+
+		<unit id="4071" name="米至尊" res="xiaomi01" quality="5" icon="item_4039" type="0" prop="HP:6000,ATT:400,PDEF:100,SDEF:100" limit="" duration="" desc="" tipsdesc="小米专属称号" ischannel="1"/>
+
+		<unit id="4072" name="米达人" res="xiaomi02" quality="5" icon="item_4039" type="0" prop="HP:1500,ATT:100,PDEF:25,SDEF:25" limit="" duration="" desc="" tipsdesc="小米专属称号" ischannel="1"/>
+
+		<unit id="4073" name="至尊传世" res="tongyong01" quality="5" icon="item_4039" type="0" prop="HP:6000,ATT:400,PDEF:100,SDEF:100" limit="" duration="" desc="" tipsdesc="通用专属称号" ischannel="1"/>
+
+		<unit id="4074" name="王者一刀" res="tongyong02" quality="5" icon="item_4039" type="0" prop="HP:1500,ATT:100,PDEF:25,SDEF:25" limit="" duration="" desc="" tipsdesc="通用专属称号" ischannel="1"/>
+
+		<unit id="4075" name="360王者" res="36001" quality="5" icon="item_4039" type="0" prop="HP:6000,ATT:400,PDEF:100,SDEF:100" limit="" duration="" desc="" tipsdesc="360专属称号" ischannel="1"/>
+
+		<unit id="4076" name="360主宰" res="36002" quality="5" icon="item_4039" type="0" prop="HP:1500,ATT:100,PDEF:25,SDEF:25" limit="" duration="" desc="" tipsdesc="360专属称号" ischannel="1"/>
+
+		<unit id="4077" name="魅力明星" res="meizu01" quality="5" icon="item_4039" type="0" prop="HP:6000,ATT:400,PDEF:100,SDEF:100" limit="" duration="" desc="" tipsdesc="魅族专属称号" ischannel="1"/>
+
+		<unit id="4078" name="魅力达人" res="meizu02" quality="5" icon="item_4039" type="0" prop="HP:1500,ATT:100,PDEF:25,SDEF:25" limit="" duration="" desc="" tipsdesc="魅族专属称号" ischannel="1"/>
+
+		<unit id="4079" name="TT王者" res="tt01" quality="5" icon="item_4039" type="0" prop="HP:6000,ATT:400,PDEF:100,SDEF:100" limit="" duration="" desc="" tipsdesc="TT专属称号" ischannel="1"/>
+
+		<unit id="4080" name="TT达人" res="tt02" quality="5" icon="item_4039" type="0" prop="HP:1500,ATT:100,PDEF:25,SDEF:25" limit="" duration="" desc="" tipsdesc="TT专属称号" ischannel="1"/>
+
+
+		<!--累充返利称号-->
+		<unit id="4081" name="壕气冲天" res="haoqichongtian" quality="6" icon="item_4039" type="0" prop="HP:36000,ATT:2400,PDEF:600,SDEF:600" limit="" duration="" desc="" tipsdesc="累充10万纪念称号" ischannel="1"/>
+
+		<unit id="4082" name="烽火之主" res="fenghuozhizhu" quality="6" icon="item_4039" type="0" prop="HP:48000,ATT:3200,PDEF:800,SDEF:800" limit="" duration="" desc="" tipsdesc="累充20万纪念称号" ischannel="1"/>
+
+		<unit id="4083" name="天之骄子" res="tianzhijiaozi" quality="6" icon="item_4039" type="0" prop="HP:15000,ATT:1000,PDEF:250,SDEF:250" limit="" duration="" desc="" tipsdesc="活动获取" ischannel="1"/>
+
+		<unit id="4084" name="璀璨之星" res="cuicanzhixing" quality="6" icon="item_4039" type="0" prop="HP:60000,ATT:4000,PDEF:1000,SDEF:1000" limit="" duration="" desc="" tipsdesc="累充40万纪念称号" ischannel="1"/>
+
+		<unit id="4085" name="绝代天神" res="juedaitianshen" quality="6" icon="item_4039" type="0" prop="HP:72000,ATT:4800,PDEF:1200,SDEF:1200" limit="" duration="" desc="" tipsdesc="累充50万纪念称号" ischannel="1"/>
+		
+		<!--仙缘称号-->
+		<unit id="5001" name="情投意合" res="qingtouyihe" quality="6"  icon="qingtouyihe" type="1" prop="HP:9000,ATT:600,PDEF:150,SDEF:150" limit="" duration="" desc="" tipsdesc="完成第一档提亲获得的称号。" ischannel=""/>
+		<unit id="5002" name="珠联璧合" res="zhulianbihe" quality="6" visualeffect="1" icon="zhulianbihe" type="1" prop="HP:12000,ATT:800,PDEF:200,SDEF:200" limit="" duration="" desc="" tipsdesc="完成第二档提亲获得的称号。" ischannel=""/>
+		<unit id="5003" name="天作之合" res="tianzuozhihe" quality="6" visualeffect="1" icon="tianzuozhihe" type="1" prop="HP:15000,ATT:1000,PDEF:250,SDEF:250" limit="" duration="" desc="" tipsdesc="完成第三档提亲获得的称号。" ischannel=""/>
+		<unit id="5004" name="完美情人" res="wanmeiqingren" quality="6" visualeffect="1" icon="wanmeiqingren" type="1" prop="HP:21000,ATT:1400,PDEF:350,SDEF:350" limit="" duration="" desc="" tipsdesc="全部完成三档提亲获得的称号。" ischannel=""/>
+		<unit id="5005" name="相濡以沫" res="xiangruyimo"  quality="9" icon="xiangruyimo" type="1" prop="HP:7500,ATT:500,PDEF:125,SDEF:125" limit="" intimacy="520" duration="" desc="" tipsdesc="亲密度第一级称号" ischannel=""/>
+		<unit id="5006" name="百年好合" res="bainianhaohe"  quality="9" icon="bainianhaohe" type="1" prop="HP:10500,ATT:700,PDEF:175,SDEF:175" limit="" duration="" intimacy="5201" desc="" tipsdesc="亲密度第二级称号" ischannel=""/>
+		<unit id="5007" name="海枯石烂" res="haikushilan"  quality="9" visualeffect="1" icon="haikushilan" type="1" prop="HP:13500,ATT:900,PDEF:225,SDEF:225" limit="" duration="" intimacy="15201" desc="" tipsdesc="亲密度第三级称号" ischannel=""/>
+		<unit id="5008" name="至死不渝" res="zhisibuyu"  quality="9" visualeffect="1" icon="zhisibuyu" type="1" prop="HP:16500,ATT:1100,PDEF:275,SDEF:275" limit="" duration="" intimacy="25201" desc="" tipsdesc="亲密度第四级称号" ischannel=""/>
+		<unit id="5009" name="碧海青天" res="bihaiqingtian"  quality="9" visualeffect="1" icon="bihaiqingtian" type="1" prop="HP:21000,ATT:1400,PDEF:350,SDEF:350" limit="" duration="" intimacy="35201" desc="" tipsdesc="亲密度第五级称号" ischannel=""/>
+
+		<!--天机称号-->
+		<unit id="5100" name="天机秘使" res="tianjimishi" quality="5" icon="tianjimishi" type="0" prop="HP:15000,ATT:1000,PDEF:250,SDEF:250,EXTRA_DROP_101:1000" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;天机秘使&lt;/font&gt;\n天机秘使专享称号！" tipsdesc="完成天机秘传所有任务"/>
+		
+		<!--累小程序分享比拼称号-->
+		<!--<unit id="4086" name="一卡车胸dei" res="xiongdei" quality="5" icon="item_4039" type="0" prop="HP:1500,ATT:100,PDEF:25,SDEF:25" limit="" duration="" desc="" tipsdesc="分享比拼第一名称号" ischannel="1"/>
+		
+		<unit id="4087" name="王者归来" res="wangzheguilai" quality="6" icon="item_4039" type="0" prop="HP:9000,ATT:600,PDEF:150,SDEF:150" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【王者归来】&lt;/font&gt;" tipsdesc="老玩家召回专属称号"/>
+
+		<unit id="4088" name="万众“瞩”目" res="wanzhongzhumu" quality="5" icon="item_4088" type="0" prop="HP:9000,ATT:600,PDEF:150,SDEF:150" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【万众“瞩”目】&lt;/font&gt;" tipsdesc="活动获取"/>
+		
+		<unit id="4089" name="猪年大吉" res="zhuniandaji" quality="5" icon="item_4039" type="0" prop="HP:6000,ATT:400,PDEF:100,SDEF:100" limit="" duration="" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【猪年大吉】&lt;/font&gt;" tipsdesc="活动获取"/>-->
+
+		<!--荣耀赛季跨服奖励称号-->
+
+		<!--<unit id="4090" name="跨服冠军" res="honorSeason_kuafu1" quality="6" icon="item_4051" type="0" prop="HP:27000,ATT:1800,PDEF:450,SDEF:450" limit="" duration="1209600" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【跨服冠军】&lt;/font&gt;" tipsdesc="荣耀赛季冠军奖励"/>
+
+		<unit id="4091" name="跨服亚军" res="honorSeason_kuafu2" quality="5" icon="item_4052" type="0" prop="HP:22500,ATT:1500,PDEF:375,SDEF:375" limit="" duration="1209600" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【跨服亚军】&lt;/font&gt;" tipsdesc="荣耀赛季亚军奖励"/>
+
+		<unit id="4092" name="跨服四强" res="honorSeason_kuafu4" quality="5" icon="item_4053" type="0" prop="HP:18000,ATT:1200,PDEF:300,SDEF:300" limit="" duration="1209600" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【跨服四强】&lt;/font&gt;" tipsdesc="荣耀赛季四强奖励"/>
+
+		<unit id="4093" name="跨服八强" res="honorSeason_kuafu8" quality="5" icon="item_4054" type="0" prop="HP:15000,ATT:1000,PDEF:250,SDEF:250" limit="" duration="1209600" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【跨服八强】&lt;/font&gt;" tipsdesc="荣耀赛季八强奖励"/>
+
+		<unit id="4094" name="跨服十六强" res="honorSeason_kuafu16" quality="5" icon="item_4055" type="0" prop="HP:12000,ATT:800,PDEF:200,SDEF:200" limit="" duration="1209600" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【跨服十六强】&lt;/font&gt;" tipsdesc="荣耀赛季十六强奖励"/>
+
+		<unit id="4095" name="跨服三十二强" res="honorSeason_kuafu32" quality="4" icon="item_4056" type="0" prop="HP:9000,ATT:600,PDEF:150,SDEF:150" limit="" duration="1209600" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【跨服三十二强】&lt;/font&gt;" tipsdesc="荣耀赛季三十二强奖励"/>
+
+		<unit id="4096" name="跨服六十四强" res="honorSeason_kuafu64" quality="4" icon="item_4057" type="0" prop="HP:7500,ATT:500,PDEF:125,SDEF:125" limit="" duration="1209600" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【跨服六十四强】&lt;/font&gt;" tipsdesc="荣耀赛季六十四强奖励"/>
+
+		<unit id="4097" name="超人气小鲜肉" res="renqixianrou" quality="4" icon="item_4058" type="0" prop="HP:6000,ATT:400,PDEF:100,SDEF:100" limit="" duration="1209600" desc="使用激活称号：\n&lt;font color=&quot;#f58305&quot;&gt;【超人气小鲜肉】&lt;/font&gt;" tipsdesc="荣耀赛季跨服人气榜前三奖励"/>-->
+
+
+
+
+</def>

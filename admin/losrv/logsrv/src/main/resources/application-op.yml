@@ -1,0 +1,35 @@
+# 环境和运维相关配置不跟版本走
+
+spring:
+    # ------------------------profiles-----------------------------
+    profiles:
+        active: dev
+    # ------------------------datasource-----------------------------
+    datasource:
+        username: root
+        password: root
+        url: jdbc:mysql://127.0.0.1:3306/logsrv?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai&tinyInt1isBit=false
+    admindatasource:
+        username: root
+        password: root
+        url: jdbc:mysql://127.0.0.1:3306/admin?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai&tinyInt1isBit=false
+
+druid:
+    deny: 192.168.0.1,192.168.0.2
+    loginUsername: xxgame
+    loginPassword: xxgame.com
+
+# -----------------------日志服相关配置--------------------------
+xxgame:
+    namesrvAddr: 192.168.0.60:9876
+#    groupName: xxgamedev-groupName
+#    subscribeTopic: xxgamedev-topic
+    accessKey: xx
+    secretKey: xx
+    groupName: xxgamedev-groupName
+    subscribeTopic: topicB
+    # elasticsearch
+    es:
+        # 多个主机用,分隔
+        hostUrls: http://192.168.0.60:9200
+

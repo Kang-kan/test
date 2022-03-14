@@ -1,0 +1,13 @@
+DELETE FROM `customer_service` WHERE `server_id` = xx;
+DELETE FROM `daily_charge_statis` WHERE `server_id` = xx;
+DELETE FROM `daily_regist_statis` WHERE `server_id` = xx;
+DELETE FROM `daily_summary` WHERE `server_id` = xx;
+DELETE FROM `gold_consume_statis` WHERE `server_id` = xx;
+DELETE FROM `market_statis` WHERE `server_id` = xx;
+DELETE FROM `monthly_active` WHERE `server_id` = xx;
+DELETE FROM `online_statis_dist` WHERE `server_id` = xx;
+DELETE FROM `srv_daily_charge` WHERE `server_id` = xx;
+DELETE FROM `daily_login_loss_statis` WHERE `server_id` = xx;
+DELETE FROM `charge_loss_statis` WHERE `server_id` = xx;
+DELETE FROM `daily_online_statis` WHERE `server_id` = xx;
+DELETE FROM `daily_level_loss_statis` WHERE `server_id` = xx;

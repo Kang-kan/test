@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<def>
+	<config>
+		<field define="id" field="id"/>
+		<field define="sysId" field="sysId"/>
+		<field define="skillId" field="skillId"/>
+		<field define="limit" field="limit"/>
+		<field define="unlockCost" field="unlockCost"/>
+		<field define="owner" field="owner"/>
+	</config>
+	<unit id="1000" sysId="100,2" name="伙伴1技能1" skillId="11001" limit="HUOBANJIEJI:1" unlockCost="100044:8" owner="100001"/>
+	<unit id="1001" sysId="100,2" name="伙伴1技能2" skillId="12001" limit="HUOBANJIEJI:10" unlockCost="100047:6" owner="100001"/>
+	<unit id="1002" sysId="100,2" name="伙伴1技能3" skillId="12002" limit="HUOBANJIEJI:30" unlockCost="100047:8" owner="100001"/>
+	<unit id="1003" sysId="100,2" name="伙伴1技能4" skillId="12003" limit="HUOBANJIEJI:50" unlockCost="100047:12" owner="100001"/>
+	<unit id="1004" sysId="100,2" name="伙伴1技能5" skillId="12004" limit="HUOBANJIEJI:70" unlockCost="100047:16" owner="100001"/>
+	<unit id="2000" sysId="100,2" name="伙伴2技能1" skillId="11001" limit="HUOBANJIEJI:1" unlockCost="100044:8" owner="100002"/>
+	<unit id="2001" sysId="100,2" name="伙伴2技能2" skillId="12001" limit="HUOBANJIEJI:10" unlockCost="100047:6" owner="100002"/>
+	<unit id="2002" sysId="100,2" name="伙伴2技能3" skillId="12002" limit="HUOBANJIEJI:30" unlockCost="100047:8" owner="100002"/>
+	<unit id="2003" sysId="100,2" name="伙伴2技能4" skillId="12003" limit="HUOBANJIEJI:50" unlockCost="100047:12" owner="100002"/>
+	<unit id="2004" sysId="100,2" name="伙伴2技能5" skillId="12004" limit="HUOBANJIEJI:70" unlockCost="100047:16" owner="100002"/>
+	<unit id="3000" sysId="100,2" name="伙伴3技能1" skillId="11002" limit="HUOBANJIEJI:1" unlockCost="100044:16" owner="100003"/>
+	<unit id="3001" sysId="100,2" name="伙伴3技能2" skillId="13001" limit="HUOBANJIEJI:10" unlockCost="100047:12" owner="100003"/>
+	<unit id="3002" sysId="100,2" name="伙伴3技能3" skillId="13002" limit="HUOBANJIEJI:30" unlockCost="100047:16" owner="100003"/>
+	<unit id="3003" sysId="100,2" name="伙伴3技能4" skillId="13003" limit="HUOBANJIEJI:50" unlockCost="100047:24" owner="100003"/>
+	<unit id="3004" sysId="100,2" name="伙伴3技能5" skillId="13004" limit="HUOBANJIEJI:70" unlockCost="100047:32" owner="100003"/>
+	<unit id="4000" sysId="100,2" name="伙伴4技能1" skillId="11002" limit="HUOBANJIEJI:1" unlockCost="100044:16" owner="100004"/>
+	<unit id="4001" sysId="100,2" name="伙伴4技能2" skillId="13001" limit="HUOBANJIEJI:10" unlockCost="100047:12" owner="100004"/>
+	<unit id="4002" sysId="100,2" name="伙伴4技能3" skillId="13002" limit="HUOBANJIEJI:30" unlockCost="100047:16" owner="100004"/>
+	<unit id="4003" sysId="100,2" name="伙伴4技能4" skillId="13003" limit="HUOBANJIEJI:50" unlockCost="100047:24" owner="100004"/>
+	<unit id="4004" sysId="100,2" name="伙伴4技能5" skillId="13004" limit="HUOBANJIEJI:70" unlockCost="100047:32" owner="100004"/>
+	<unit id="5000" sysId="100,2" name="伙伴5技能1" skillId="11003" limit="HUOBANJIEJI:1" unlockCost="100044:24" owner="100005"/>
+	<unit id="5001" sysId="100,2" name="伙伴5技能2" skillId="14001" limit="HUOBANJIEJI:10" unlockCost="100047:18" owner="100005"/>
+	<unit id="5002" sysId="100,2" name="伙伴5技能3" skillId="14002" limit="HUOBANJIEJI:30" unlockCost="100047:24" owner="100005"/>
+	<unit id="5003" sysId="100,2" name="伙伴5技能4" skillId="14003" limit="HUOBANJIEJI:50" unlockCost="100047:36" owner="100005"/>
+	<unit id="5004" sysId="100,2" name="伙伴5技能5" skillId="14004" limit="HUOBANJIEJI:70" unlockCost="100047:48" owner="100005"/>
+	<unit id="6000" sysId="100,2" name="伙伴6技能1" skillId="11003" limit="HUOBANJIEJI:1" unlockCost="100044:24" owner="100006"/>
+	<unit id="6001" sysId="100,2" name="伙伴6技能2" skillId="14001" limit="HUOBANJIEJI:10" unlockCost="100047:18" owner="100006"/>
+	<unit id="6002" sysId="100,2" name="伙伴6技能3" skillId="14002" limit="HUOBANJIEJI:30" unlockCost="100047:24" owner="100006"/>
+	<unit id="6003" sysId="100,2" name="伙伴6技能4" skillId="14003" limit="HUOBANJIEJI:50" unlockCost="100047:36" owner="100006"/>
+	<unit id="6004" sysId="100,2" name="伙伴6技能5" skillId="14004" limit="HUOBANJIEJI:70" unlockCost="100047:48" owner="100006"/>
+	<unit id="7000" sysId="100,2" name="伙伴7技能1" skillId="11004" limit="HUOBANJIEJI:1" unlockCost="100044:32" owner="100007"/>
+	<unit id="7001" sysId="100,2" name="伙伴7技能2" skillId="15001" limit="HUOBANJIEJI:10" unlockCost="100047:24" owner="100007"/>
+	<unit id="7002" sysId="100,2" name="伙伴7技能3" skillId="15002" limit="HUOBANJIEJI:30" unlockCost="100047:32" owner="100007"/>
+	<unit id="7003" sysId="100,2" name="伙伴7技能4" skillId="15003" limit="HUOBANJIEJI:50" unlockCost="100047:48" owner="100007"/>
+	<unit id="7004" sysId="100,2" name="伙伴7技能5" skillId="15004" limit="HUOBANJIEJI:70" unlockCost="100047:64" owner="100007"/>
+	<unit id="8000" sysId="100,2" name="伙伴4技能1" skillId="11004" limit="HUOBANJIEJI:1" unlockCost="100044:32" owner="100008"/>
+	<unit id="8001" sysId="100,2" name="伙伴8技能2" skillId="15001" limit="HUOBANJIEJI:10" unlockCost="100047:24" owner="100008"/>
+	<unit id="8002" sysId="100,2" name="伙伴8技能3" skillId="15002" limit="HUOBANJIEJI:30" unlockCost="100047:32" owner="100008"/>
+	<unit id="8003" sysId="100,2" name="伙伴8技能4" skillId="15003" limit="HUOBANJIEJI:50" unlockCost="100047:48" owner="100008"/>
+	<unit id="8004" sysId="100,2" name="伙伴8技能5" skillId="15004" limit="HUOBANJIEJI:70" unlockCost="100047:64" owner="100008"/>
+	<unit id="9000" sysId="100,2" name="伙伴9技能1" skillId="11005" limit="HUOBANJIEJI:1" unlockCost="100044:40" owner="100009"/>
+	<unit id="9001" sysId="100,2" name="伙伴9技能2" skillId="16001" limit="HUOBANJIEJI:10" unlockCost="100047:30" owner="100009"/>
+	<unit id="9002" sysId="100,2" name="伙伴9技能3" skillId="16002" limit="HUOBANJIEJI:30" unlockCost="100047:40" owner="100009"/>
+	<unit id="9003" sysId="100,2" name="伙伴9技能4" skillId="16003" limit="HUOBANJIEJI:50" unlockCost="100047:60" owner="100009"/>
+	<unit id="9004" sysId="100,2" name="伙伴9技能5" skillId="16004" limit="HUOBANJIEJI:70" unlockCost="100047:80" owner="100009"/>
+	<unit id="10000" sysId="100,2" name="伙伴10技能1" skillId="11005" limit="HUOBANJIEJI:1" unlockCost="100044:40" owner="100010"/>
+	<unit id="10001" sysId="100,2" name="伙伴10技能2" skillId="16001" limit="HUOBANJIEJI:10" unlockCost="100047:30" owner="100010"/>
+	<unit id="10002" sysId="100,2" name="伙伴10技能3" skillId="16002" limit="HUOBANJIEJI:30" unlockCost="100047:40" owner="100010"/>
+	<unit id="10003" sysId="100,2" name="伙伴10技能4" skillId="16003" limit="HUOBANJIEJI:50" unlockCost="100047:60" owner="100010"/>
+	<unit id="10004" sysId="100,2" name="伙伴10技能5" skillId="16004" limit="HUOBANJIEJI:70" unlockCost="100047:80" owner="100010"/>
+	<unit id="11001" sysId="102,2" name="血脉觉醒" skillId="17001" limit="SHOUHUJIEJI:1" unlockCost="100102:6" owner="400001"/>
+	<unit id="11002" sysId="102,2" name="血脉觉醒" skillId="17002" limit="SHOUHUJIEJI:1" unlockCost="100102:6" owner="400002"/>
+	<unit id="11003" sysId="102,2" name="血脉觉醒" skillId="17003" limit="SHOUHUJIEJI:1" unlockCost="100102:10" owner="400003"/>
+	<unit id="11004" sysId="102,2" name="血脉觉醒" skillId="17004" limit="SHOUHUJIEJI:1" unlockCost="100102:10" owner="400004"/>
+	<unit id="11005" sysId="102,2" name="血脉觉醒" skillId="17005" limit="SHOUHUJIEJI:1" unlockCost="100102:13" owner="400005"/>
+	<unit id="11006" sysId="102,2" name="血脉觉醒" skillId="17006" limit="SHOUHUJIEJI:1" unlockCost="100102:13" owner="400006"/>
+	<unit id="11007" sysId="102,2" name="血脉觉醒" skillId="17007" limit="SHOUHUJIEJI:1" unlockCost="100102:16" owner="400007"/>
+	<unit id="11008" sysId="102,2" name="血脉觉醒" skillId="17008" limit="SHOUHUJIEJI:1" unlockCost="100102:16" owner="400008"/>
+	<unit id="11009" sysId="102,2" name="血脉觉醒" skillId="17009" limit="SHOUHUJIEJI:1" unlockCost="100102:19" owner="400009"/>
+	<unit id="11010" sysId="102,2" name="血脉觉醒" skillId="17010" limit="SHOUHUJIEJI:1" unlockCost="100102:19" owner="400010"/>
+</def>

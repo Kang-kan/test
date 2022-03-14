@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<def>
+  <config>
+		<field define="id" field="id" />
+		<field define="title" field="title" />   				<!--ID -->
+		<field define="level" field="level" />  		
+		<field define="text" field="text" /> 		    <!--提示 -->
+		<field define="bonus" field="bonus"/> <!--礼包内容 -->
+		<field define="day" field="day" />    <!--开服第5天发送邮件 -->
+		<!--html 语言规范 &lt;font color=&quot;#24FF00&quot;&gt;我的提示&lt;/font&gt; -->
+		<field define="everyday" field="everyday" />    <!--1表示每日发默认0 -->
+  </config>
+  <unit id="1" title="野战排名奖励" text="   亲爱的玩家您好，在昨日野战玩法中，您的最终排名为第&lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt;名，请到附件领取您的排名奖励。"/>
+
+  <unit id="2" title="仙盟分配奖励" text="   由于您在天域战玩法中表现出色，特此会长给您分配了&lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt;。" />
+
+  <unit id="3" title="请离仙盟邮件" text="   大路朝天各走一边。很遗憾的通知您，您已被请离&lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt;仙盟。"/>	
+
+  <unit id="4" title="仙界魔神伤害奖励" text="   亲爱的玩家您好，恭喜您在仙界魔神挑战玩法中表现优异，荣获第&lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt;名，请到附件领取您的奖励。"/>
+
+  <unit id="5" title="背包已满" text="   亲爱的玩家您好，由于您的背包容量不足，请先回收无用的装备再领取您的奖励。"/>
+
+  <unit id="6" title="月卡每日奖励" text="   亲爱的玩家您好，您开通的月卡开始每天给您返利啦，请到附件领取您的月卡奖励。"/>	
+
+  <unit id="7" title="仙魔战场BOSS奖励" text="   恭喜您在仙魔战场玩法中击败了BOSS，请到附件领取您的奖励"/>
+
+  <unit id="8" title="BOSS奖励" text="   亲爱的玩家您好，恭喜您击败了&lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt;，由于您的背包容量不足，请先回收无用的装备再领取您的奖励。"/>
+
+  <unit id="9" title="神魂过期未领取奖励" text="   亲爱的玩家您好，由于您限时任务未及时领取奖励，我们特地为您自动保存到邮件，请及时领取。"/>
+
+  <unit id="10" title="仙魔战场个人积分排名奖励" text="    恭喜您在仙魔战场玩法中排名第 &lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt; ，请到附件领取您的奖励。"/>
+ 
+  <unit id="11" title="仙魔战场积分奖励" text="   恭喜您在仙魔战场玩法中获得 &lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt; 积分，请到附件领取您的奖励。"/>
+
+  <unit id="12" title="混沌剑域普通奖励" text="   恭喜您积极参与混沌剑域玩法，请到附件领取您的奖励"/>
+  
+  <unit id="13" title="混沌剑域排行奖励" text="   恭喜您在混沌剑域玩法中排名第 &lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt; ，请到附件领取您的奖励。"/>
+ 
+  <unit id="14" title="个人积分奖励" text="   恭喜您在天域争霸玩法中表现优异，您有部分积分达标奖励未领取，请到附件领取您的奖励。"/>
+
+  <unit id="15" title="个人排名奖励" text="   恭喜您在天域争霸玩法中排名第 &lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt; 名 ，请到附件领取您的排名奖励。"/>
+  
+   <unit id="16" title="活动排名奖励" text="   恭喜您在{1}中排名第 &lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt; 名 ，请到附件领取您的排名奖励。"/>
+
+  <unit id="17" title="至尊特权每日奖励" text="   亲爱的玩家您好，很高兴的告诉您，您开通的至尊特权开始每天给您返利啦，请到附件领取您的至尊特权奖励。"/>
+  
+  <unit id="18" title="限时物品到期提醒" text="   亲爱的玩家您好，您包裹中的 &lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt; 已到期，请及时查看使用限时道具。"/>
+
+  <unit id="19" title="55级秘闻攻略" level="55" text="   恭喜您，达到55级！\n现为您提供快速升级的秘闻攻略\n    1.挑战&lt;font color=&quot;#65d868&quot;&gt;关卡&lt;/font&gt;可提升&lt;font color=&quot;#65d868&quot;&gt;【经验】&lt;/font&gt;获取效率，关卡越高经验获取效率越高。\n    2.挑战&lt;font color=&quot;#65d868&quot;&gt;副本-万妖塔&lt;/font&gt;可快速获取大量&lt;font color=&quot;#65d868&quot;&gt;【经验】&lt;/font&gt;保送80级，开放转生，战力暴涨。\n    3.&lt;font color=&quot;#65d868&quot;&gt;经验副本&lt;/font&gt;仍然是你快速提升等级获取大量经验的好选择。\n    4.通过&lt;font color=&quot;#65d868&quot;&gt;【首充】&lt;/font&gt;可获得无级别-橙装，非卖品-等级直升丹直接碾压各种BOSS。\n    5.开通&lt;font color=&quot;#65d868&quot;&gt;VIP5&lt;/font&gt;可提前解锁第二个角色，&lt;font color=&quot;#65d868&quot;&gt;VIP7&lt;/font&gt;可提前解锁第三个角色。\n    6.想要快速获取符文的小伙伴，现在可以在&lt;font color=&quot;#65d868&quot;&gt;【符文寻宝】&lt;/font&gt;里实现愿望啦！"/>
+
+  <unit id="20" title="80级秘闻攻略" level="80" text="   恭喜您，达到80级！\n现为您提供快速提升战力的秘闻攻略\n    1.您可以通过角色界面&lt;font color=&quot;#65d868&quot;&gt;转生&lt;/font&gt;功能提升转生等级，转生后不仅战力大大提升，还可替换新的转生装备。\n    2.玩家达到&lt;font color=&quot;#65d868&quot;&gt; 1转 &lt;/font&gt;以后开启&lt;font color=&quot;#65d868&quot;&gt;技能-心法&lt;/font&gt;功能，心法超级多特性等您来发现。\n    3.更多特惠尽在&lt;font color=&quot;#65d868&quot;&gt;精彩活动&lt;/font&gt;，各种材料装备供君选择，这里是提升战力的不二选择。"/>
+
+  <!--
+  <unit id="21" title="开服第3天新功能开启" day="3" text="   &lt;font color=&quot;#65d868&quot;&gt;嘟啦！嘟啦！&lt;/font&gt;今天已经是开服&lt;font color=&quot;#65d868&quot;&gt; 第3天 &lt;/font&gt;，新功能&lt;font color=&quot;#65d868&quot;&gt; 神羽 &lt;/font&gt;和&lt;font color=&quot;#65d868&quot;&gt; 神羽BOSS &lt;/font&gt;为您开启。\n    1.神羽功能入口位于&lt;font color=&quot;#65d868&quot;&gt;角色-光翼-神羽&lt;/font&gt;，点击进入就可以查看神羽的详细内容了。\n    2.穿戴神羽装备将获得更多珍稀属性，今天更有&lt;font color=&quot;#65d868&quot;&gt; 精彩活动-神羽狂欢 &lt;/font&gt;助力，极品神羽等你来拿！\n    3.神羽BOSS功能入口位于&lt;font color=&quot;#65d868&quot;&gt; BOSS-神羽BOSS &lt;/font&gt;，这里是神羽装备的&lt;font color=&quot;#65d868&quot;&gt; 主要产出地 &lt;/font&gt;，想要神羽装备就快去吧。"/>
+  -->
+
+  <unit id="22" title="仙界魔神击杀奖励" text="亲爱的玩家您好，恭喜您在仙界魔神挑战玩法中表现优异，成功击杀&lt;font color=&quot;#65d868&quot;&gt;仙界魔神&lt;/font&gt;，请到附件领取您的奖励。"/>
+
+  <unit id="23" title="新功能开启" day="8" text="   今天已经是开服&lt;font color=&quot;#65d868&quot;&gt; 第2天 &lt;/font&gt;，新功能&lt;font color=&quot;#65d868&quot;&gt; 天书 &lt;/font&gt;为您开启。\n    1.天书功能入口位于&lt;font color=&quot;#65d868&quot;&gt;角色-法宝-天书&lt;/font&gt;，点击进入就可以查看天书的详细内容了;\n    2.激活升级天书可获得&lt;font color=&quot;#65d868&quot;&gt;稀有属性和超强特技&lt;/font&gt;。\n   4.天书升级材料&lt;font color=&quot;#65d868&quot;&gt; 天书残卷 &lt;/font&gt;可通过每日充值获得。\n"/>
+
+  <!--
+  <unit id="25" title="开服第11天新功能开启" day="11" text="   今天已经是开服&lt;font color=&quot;#65d868&quot;&gt; 第11天 &lt;/font&gt;，新功能&lt;font color=&quot;#65d868&quot;&gt; 足迹 &lt;/font&gt;和&lt;font color=&quot;#65d868&quot;&gt; 闯天关 &lt;/font&gt;为您开启。\n    1.足迹功能入口位于&lt;font color=&quot;#65d868&quot;&gt; 角色-宝物-足迹 &lt;/font&gt;，点击进入就可以查看足迹的详细内容了。\n    2.足迹不光可为英雄提供绚丽的外观，还可提升战力。\n    3.足迹还可有多种幻化。\n   4.闯天关功能入口位于&lt;font color=&quot;#65d868&quot;&gt; 玩法-闯天关 &lt;/font&gt;，这里是足迹精华和足迹装备的&lt;font color=&quot;#65d868&quot;&gt; 主要产出地 &lt;/font&gt;，想要的就快去吧。"/>
+   -->
+   
+  <unit id="26" title="首充返利提醒" text="   亲爱的玩家您好，恭喜您成功充值&lt;font color=&quot;#65d868&quot;&gt; {0} &lt;/font&gt;仙晶，首次充值将获得&lt;font color=&quot;#65d868&quot;&gt; {1} &lt;/font&gt;倍返利，总计获得&lt;font color=&quot;#65d868&quot;&gt; {2} &lt;/font&gt;仙晶。\n仙晶要花在刀刃上，建议您仙晶使用在以下活动或功能：\n	   &lt;font color=&quot;#65d868&quot;&gt;①精彩活动&lt;/font&gt;\n	   &lt;font color=&quot;#65d868&quot;&gt;②神秘商店&lt;/font&gt;\n	   &lt;font color=&quot;#65d868&quot;&gt;③寻宝&lt;/font&gt;"/>
+
+  <unit id="27" title="充值成功提醒" text="   亲爱的玩家您好，恭喜您成功充值&lt;font color=&quot;#65d868&quot;&gt; {0} &lt;/font&gt;仙晶。\n仙晶要花在刀刃上，建议您仙晶使用在以下活动或功能：\n	   &lt;font color=&quot;#65d868&quot;&gt;①精彩活动&lt;/font&gt;\n	   &lt;font color=&quot;#65d868&quot;&gt;②神秘商店&lt;/font&gt;\n	   &lt;font color=&quot;#65d868&quot;&gt;③寻宝&lt;/font&gt;"/>
+  
+  <!--<unit id="28" title="至尊特权开启通知" day="3" text="   喜迎公测，福利回馈！新服今天开启&lt;font color=&quot;#65d868&quot;&gt; 至尊特权 &lt;/font&gt;功能。\n开通至尊特权，您将享受到以下福利特权：\n	   &lt;font color=&quot;#65d868&quot;&gt;①每天免费领取5000威望，先人一步获得增伤7%强力属性&lt;/font&gt;\n	   &lt;font color=&quot;#65d868&quot;&gt;②每天都可以免费挑战特权BOSS&lt;/font&gt;\n	   &lt;font color=&quot;#65d868&quot;&gt;③每天免费扫荡个人BOSS&lt;/font&gt;\n	   &lt;font color=&quot;#65d868&quot;&gt;④野外BOSS，神羽BOSS全部自动挑战，省去定闹钟的烦恼了。&lt;/font&gt;\n	   &lt;font color=&quot;#65d868&quot;&gt;⑤材料副本一键扫荡，爽到极点&lt;/font&gt;\n	   &lt;font color=&quot;#65d868&quot;&gt;⑥背包再扩容，挂机不用愁&lt;/font&gt;\n	   &lt;font color=&quot;#65d868&quot;&gt;⑦装备不够？BOSS来凑。每天额外获得1次精英BOSS机会&lt;/font&gt;"/>-->
+
+ <unit id="29" title="仙界魔神护盾奖励" text="恭喜您在攻击BOSS护盾时获得幸运奖，请到附件领取您的奖励。"/>
+
+ <unit id="30" title="仙戒BOSS护盾奖励" text="恭喜您在攻击BOSS护盾时获得幸运奖，请到附件领取您的奖励。"/> 
+ 
+ <unit id="31" title="无尽封魔奖励" text="恭喜您成功挑战无尽封魔，请到附件领取您的奖励。"/>
+ 
+ <unit id="32" title="竞技排名下降" text="玩家&lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt;在荣耀竞技玩法中击败了你，排名下降至&lt;font color=&quot;#65d868&quot;&gt;{1}&lt;/font&gt;，快去竞技场中复仇吧。"/>
+ 
+ <unit id="33" title="荣耀竞技排名奖励" text="本周您在荣耀竞技中获得第&lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt;名，奖励在附件中领取，新的一周要再接再厉哦！"/>
+
+ <unit id="34" title="三界争霸段位结算奖励" text="恭喜您在上周三界争霸玩法中达到&lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt;段位，请到附件领取奖励。"/>
+
+ <unit id="35" title="神魂BOSS护盾奖励" text="恭喜您在攻击BOSS护盾时获得幸运奖，请到附件领取您的奖励。"/>
+ 
+ <unit id="36" title="帝君神殿护盾奖励" text="恭喜您在攻击BOSS护盾时获得幸运奖，请到附件领取您的奖励。"/>
+ 
+ <unit id="37" title="天域战活动奖励" text="恭喜您在天域战活动赢得胜利大奖，请到附件领取您的奖励。"/>
+
+ <unit id="38" title="天域之主的馈赠" text="恭喜您完成了挑战，修仙之路才刚刚开始。您可以通过&lt;font color=&quot;#65d868&quot;&gt;我要变强&lt;/font&gt;提升战力，也可以加入&lt;font color=&quot;#65d868&quot;&gt;仙盟&lt;/font&gt;大家庭和道友们一起成长。为此给您准备了一份&lt;font color=&quot;#65d868&quot;&gt;仙盟大礼&lt;/font&gt;，加入仙盟即可开启。" bonus="544:1"/>
+
+ <unit id="39" title="神魂战神殿BOSS护盾奖励" text="恭喜您在攻击BOSS护盾时获得幸运奖，请到附件领取您的奖励。"/>
+
+ <!--
+ <unit id="39" title="开服第5天新功能开启" day="5" text="   &lt;font color=&quot;#65d868&quot;&gt;嘟啦！嘟啦！&lt;/font&gt;今天已经是开服&lt;font color=&quot;#65d868&quot;&gt; 第5天 &lt;/font&gt;，新功能&lt;font color=&quot;#65d868&quot;&gt; 帝君 &lt;/font&gt;为您开启。\n    1.帝君功能入口位于&lt;font color=&quot;#65d868&quot;&gt;角色-帝君&lt;/font&gt;，点击进入就可以查看帝君的详细内容了;\n    2.完成&lt;font color=&quot;#65d868&quot;&gt;帝君任务&lt;/font&gt;即可穿戴帝君装备，激活帝君技能。"/>
+ -->
+ <unit id="40" title="合服名字重复" text="亲爱的玩家您好，合服之后您的名字与其他玩家名字发生重复，特此为您送上一张改名卡！请尽快改名。"/>
+
+ <unit id="41" title="合服完成说明" text="亲爱的玩家您好，合服已完成。合服之后，所有充值档次双倍重置。我们还为您准备了精彩的合服活动，敬请查看。"/>
+
+ <unit id="42" title="合服BOSS护盾奖励" text="恭喜您在攻击BOSS护盾时获得幸运奖，请到附件领取您的奖励。"/> 
+
+ <unit id="43" title="合服天域争霸排名奖励" text="恭喜您在合服天域争霸活动中个人积分排名第&lt;font color=&quot;#65d868&quot;&gt; {0} &lt;/font&gt;名，请到邮件附件领取您的专属奖励。"/> 
+
+ <unit id="44" title="分享游戏奖励" text="亲爱的玩家您好，感谢您的对游戏的支持和分享，请到邮件附件领取您的奖励。"/>
+
+ <unit id="45" title="关注或收藏奖励" text="亲爱的玩家您好，感谢您的关注或收藏，请到邮件附件领取您的奖励。"/>
+
+ <unit id="46" title="微端下载奖励" text="亲爱的玩家您好，感谢您下载游戏微端，请到邮件附件领取您的奖励。"/> 
+
+ <unit id="47" title="跨服区服排名奖励" text="恭喜您的区服在跨服仙魔战场玩法中排名第 &lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt; ，请到附件领取您的奖励。"/>
+
+ <unit id="48" title="公测返利邮件" text="普天同庆！亲爱的玩家您好，为了感谢您在封测期间对游戏的大力支持。我们给您准备了丰厚的公测返利大礼包 ，请到附件领取您的奖励。"/>
+
+ <unit id="49" title="背包已满" text="由于您的背包已满，请到附件领取您的奖励。"/>
+
+ <unit id="50" title="拍品流拍" text="您在拍卖行上架的&lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt;已流拍，请到附件中领取。"/>
+
+ <unit id="51" title="竞价被超过" text="您竞拍的&lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt;，竞价被其他玩家超过，竞拍仙晶请到附件中领取。"/>
+
+ <unit id="52" title="竞拍成功" text="恭喜您以&lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt;仙晶竞拍&lt;font color=&quot;#65d868&quot;&gt;{1}&lt;/font&gt;成功，请到附件中领取。"/>
+
+ <unit id="53" title="个人拍品售出（仙盟拍卖）" text="恭喜您的拍品&lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt;在仙盟拍卖行拍出，请到附件中领取仙晶。"/>
+
+ <unit id="54" title="个人拍品售出（全服拍卖）" text="恭喜您的拍品&lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt;在全服拍卖行拍出，请到附件中领取仙晶。"/>
+
+ <unit id="55" title="仙盟拍品售出（仙盟拍卖）" text="恭喜您参与获得的仙盟拍品&lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt;以&lt;font color=&quot;#65d868&quot;&gt;{1}&lt;/font&gt;仙晶在仙盟拍卖行拍出，参与者共&lt;font color=&quot;#65d868&quot;&gt;{2}&lt;/font&gt;人，分红仙晶请到附件中领取。"/>
+
+ <unit id="56" title="仙盟拍品售出（全服拍卖）" text="恭喜您参与获得的仙盟拍品&lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt;以&lt;font color=&quot;#65d868&quot;&gt;{1}&lt;/font&gt;仙晶在全服拍卖行拍出，参与者共&lt;font color=&quot;#65d868&quot;&gt;{2}&lt;/font&gt;人，分红仙晶请到附件中领取。"/>
+ 
+ <unit id="57" title="跨服泡点阵营奖励" text="   恭喜您所在阵营在跨服泡点玩法中排名第 &lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt; ，请到附件领取您的奖励。"/>
+
+ <unit id="58" title="消费仙晶活动返利" text="   亲爱的玩家您好，本次仙晶返利活动期间您一共消费&lt;font color=&quot;#65d868&quot;&gt;{1}&lt;/font&gt;仙晶，结算获得&lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt;返利仙晶，请及时到附件领取。"/>
+
+ <unit id="59" title="单服淘汰赛晋级" text="恭喜您在淘汰赛中浴血戮战，成功晋级本服&lt;font color=&quot;#65d868&quot;&gt;16强晋级赛&lt;/font&gt;！比赛时间为&lt;font color=&quot;#65d868&quot;&gt;本周三21：00&lt;/font&gt;，不要错过哦！"/>
+
+ <unit id="60" title="单服淘汰赛未晋级" text="很遗憾您在单服淘汰赛中已累计战败10场，未晋级16强，下次要继续努力哦！"/>
+
+ <unit id="61" title="跨服淘汰赛入选通知" text="恭喜您作为本服&lt;font color=&quot;#65d868&quot;&gt;16强&lt;/font&gt;选手，成功入选跨服淘汰赛！比赛时间为&lt;font color=&quot;#65d868&quot;&gt;本周五21:00&lt;/font&gt;，不要错过哦！"/>
+
+ <unit id="62" title="跨服淘汰赛晋级" text="恭喜您在淘汰赛中浴血戮战，成功晋级跨服&lt;font color=&quot;#65d868&quot;&gt;64强小组赛&lt;/font&gt;，比赛时间为本&lt;font color=&quot;#65d868&quot;&gt;周日15:00&lt;/font&gt;，不要错过哦！"/>
+
+ <unit id="63" title="跨服淘汰赛未晋级" text="很遗憾您在跨服淘汰赛中已累计战败10场，未晋级64强，下次要再接再厉哦！"/>
+
+ <unit id="64" title="荣耀赛季结算" text="恭喜您在本届荣耀赛季中获得了单服&lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt;奖励，请在附件内查收，祝您游戏愉快！"/>
+
+ <unit id="65" title="荣耀赛季结算" text="恭喜您在本届荣耀赛季中获得了跨服&lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt;奖励，请在附件内查收，祝您游戏愉快！"/>
+
+ <unit id="66" title="竞猜成功" text="您在荣耀赛季&lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt;的比赛中下注&lt;font color=&quot;#65d868&quot;&gt;{1}&lt;/font&gt;共&lt;font color=&quot;#65d868&quot;&gt;{2}&lt;/font&gt;筹码，该玩家已获得胜利。奖励筹码请在附件查收，祝您好运！"/>
+
+ <unit id="67" title="竞猜失败" text="您在&lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt;的比赛中下注&lt;font color=&quot;#65d868&quot;&gt;{1}&lt;/font&gt;共&lt;font color=&quot;#65d868&quot;&gt;{2}&lt;/font&gt;筹码，很遗憾您看走了眼，该玩家在比赛中输给了对手。"/>
+
+ <unit id="68" title="荣耀赛季人气奖励" text="您在荣耀赛季跨服人气榜中取得了&lt;font color=&quot;#65d868&quot;&gt;第{0}名&lt;/font&gt;的成绩，奖励请在附件查收，祝您游戏愉快！"/>
+
+ <unit id="69" title="红包过期退还通知" text="您的红包未被领取完，剩余仙晶通过邮件退还给您，请在附件查收，祝您游戏愉快！"/>
+ 
+ <!-- 一元夺宝  -->
+ <unit id="101" title="活动开启：一元夺宝" text="本次一元夺宝活动开启，因为您的努力，特赠送免费夺宝道具，请查收。"/>
+ <unit id="102" title="夺宝失败" text="因本次夺宝人数不足，本次夺宝失败，消耗的仙晶已转化为仙灵玉石。"/>
+ <unit id="103" title="夺宝失败" text="{0}由{1}获得，请查收获得的夺宝积分。"/>
+ <unit id="104" title="夺宝成功" text="恭喜成功夺取宝物，并请查收获得的夺宝积分。"/>
+ <!-- 充值团购  -->
+ <unit id="112" title="充值团购" text="您的充值团购奖励未及时领取，已由附件发送给您，请查收" />
+ 
+  <!-- 结缘成功  -->
+ <unit id="113" title="结缘成功" text="恭喜您喜结仙缘，获得称号：&lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt;及以下物品奖励！" />
+ 
+   <!-- 送花  -->
+ <unit id="114" title="收到鲜花" text="玩家&lt;font color=&quot;#65d868&quot;&gt;{0}&lt;/font&gt;向您赠送了&lt;font color=&quot;#65d868&quot;&gt;{1}&lt;/font&gt;，你们的亲密度又增加了！" />
+    
+   <!-- 微信邀请好友返利邮件  -->
+ <unit id="115" title="好友返利提醒" text="   亲爱的玩家您好，恭喜您的好友&lt;font color=&quot;#65d868&quot;&gt; {0} &lt;/font&gt;成功充值&lt;font color=&quot;#65d868&quot;&gt; {1} &lt;/font&gt;仙晶，您将获得返利积分&lt;font color=&quot;#65d868&quot;&gt; {2} &lt;/font&gt;，请附件查收"/>
+  <!-- 仙缘试炼  -->
+  <unit id="116" title="仙缘试炼排名奖励" text="   亲爱的玩家您好，恭喜您在&lt;font color=&quot;#65d868&quot;&gt; 仙缘试炼 &lt;/font&gt;中获得第&lt;font color=&quot;#65d868&quot;&gt; {0} &lt;/font&gt;名的奖励，您将获得以下奖励：请附件查收"/>
+
+  <unit id="117" title="反馈邮件" text="亲爱的玩家您好，您的反馈已收到！我们将尽快与您联系！"/>
+  
+  <unit id="118" title="世界答题奖励" text="您在世界答题活动中取得了&lt;font color=&quot;#65d868&quot;&gt;第{0}名&lt;/font&gt;的成绩，奖励请在附件查收，祝您游戏愉快！"/>
+  
+  <unit id="119" title="世界答题奖励" text="您在世界答题活动中正确回答问题，奖励请在附件查收，祝您游戏愉快！"/>
+  <!-- 天机秘传  -->
+ <unit id="120" title="天机秘传开启" text="得道者得大道之钟爱，可参悟天机悟玄之秘法，此番机缘可在&lt;font color=&quot;#65d868&quot;&gt;【主界面】&lt;/font&gt;->&lt;font color=&quot;#65d868&quot;&gt;【天机秘传】&lt;/font&gt;中觅得！" />
+  
+  <!-- 论道  -->
+ <unit id="121" title="论道奖励" text="恭喜玩家在论道玩法中获得第&lt;font color=&quot;#65d868&quot;&gt; {0} &lt;/font&gt;名的成绩，奖励请在附件查收，祝您游戏愉快！" />
+ 
+  <!-- 分期付款-仙戒 -->
+  <unit id="122" title="仙戒" text="您已成功购买道具 &lt;font color=&quot;#65d868&quot;&gt; 天蛛幻戒 &lt;/font&gt;，奖励已发送至您背包，请及时激活" />
+
+  <!-- 通行证-->
+  <unit id="123" title="通行证" text="您已购买道具 &lt;font color=&quot;#65d868&quot;&gt; 高级通行证 &lt;/font&gt;，通行证已成功激活，快去领取你的奖励吧" />
+  <unit id="123" title="通行证" text="您的奖励未及时领取，已由附件发送给您，请查收" />  
+  </def>

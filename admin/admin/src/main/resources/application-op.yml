@@ -1,0 +1,59 @@
+# 环境和运维相关配置不跟版本走
+
+spring:
+    # ------------------------profiles-----------------------------
+    profiles:
+        active: dev
+    # ------------------------datasource-----------------------------
+    datasource:
+        url: jdbc:mysql://127.0.0.1:3306/admin?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai&tinyInt1isBit=false
+        username: root
+        password: root
+    logdb:
+        url: jdbc:mysql://127.0.0.1:3306/logsrv?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai&tinyInt1isBit=false
+        username: root
+        password: root
+
+
+
+# ------------------------port-----------------------------
+server:
+    port: 9300
+
+druid:
+    deny: 192.168.0.1,192.168.0.2
+    loginPassword: kaigu888
+    loginUsername: kaigu
+
+# -----------------------------------------------------
+social:
+    datacenterId: 1
+    serverId: 1
+    domain: tlb.com
+    innerips: 127.0.0.1,192.168.*.*,0:0:0:0:0:0:0:1
+    # base64(32位)
+    serverKey: EOVJUEcSUtMx3a4jCC/BLHi4qojGam0IvXFt5cJu++4=
+    # # base64(16位)
+    serverIv: GKwK/u0KSmDryJh54tBp6Q==
+    # base64(32位)
+    loginKey: haw0kv3/zm/ub1jiJKv4wP/l2kKn2v+V35KGsJcgh+8=
+    # base64(16位)
+    loginIv: RTN4TQISeKbeHOo7ZpmWyw==
+    # gmKey
+    gmKey: xx
+    # centerKey
+    centerKey: kke
+    # gift服务器
+    giftUrl: http://192.168.2.140:18555
+    # 登录服url
+    loginSrv: http://192.168.0.47:18866/data/handleMsg.do
+    # 中心服url
+    centerSrv:  http://192.168.0.47:18866/data/handleMsg.do
+    web:
+        domain: http://www.admin123123123123.com
+    # search
+    search:
+        gameLog:
+            url: http://192.168.2.46:9301/searchlog/chatLog/search
+        chatLog:
+            url: http://192.168.2.46:9301/searchlog/chatLog/search

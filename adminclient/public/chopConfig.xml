@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<def>
+<!-- 官职 改變為 神器 -->
+  <config>
+		<field define="id" field="id"/>
+		<field define="name" field="name"/>
+		<field define="cost" field="cost"/><!-- 突破消耗 -->
+		<field define="moduleId" field="moduleId"/><!-- 模块ID -->
+		<field define="skillId" field="skillId"/><!-- 关联的技能id -->
+		<field define="level" field="level"/><!-- 技能等级 -->
+		<field define="skillPlus" field="skillPlus"/><!-- 技能加成  3:500:0,14:500:0,25:700:0 -->
+		<field define="cutCd" field="cutCd"/><!-- 技能cd减免  技能id,减少的cd -->
+		<field define="hitNum" field="hitNum"/><!-- 技能攻击目标增加  技能id,增加个数 -->
+		<field define="skillBuff" field="skillBuff"/><!-- 技能buff 技能id,buffid -->
+		<field define="prop" field="prop"/>
+		<field define="property" field="property" enum="arpg.common.convertor.PropertyConvertor"/> 	<!--特殊属性 -->
+		<field define="child" field="childs" enum="arpg.game.chop.resource.ChopConfig"/><!-- GATE:100 配置关卡 -->
+  </config>
+
+	<unit id="0" name="墨烟芙蓉扇" quality="2" cost="" prop="HP:1800,ATT:120,PDEF:30,SDEF:30" skillId="200" level="1" moduleId="" link_to="1:1" property="" skillPlus="" cutCd="" hitNum="" skillBuff="" desc="轻松秒杀BOSS 角色越多伤害越爆炸" desc1="成功激活组合技斗转乾坤">
+		<child id="1" name="碎片1" activeCost="2000:1" prop="HP:900,ATT:60,PDEF:15,SDEF:15" port="4" desc2="激活当前神器碎片1\n合神器激活组合技"/>
+		<child id="2" name="碎片2" activeCost="2001:1" prop="HP:900,ATT:60,PDEF:15,SDEF:15" port="9" desc2="激活组合技斗转乾坤"/>
+	</unit>
+	
+	<unit id="1" name="暗魔残夜盾" quality="2" cost="" prop="HP:3600,ATT:240,PDEF:60,SDEF:60" skillId="" level="" moduleId="27" link_to="35:0" property="" skillPlus="" cutCd="" hitNum="" skillBuff="" desc="初识修行界 洞知玄微境" desc1="成功开启离火罩系统">
+		<child id="1" name="碎片1" activeCost="2002:1" prop="HP:900,ATT:60,PDEF:15,SDEF:15" port="15" desc2="激活当前神器碎片1\n合神器激活离火罩"/>
+		<child id="2" name="碎片2" activeCost="2003:1" prop="HP:900,ATT:60,PDEF:15,SDEF:15" port="20" desc2="激活当前神器碎片2\n合神器激活离火罩"/>
+		<child id="3" name="碎片3" activeCost="2004:1" prop="HP:900,ATT:60,PDEF:15,SDEF:15" port="25" desc2="激活当前神器碎片3\n合神器激活离火罩"/>
+		<child id="4" name="碎片4" activeCost="2005:1" prop="HP:900,ATT:60,PDEF:15,SDEF:15" port="30" desc2="开启离火罩"/>
+	</unit>
+	
+	<unit id="2" name="天煞紫冥阵" quality="2" cost="" prop="HP:3600,ATT:240,PDEF:60,SDEF:60" skillId="" level="" moduleId="25" link_to="45:0" property="" skillPlus="" cutCd="" hitNum="" skillBuff="" desc="开启上古神器，踏入漫漫仙途" desc1="成功开启仙途">
+		<child id="1" name="碎片1" activeCost="2006:1" prop="HP:900,ATT:60,PDEF:15,SDEF:15" port="35" desc2="激活当前神器碎片1\n合神器开启仙途"/>
+		<child id="2" name="碎片2" activeCost="2007:1" prop="HP:900,ATT:60,PDEF:15,SDEF:15" port="40" desc2="激活当前神器碎片2\n合神器开启仙途"/>
+		<child id="3" name="碎片3" activeCost="2008:1" prop="HP:900,ATT:60,PDEF:15,SDEF:15" port="45" desc2="激活当前神器碎片3\n合神器开启仙途"/>
+		<child id="4" name="碎片4" activeCost="2009:1" prop="HP:900,ATT:60,PDEF:15,SDEF:15" port="50" desc2="开启仙途"/>
+	</unit>
+	
+	<unit id="3" name="花月凝烟珠" quality="2" cost="" prop="HP:3600,ATT:240,PDEF:60,SDEF:60" skillId="" level="" moduleId="24" link_to="45:2" property="" skillPlus="" cutCd="" hitNum="" skillBuff="" desc="开启境界，登顶苍穹" desc1="成功开启境界系统">
+		<child id="1" name="碎片1" activeCost="2010:1" prop="HP:900,ATT:60,PDEF:15,SDEF:15" port="55" desc2="激活当前神器碎片1\n合神器开启境界"/>
+		<child id="2" name="碎片2" activeCost="2011:1" prop="HP:900,ATT:60,PDEF:15,SDEF:15" port="60" desc2="激活当前神器碎片2\n合神器开启境界"/>
+		<child id="3" name="碎片3" activeCost="2012:1" prop="HP:900,ATT:60,PDEF:15,SDEF:15" port="65" desc2="激活当前神器碎片3\n合神器开启境界"/>
+		<child id="4" name="碎片4" activeCost="2013:1" prop="HP:900,ATT:60,PDEF:15,SDEF:15" port="70" desc2="开启境界系统"/>
+	</unit>
+	
+	<unit id="4" name="传世琉璃阵" quality="2" cost="" prop="HP:3600,ATT:240,PDEF:60,SDEF:60" skillId="" level="" moduleId="" link_to="" property="" skillPlus="1:2000:0,11:2000:0,21:2000:0" cutCd="" hitNum="" skillBuff="" desc="御剑千里、掣雷玄杀、夺心灭魂伤害提升20%" desc1="御剑千里、掣雷玄杀、夺心灭魂伤害提升20%">
+		<child id="1" name="碎片1" activeCost="2014:1" prop="HP:900,ATT:60,PDEF:15,SDEF:15" port="80" desc2="激活当前神器碎片1\n合神器技能增伤20%"/>
+		<child id="2" name="碎片2" activeCost="2015:1" prop="HP:900,ATT:60,PDEF:15,SDEF:15" port="90" desc2="激活当前神器碎片2\n合神器技能增伤20%"/>
+		<child id="3" name="碎片3" activeCost="2016:1" prop="HP:900,ATT:60,PDEF:15,SDEF:15" port="100" desc2="激活当前神器碎片3\n合神器技能增伤20%"/>
+		<child id="4" name="碎片4" activeCost="2017:1" prop="HP:900,ATT:60,PDEF:15,SDEF:15" port="110" desc2="初始技能伤害+20%"/>
+	</unit>
+	
+	<unit id="5" name="云汉星河角" quality="3" cost="" prop="HP:5400,ATT:1860,PDEF:90,SDEF:90" skillId="" level="" moduleId="" link_to="" property="" skillPlus="" cutCd="" hitNum="" skillBuff="" desc="全角色攻击增加1500 突破炼气期" desc1="全角色攻击增加1500">
+		<child id="1" name="碎片1" activeCost="2018:1" prop="HP:1080,ATT:72,PDEF:18,SDEF:18" port="120" desc2="激活当前神器碎片1\n合神器全攻击+1500"/>
+		<child id="2" name="碎片2" activeCost="2019:1" prop="HP:1080,ATT:72,PDEF:18,SDEF:18" port="130" desc2="激活当前神器碎片2\n合神器全攻击+1500"/>
+		<child id="3" name="碎片3" activeCost="2020:1" prop="HP:1080,ATT:72,PDEF:18,SDEF:18" port="140" desc2="激活当前神器碎片3\n合神器全攻击+1500"/>
+		<child id="4" name="碎片4" activeCost="2021:1" prop="HP:1080,ATT:72,PDEF:18,SDEF:18" port="150" desc2="激活当前神器碎片4\n合神器全攻击+1500"/>
+		<child id="5" name="碎片5" activeCost="2022:1" prop="HP:1080,ATT:72,PDEF:18,SDEF:18" port="160" desc2="全角色攻击+1500"/>
+	</unit>
+	
+	<unit id="6" name="花莲鎏金环" quality="3" cost="" prop="HP:7200,ATT:480,PDEF:120,SDEF:120" skillId="" level="" moduleId="" link_to="" property="" skillPlus="2:0:8000,12:0:8000,22:0:2000" cutCd="" hitNum="" skillBuff="" desc="百裂千击、冰封千里增伤8000 噬魂焚骨每秒增伤2000" desc1="百裂千击、冰封千里增伤8000 噬魂焚骨每秒增伤2000">
+		<child id="1" name="碎片1" activeCost="2023:1" prop="HP:1200,ATT:80,PDEF:20,SDEF:20" port="170" desc2="激活当前神器碎片1\n合神器高阶技能增伤"/>
+		<child id="2" name="碎片2" activeCost="2024:1" prop="HP:1200,ATT:80,PDEF:20,SDEF:20" port="180" desc2="激活当前神器碎片2\n合神器高阶技能增伤"/>
+		<child id="3" name="碎片3" activeCost="2025:1" prop="HP:1200,ATT:80,PDEF:20,SDEF:20" port="190" desc2="激活当前神器碎片3\n合神器高阶技能增伤"/>
+		<child id="4" name="碎片4" activeCost="2026:1" prop="HP:1200,ATT:80,PDEF:20,SDEF:20" port="200" desc2="激活当前神器碎片4\n合神器高阶技能增伤"/>
+		<child id="5" name="碎片5" activeCost="2027:1" prop="HP:1200,ATT:80,PDEF:20,SDEF:20" port="210" desc2="激活当前神器碎片5\n合神器高阶技能增伤"/>
+		<child id="6" name="碎片6" activeCost="2028:1" prop="HP:1200,ATT:80,PDEF:20,SDEF:20" port="220" desc2="高阶技能伤害增强"/>
+	</unit>
+	
+	<unit id="7" name="混沌灭世盾" quality="3" cost="" prop="HP:47200,ATT:480,PDEF:120,SDEF:120" skillId="" level="" moduleId="" link_to="" property="" skillPlus="" cutCd="" hitNum="" skillBuff="" desc="全角色生命增加40000 筑基炼体修行大成" desc1="全角色生命增加40000">
+		<child id="1" name="碎片1" activeCost="2029:1" prop="HP:1200,ATT:80,PDEF:20,SDEF:20" port="230" desc2="激活当前神器碎片1\n合神器全生命+40000"/>
+		<child id="2" name="碎片2" activeCost="2030:1" prop="HP:1200,ATT:80,PDEF:20,SDEF:20" port="240" desc2="激活当前神器碎片2\n合神器全生命+40000"/>
+		<child id="3" name="碎片3" activeCost="2031:1" prop="HP:1200,ATT:80,PDEF:20,SDEF:20" port="250" desc2="激活当前神器碎片3\n合神器全生命+40000"/>
+		<child id="4" name="碎片4" activeCost="2032:1" prop="HP:1200,ATT:80,PDEF:20,SDEF:20" port="260" desc2="激活当前神器碎片4\n合神器全生命+40000"/>
+		<child id="5" name="碎片5" activeCost="2033:1" prop="HP:1200,ATT:80,PDEF:20,SDEF:20" port="270" desc2="激活当前神器碎片5\n合神器全生命+40000"/>
+		<child id="6" name="碎片6" activeCost="2034:1" prop="HP:1200,ATT:80,PDEF:20,SDEF:20" port="280" desc2="全角色生命+40000"/>
+	</unit>
+	
+	<unit id="8" name="玉妃银镜" quality="3" cost="" prop="HP:7200,ATT:480,PDEF:120,SDEF:120" skillId="" level="" moduleId="" link_to="" property="" skillPlus="3:500:0,14:500:0,25:700:0" cutCd="" hitNum="" skillBuff="" desc="惊风追月、烈焰神盾增伤5% 灵身续命恢复效果增加10%" desc1="惊风追月、烈焰神盾增伤5% 灵身续命恢复效果增加10%">
+		<child id="1" name="碎片1" activeCost="2035:1" prop="HP:1200,ATT:80,PDEF:20,SDEF:20" port="290" desc2="激活当前神器碎片1\n合神器进阶技能加强"/>
+		<child id="2" name="碎片2" activeCost="2036:1" prop="HP:1200,ATT:80,PDEF:20,SDEF:20" port="300" desc2="激活当前神器碎片2\n合神器进阶技能加强"/>
+		<child id="3" name="碎片3" activeCost="2037:1" prop="HP:1200,ATT:80,PDEF:20,SDEF:20" port="310" desc2="激活当前神器碎片3\n合神器进阶技能加强"/>
+		<child id="4" name="碎片4" activeCost="2038:1" prop="HP:1200,ATT:80,PDEF:20,SDEF:20" port="320" desc2="激活当前神器碎片4\n合神器进阶技能加强"/>
+		<child id="5" name="碎片5" activeCost="2039:1" prop="HP:1200,ATT:80,PDEF:20,SDEF:20" port="330" desc2="激活当前神器碎片5\n合神器进阶技能加强"/>
+		<child id="6" name="碎片6" activeCost="2040:1" prop="HP:1200,ATT:80,PDEF:20,SDEF:20" port="340" desc2="三系进阶技能加强"/>
+	</unit>
+	
+	<unit id="9" name="净世琉璃盾" quality="3" cost="" prop="HP:7200,ATT:480,PDEF:2620,SDEF:2620" skillId="" level="" moduleId="" link_to="" property="" skillPlus="" cutCd="" hitNum="" skillBuff="" desc="全角色防御增加2500 修行筑体境界大成" desc1="全角色防御+2500">
+		<child id="1" name="碎片1" activeCost="2041:1" prop="HP:1200,ATT:80,PDEF:20,SDEF:20" port="350" desc2="激活当前神器碎片1\n合神器全防御+2500"/>
+		<child id="2" name="碎片2" activeCost="2042:1" prop="HP:1200,ATT:80,PDEF:20,SDEF:20" port="360" desc2="激活当前神器碎片2\n合神器全防御+2500"/>
+		<child id="3" name="碎片3" activeCost="2043:1" prop="HP:1200,ATT:80,PDEF:20,SDEF:20" port="370" desc2="激活当前神器碎片3\n合神器全防御+2500"/>
+		<child id="4" name="碎片4" activeCost="2044:1" prop="HP:1200,ATT:80,PDEF:20,SDEF:20" port="380" desc2="激活当前神器碎片4\n合神器全防御+2500"/>
+		<child id="5" name="碎片5" activeCost="2045:1" prop="HP:1200,ATT:80,PDEF:20,SDEF:20" port="390" desc2="激活当前神器碎片5\n合神器全防御+2500"/>
+		<child id="6" name="碎片6" activeCost="2046:1" prop="HP:1200,ATT:80,PDEF:20,SDEF:20" port="400" desc2="全角色防御+2500"/>
+	</unit>
+	
+	<unit id="10" name="青盐凝神灯" quality="4" cost="" prop="HP:10800,ATT:720,PDEF:180,SDEF:180" skillId="" level="" moduleId="" link_to="" property="MONEYGET:5" skillPlus="" cutCd="" hitNum="" skillBuff="" desc="挂机金币永久+5% 有钱任逍遥" desc1="挂机金币永久+5%">
+		<child id="1" name="碎片1" activeCost="2047:1" prop="HP:1800,ATT:120,PDEF:30,SDEF:30" port="420" desc2="激活当前神器碎片1\n合神器挂机金币+5%"/>
+		<child id="2" name="碎片2" activeCost="2048:1" prop="HP:1800,ATT:120,PDEF:30,SDEF:30" port="440" desc2="激活当前神器碎片2\n合神器挂机金币+5%"/>
+		<child id="3" name="碎片3" activeCost="2049:1" prop="HP:1800,ATT:120,PDEF:30,SDEF:30" port="460" desc2="激活当前神器碎片3\n合神器挂机金币+5%"/>
+		<child id="4" name="碎片4" activeCost="2050:1" prop="HP:1800,ATT:120,PDEF:30,SDEF:30" port="480" desc2="激活当前神器碎片4\n合神器挂机金币+5%"/>
+		<child id="5" name="碎片5" activeCost="2051:1" prop="HP:1800,ATT:120,PDEF:30,SDEF:30" port="500" desc2="激活当前神器碎片5\n合神器挂机金币+5%"/>
+		<child id="6" name="碎片6" activeCost="2052:1" prop="HP:1800,ATT:120,PDEF:30,SDEF:30" port="520" desc2="挂机金币永久+5%"/>
+	</unit>
+	
+	<unit id="11" name="子春桃夭琴" quality="4" cost="" prop="HP:10800,ATT:720,PDEF:180,SDEF:180" skillId="" level="" moduleId="" link_to="" property="EXPGET:5" skillPlus="" cutCd="" hitNum="" skillBuff="" desc="挂机经验永久+5% 修为一日千里" desc1="挂机经验永久+5%">
+		<child id="1" name="碎片1" activeCost="2053:1" prop="HP:1800,ATT:120,PDEF:30,SDEF:30" port="540" desc2="激活当前神器碎片1\n合神器挂机经验+5%"/>
+		<child id="2" name="碎片2" activeCost="2054:1" prop="HP:1800,ATT:120,PDEF:30,SDEF:30" port="560" desc2="激活当前神器碎片2\n合神器挂机经验+5%"/>
+		<child id="3" name="碎片3" activeCost="2055:1" prop="HP:1800,ATT:120,PDEF:30,SDEF:30" port="580" desc2="激活当前神器碎片3\n合神器挂机经验+5%"/>
+		<child id="4" name="碎片4" activeCost="2056:1" prop="HP:1800,ATT:120,PDEF:30,SDEF:30" port="600" desc2="激活当前神器碎片4\n合神器挂机经验+5%"/>
+		<child id="5" name="碎片5" activeCost="2057:1" prop="HP:1800,ATT:120,PDEF:30,SDEF:30" port="620" desc2="激活当前神器碎片5\n合神器挂机经验+5%"/>
+		<child id="6" name="碎片6" activeCost="2058:1" prop="HP:1800,ATT:120,PDEF:30,SDEF:30" port="640" desc2="挂机经验永久+5%"/>
+	</unit>
+	
+	<unit id="12" name="紫英蛊影扇" quality="4" cost="" prop="HP:14400,ATT:960,PDEF:240,SDEF:240,DECHURT_HOLY:500" skillId="" level="" moduleId="" link_to="" property="" skillPlus="" cutCd="" hitNum="" skillBuff="" desc="组合技所受伤害减免5% 以一当十" desc1="组合技所受伤害减免5%">
+		<child id="1" name="碎片1" activeCost="2059:1" prop="HP:1800,ATT:120,PDEF:30,SDEF:30" port="660" desc2="激活当前神器碎片1\n合神器组合技免伤+5%"/>
+		<child id="2" name="碎片2" activeCost="2060:1" prop="HP:1800,ATT:120,PDEF:30,SDEF:30" port="680" desc2="激活当前神器碎片2\n合神器组合技免伤+5%"/>
+		<child id="3" name="碎片3" activeCost="2061:1" prop="HP:1800,ATT:120,PDEF:30,SDEF:30" port="700" desc2="激活当前神器碎片3\n合神器组合技免伤+5%"/>
+		<child id="4" name="碎片4" activeCost="2062:1" prop="HP:1800,ATT:120,PDEF:30,SDEF:30" port="720" desc2="激活当前神器碎片4\n合神器组合技免伤+5%"/>
+		<child id="5" name="碎片5" activeCost="2063:1" prop="HP:1800,ATT:120,PDEF:30,SDEF:30" port="740" desc2="激活当前神器碎片5\n合神器组合技免伤+5%"/>
+		<child id="6" name="碎片6" activeCost="2064:1" prop="HP:1800,ATT:120,PDEF:30,SDEF:30" port="760" desc2="激活当前神器碎片6\n合神器组合技免伤+5%"/>
+		<child id="7" name="碎片7" activeCost="2065:1" prop="HP:1800,ATT:120,PDEF:30,SDEF:30" port="780" desc2="激活当前神器碎片7\n合神器组合技免伤+5%"/>
+		<child id="8" name="碎片8" activeCost="2066:1" prop="HP:1800,ATT:120,PDEF:30,SDEF:30" port="800" desc2="组合技所受伤害减免5%"/>
+	</unit>
+	
+	<unit id="13" name="日月云龙扇" quality="4" cost="" prop="HP:21600,ATT:1440,PDEF:360,SDEF:360,ATTSKILL_HURT_MONSTER:2000" skillId="" level="" moduleId="" link_to="" property="" skillPlus="1:0:10000" cutCd="" hitNum="" skillBuff="" desc="御剑千里伤害增加10000 对怪物伤害增加20%" desc1="御剑千里伤害增加10000 对怪物伤害增加20%">
+		<child id="1" name="碎片1" activeCost="2067:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="820" desc2="激活当前神器碎片1\n合神器御剑千里增强"/>
+		<child id="2" name="碎片2" activeCost="2068:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="840" desc2="激活当前神器碎片2\n合神器御剑千里增强"/>
+		<child id="3" name="碎片3" activeCost="2069:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="860" desc2="激活当前神器碎片3\n合神器御剑千里增强"/>
+		<child id="4" name="碎片4" activeCost="2070:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="880" desc2="激活当前神器碎片4\n合神器御剑千里增强"/>
+		<child id="5" name="碎片5" activeCost="2071:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="900" desc2="激活当前神器碎片5\n合神器御剑千里增强"/>
+		<child id="6" name="碎片6" activeCost="2072:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="920" desc2="激活当前神器碎片6\n合神器御剑千里增强"/>
+		<child id="7" name="碎片7" activeCost="2073:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="940" desc2="激活当前神器碎片7\n合神器御剑千里增强"/>
+		<child id="8" name="碎片8" activeCost="2074:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="960" desc2="御剑千里增强"/>
+	</unit>
+	
+	<unit id="14" name="碎琼冰玉扇" quality="4" cost="" prop="HP:21600,ATT:1440,PDEF:360,SDEF:360,THUNDER_HURT_MONSTER:2000" skillId="" level="" moduleId="" link_to="" property="" skillPlus="11:0:10000" cutCd="" hitNum="" skillBuff="" desc="天陨流星伤害增加10000 对怪物伤害增加20%" desc1="天火流星伤害增加10000 对怪物伤害增加20%">
+		<child id="1" name="碎片1" activeCost="2075:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="980" desc2="激活当前神器碎片1\n合神器天火流星增强"/>
+		<child id="2" name="碎片2" activeCost="2076:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1000" desc2="激活当前神器碎片2\n合神器天火流星增强"/>
+		<child id="3" name="碎片3" activeCost="2077:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1020" desc2="激活当前神器碎片3\n合神器天火流星增强"/>
+		<child id="4" name="碎片4" activeCost="2078:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1040" desc2="激活当前神器碎片4\n合神器天火流星增强"/>
+		<child id="5" name="碎片5" activeCost="2079:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1060" desc2="激活当前神器碎片5\n合神器天火流星增强"/>
+		<child id="6" name="碎片6" activeCost="2080:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1080" desc2="激活当前神器碎片6\n合神器天火流星增强"/>
+		<child id="7" name="碎片7" activeCost="2081:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1100" desc2="激活当前神器碎片7\n合神器天火流星增强"/>
+		<child id="8" name="碎片8" activeCost="2082:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1120" desc2="天火流星增强"/>
+	</unit>
+	
+	<unit id="15" name="炽轮弦月灯" quality="5" cost="" prop="HP:21600,ATT:1440,PDEF:360,SDEF:360,SOULFIRE_HURT_MONSTER:2000" skillId="" level="" moduleId="" link_to="" property="" skillPlus="21:0:10000" cutCd="" hitNum="" skillBuff="" desc="夺心灭魂伤害增加10000 对怪物伤害增加20%" desc1="夺心灭魂伤害增加10000 对怪物伤害增加20%">
+		<child id="1" name="碎片1" activeCost="2083:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1140" desc2="激活当前神器碎片1\n合神器夺心灭魂增强"/>
+		<child id="2" name="碎片2" activeCost="2084:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1160" desc2="激活当前神器碎片2\n合神器夺心灭魂增强"/>
+		<child id="3" name="碎片3" activeCost="2085:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1180" desc2="激活当前神器碎片3\n合神器夺心灭魂增强"/>
+		<child id="4" name="碎片4" activeCost="2086:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1200" desc2="激活当前神器碎片4\n合神器夺心灭魂增强"/>
+		<child id="5" name="碎片5" activeCost="2087:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1220" desc2="激活当前神器碎片5\n合神器夺心灭魂增强"/>
+		<child id="6" name="碎片6" activeCost="2088:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1240" desc2="激活当前神器碎片6\n合神器夺心灭魂增强"/>
+		<child id="7" name="碎片7" activeCost="2089:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1260" desc2="激活当前神器碎片7\n合神器夺心灭魂增强"/>
+		<child id="8" name="碎片8" activeCost="2090:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1280" desc2="夺心灭魂增强"/>
+	</unit>
+
+	<unit id="16" name="噬魂魔夜盾" quality="5" cost="" prop="HP:21600,ATT:1440,PDEF:360,SDEF:360,THUNDER_STRONG_RATE:500" skillId="" level="" moduleId="" link_to="" property="" skillPlus="" cutCd="" hitNum="" skillBuff="" desc="释放冰封千里时暴击率额外增加5%" desc1="释放冰封千里时暴击率额外增加5%">
+		<child id="1" name="碎片1" activeCost="2091:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1300" desc2="激活当前神器碎片1\n合神器冰封千里增强"/>
+		<child id="2" name="碎片2" activeCost="2092:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1320" desc2="激活当前神器碎片2\n合神器冰封千里增强"/>
+		<child id="3" name="碎片3" activeCost="2093:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1340" desc2="激活当前神器碎片3\n合神器冰封千里增强"/>
+		<child id="4" name="碎片4" activeCost="2094:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1360" desc2="激活当前神器碎片4\n合神器冰封千里增强"/>
+		<child id="5" name="碎片5" activeCost="2095:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1380" desc2="激活当前神器碎片5\n合神器冰封千里增强"/>
+		<child id="6" name="碎片6" activeCost="2096:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1400" desc2="激活当前神器碎片6\n合神器冰封千里增强"/>
+		<child id="7" name="碎片7" activeCost="2097:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1420" desc2="激活当前神器碎片7\n合神器冰封千里增强"/>
+		<child id="8" name="碎片8" activeCost="2098:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1440" desc2="冰封千里暴击率提升"/>
+	</unit>
+	
+	<unit id="17" name="光朱羲和扇" quality="5" cost="" prop="HP:21600,ATT:1440,PDEF:360,SDEF:360" skillId="" level="" moduleId="" link_to="" property="" skillPlus="22:300:0" cutCd="" hitNum="" skillBuff="" desc="噬魂焚骨每秒额外造成灵修3%攻击伤害" desc1="噬魂焚骨每秒额外造成灵修3%攻击伤害">
+		<child id="1" name="碎片1" activeCost="2099:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1460" desc2="激活当前神器碎片1\n合神器噬魂焚骨增强"/>
+		<child id="2" name="碎片2" activeCost="2100:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1480" desc2="激活当前神器碎片2\n合神器噬魂焚骨增强"/>
+		<child id="3" name="碎片3" activeCost="2101:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1500" desc2="激活当前神器碎片3\n合神器噬魂焚骨增强"/>
+		<child id="4" name="碎片4" activeCost="2102:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1520" desc2="激活当前神器碎片4\n合神器噬魂焚骨增强"/>
+		<child id="5" name="碎片5" activeCost="2103:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1540" desc2="激活当前神器碎片5\n合神器噬魂焚骨增强"/>
+		<child id="6" name="碎片6" activeCost="2104:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1560" desc2="激活当前神器碎片6\n合神器噬魂焚骨增强"/>
+		<child id="7" name="碎片7" activeCost="2105:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1580" desc2="激活当前神器碎片7\n合神器噬魂焚骨增强"/>
+		<child id="8" name="碎片8" activeCost="2106:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1600" desc2="噬魂焚骨伤害提升"/>
+	</unit>
+
+	<unit id="18" name="翡冷翠龙珠" quality="5" cost="" prop="HP:21600,ATT:1440,PDEF:360,SDEF:360,ATTSKILL_STRONG_RATE:500" skillId="" level="" moduleId="" link_to="" property="" skillPlus="" cutCd="" hitNum="" skillBuff="" desc="释放百裂千击时暴击率额外增加5%" desc1="释放百裂千击时暴击率额外增加5%">
+		<child id="1" name="碎片1" activeCost="2107:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1620" desc2="激活当前神器碎片1\n合神器百裂千击增强"/>
+		<child id="2" name="碎片2" activeCost="2108:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1640" desc2="激活当前神器碎片2\n合神器百裂千击增强"/>
+		<child id="3" name="碎片3" activeCost="2109:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1660" desc2="激活当前神器碎片3\n合神器百裂千击增强"/>
+		<child id="4" name="碎片4" activeCost="2110:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1680" desc2="激活当前神器碎片4\n合神器百裂千击增强"/>
+		<child id="5" name="碎片5" activeCost="2111:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1700" desc2="激活当前神器碎片5\n合神器百裂千击增强"/>
+		<child id="6" name="碎片6" activeCost="2112:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1720" desc2="激活当前神器碎片6\n合神器百裂千击增强"/>
+		<child id="7" name="碎片7" activeCost="2113:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1740" desc2="激活当前神器碎片7\n合神器百裂千击增强"/>
+		<child id="8" name="碎片8" activeCost="2114:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1760" desc2="百裂千击暴击率提升"/>
+	</unit>
+	
+	<unit id="19" name="青鸢碎玉镜" quality="5" cost="" prop="HP:21600,ATT:1440,PDEF:360,SDEF:360" skillId="" level="" moduleId="" link_to="" property="" skillPlus="22:200:0" cutCd="" hitNum="" skillBuff="" desc="引灵护体增加防御效果提升20%" desc1="引灵护体增加防御效果+20%">
+		<child id="1" name="碎片1" activeCost="2115:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1780" desc2="激活当前神器碎片1\n合神器引灵护体增强"/>
+		<child id="2" name="碎片2" activeCost="2116:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1800" desc2="激活当前神器碎片2\n合神器引灵护体增强"/>
+		<child id="3" name="碎片3" activeCost="2117:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1820" desc2="激活当前神器碎片3\n合神器引灵护体增强"/>
+		<child id="4" name="碎片4" activeCost="2118:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1840" desc2="激活当前神器碎片4\n合神器引灵护体增强"/>
+		<child id="5" name="碎片5" activeCost="2119:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1860" desc2="激活当前神器碎片5\n合神器引灵护体增强"/>
+		<child id="6" name="碎片6" activeCost="2120:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1880" desc2="激活当前神器碎片6\n合神器引灵护体增强"/>
+		<child id="7" name="碎片7" activeCost="2121:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1900" desc2="激活当前神器碎片7\n合神器引灵护体增强"/>
+		<child id="8" name="碎片8" activeCost="2122:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1920" desc2="引灵护体防御效果+20%"/>
+	</unit>
+	
+	<unit id="20" name="玄碧墨羽盾" quality="6" cost="" prop="HP:21600,ATT:1440,PDEF:360,SDEF:360,MAGIC_SHIELD_DECHURT:1000" skillId="" level="" moduleId="" link_to="" property="" skillPlus="" cutCd="" hitNum="" skillBuff="" desc="烈焰神盾存在时额外免伤+10%" desc1="烈焰神盾存在时额外免伤+10%">
+		<child id="1" name="碎片1" activeCost="2123:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1940" desc2="激活当前神器碎片1\n合神器烈焰神盾增强"/>
+		<child id="2" name="碎片2" activeCost="2124:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1960" desc2="激活当前神器碎片2\n合神器烈焰神盾增强"/>
+		<child id="3" name="碎片3" activeCost="2125:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="1980" desc2="激活当前神器碎片3\n合神器烈焰神盾增强"/>
+		<child id="4" name="碎片4" activeCost="2126:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2000" desc2="激活当前神器碎片4\n合神器烈焰神盾增强"/>
+		<child id="5" name="碎片5" activeCost="2127:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2020" desc2="激活当前神器碎片5\n合神器烈焰神盾增强"/>
+		<child id="6" name="碎片6" activeCost="2128:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2040" desc2="激活当前神器碎片6\n合神器烈焰神盾增强"/>
+		<child id="7" name="碎片7" activeCost="2129:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2060" desc2="激活当前神器碎片7\n合神器烈焰神盾增强"/>
+		<child id="8" name="碎片8" activeCost="2130:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2080" desc2="烈焰神盾额外免伤+10%"/>
+	</unit>
+	
+	<unit id="21" name="霜天碧玉珠" quality="6" cost="" prop="HP:21600,ATT:1440,PDEF:360,SDEF:360" skillId="" level="" moduleId="" link_to="" property="" skillPlus="" cutCd="" hitNum="3,1" skillBuff="" desc="刹那芳华攻击目标永久+1" desc1="刹那芳华攻击目标永久+1">
+		<child id="1" name="碎片1" activeCost="2131:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2100" desc2="激活当前神器碎片1\n合神器刹那芳华增强"/>
+		<child id="2" name="碎片2" activeCost="2132:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2120" desc2="激活当前神器碎片2\n合神器刹那芳华增强"/>
+		<child id="3" name="碎片3" activeCost="2133:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2140" desc2="激活当前神器碎片3\n合神器刹那芳华增强"/>
+		<child id="4" name="碎片4" activeCost="2134:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2160" desc2="激活当前神器碎片4\n合神器刹那芳华增强"/>
+		<child id="5" name="碎片5" activeCost="2135:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2180" desc2="激活当前神器碎片5\n合神器刹那芳华增强"/>
+		<child id="6" name="碎片6" activeCost="2136:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2200" desc2="激活当前神器碎片6\n合神器刹那芳华增强"/>
+		<child id="7" name="碎片7" activeCost="2137:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2220" desc2="激活当前神器碎片7\n合神器刹那芳华增强"/>
+		<child id="8" name="碎片8" activeCost="2138:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2240" desc2="刹那芳华攻击目标+1"/>
+	</unit>
+	
+	<unit id="22" name="暗夜阴风扇" quality="6" cost="" prop="HP:21600,ATT:1440,PDEF:360,SDEF:360" skillId="" level="" moduleId="" link_to="" property="" skillPlus="4:1000:0" cutCd="" hitNum="" skillBuff="" desc="天星剑阵伤害系数永久增加10%" desc1="天星剑阵伤害系数永久增加10%">
+		<child id="1" name="碎片1" activeCost="2139:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2260" desc2="激活当前神器碎片1\n合神器天星剑阵增强"/>
+		<child id="2" name="碎片2" activeCost="2140:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2280" desc2="激活当前神器碎片2\n合神器天星剑阵增强"/>
+		<child id="3" name="碎片3" activeCost="2141:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2300" desc2="激活当前神器碎片3\n合神器天星剑阵增强"/>
+		<child id="4" name="碎片4" activeCost="2142:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2320" desc2="激活当前神器碎片4\n合神器天星剑阵增强"/>
+		<child id="5" name="碎片5" activeCost="2143:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2340" desc2="激活当前神器碎片5\n合神器天星剑阵增强"/>
+		<child id="6" name="碎片6" activeCost="2144:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2360" desc2="激活当前神器碎片6\n合神器天星剑阵增强"/>
+		<child id="7" name="碎片7" activeCost="2145:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2380" desc2="激活当前神器碎片7\n合神器天星剑阵增强"/>
+		<child id="8" name="碎片8" activeCost="2146:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2400" desc2="天星剑阵伤害+10%"/>
+	</unit>
+	
+	<unit id="23" name="梅隐香扇" quality="6" cost="" prop="HP:21600,ATT:1440,PDEF:360,SDEF:360" skillId="" level="" moduleId="" link_to="" property="" skillPlus="" cutCd="4,2" hitNum="" skillBuff="" desc="邪魔退散冷却时间降低2秒" desc1="邪魔退散冷却时间降低2秒">
+		<child id="1" name="碎片1" activeCost="2147:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2420" desc2="激活当前神器碎片1\n合神器邪魔退散增强"/>
+		<child id="2" name="碎片2" activeCost="2148:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2440" desc2="激活当前神器碎片2\n合神器邪魔退散增强"/>
+		<child id="3" name="碎片3" activeCost="2149:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2460" desc2="激活当前神器碎片3\n合神器邪魔退散增强"/>
+		<child id="4" name="碎片4" activeCost="2150:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2480" desc2="激活当前神器碎片4\n合神器邪魔退散增强"/>
+		<child id="5" name="碎片5" activeCost="2151:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2500" desc2="激活当前神器碎片5\n合神器邪魔退散增强"/>
+		<child id="6" name="碎片6" activeCost="2152:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2520" desc2="激活当前神器碎片6\n合神器邪魔退散增强"/>
+		<child id="7" name="碎片7" activeCost="2153:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2540" desc2="激活当前神器碎片7\n合神器邪魔退散增强"/>
+		<child id="8" name="碎片8" activeCost="2154:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2560" desc2="邪魔退散冷却时间-2秒"/>
+	</unit>
+	
+	<unit id="24" name="素阳锦扇" quality="6" cost="" prop="HP:21600,ATT:1440,PDEF:360,SDEF:360" skillId="" level="" moduleId="" link_to="" property="" skillPlus="24:200:0" cutCd="" hitNum="" skillBuff="" desc="灵兽攻击伤害提升10%" desc1="灵兽攻击伤害提升10%">
+		<child id="1" name="碎片1" activeCost="2155:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2580" desc2="激活当前神器碎片1\n合神器提升灵兽攻击"/>
+		<child id="2" name="碎片2" activeCost="2156:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2600" desc2="激活当前神器碎片2\n合神器提升灵兽攻击"/>
+		<child id="3" name="碎片3" activeCost="2157:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2620" desc2="激活当前神器碎片3\n合神器提升灵兽攻击"/>
+		<child id="4" name="碎片4" activeCost="2158:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2640" desc2="激活当前神器碎片4\n合神器提升灵兽攻击"/>
+		<child id="5" name="碎片5" activeCost="2159:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2660" desc2="激活当前神器碎片5\n合神器提升灵兽攻击"/>
+		<child id="6" name="碎片6" activeCost="2160:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2680" desc2="激活当前神器碎片6\n合神器提升灵兽攻击"/>
+		<child id="7" name="碎片7" activeCost="2161:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2700" desc2="激活当前神器碎片7\n合神器提升灵兽攻击"/>
+		<child id="8" name="碎片8" activeCost="2162:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2720" desc2="灵兽攻击提升10%"/>
+	</unit>
+	
+	<unit id="25" name="凝春灵剑" quality="6" cost="" prop="HP:21600,ATT:1440,PDEF:360,SDEF:360" skillId="" level="" moduleId="" link_to="" property="" skillPlus="15:1000:0" cutCd="" hitNum="" skillBuff="" desc="天火流星伤害系数永久增加10%" desc1="天火流星伤害系数永久增加10%">
+		<child id="1" name="碎片1" activeCost="2163:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2740" desc2="激活当前神器碎片1\n合神器天火流星增强"/>
+		<child id="2" name="碎片2" activeCost="2164:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2760" desc2="激活当前神器碎片2\n合神器天火流星增强"/>
+		<child id="3" name="碎片3" activeCost="2165:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2780" desc2="激活当前神器碎片3\n合神器天火流星增强"/>
+		<child id="4" name="碎片4" activeCost="2166:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2800" desc2="激活当前神器碎片4\n合神器天火流星增强"/>
+		<child id="5" name="碎片5" activeCost="2167:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2820" desc2="激活当前神器碎片5\n合神器天火流星增强"/>
+		<child id="6" name="碎片6" activeCost="2168:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2840" desc2="激活当前神器碎片6\n合神器天火流星增强"/>
+		<child id="7" name="碎片7" activeCost="2169:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2860" desc2="激活当前神器碎片7\n合神器天火流星增强"/>
+		<child id="8" name="碎片8" activeCost="2170:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2880" desc2="天火流星伤害+10%"/>
+	</unit>
+	
+	<unit id="26" name="璇花琼鼓" quality="6" cost="" prop="HP:21600,ATT:1440,PDEF:360,SDEF:360,CURE_STRONG_RATE:1000" skillId="" level="" moduleId="" link_to="" property="" skillPlus="" cutCd="" hitNum="" skillBuff="" desc="灵身续命有10%几率治疗效果翻倍" desc1="灵身续命有10%几率治疗效果翻倍">
+		<child id="1" name="碎片1" activeCost="2171:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2900" desc2="激活当前神器碎片1\n合神器灵身续命增强"/>
+		<child id="2" name="碎片2" activeCost="2172:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2920" desc2="激活当前神器碎片2\n合神器灵身续命增强"/>
+		<child id="3" name="碎片3" activeCost="2173:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2940" desc2="激活当前神器碎片3\n合神器灵身续命增强"/>
+		<child id="4" name="碎片4" activeCost="2174:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2960" desc2="激活当前神器碎片4\n合神器灵身续命增强"/>
+		<child id="5" name="碎片5" activeCost="2175:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="2980" desc2="激活当前神器碎片5\n合神器灵身续命增强"/>
+		<child id="6" name="碎片6" activeCost="2176:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="3000" desc2="激活当前神器碎片6\n合神器灵身续命增强"/>
+		<child id="7" name="碎片7" activeCost="2177:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="3020" desc2="激活当前神器碎片7\n合神器灵身续命增强"/>
+		<child id="8" name="碎片8" activeCost="2178:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="3040" desc2="灵身续命10%几率效果翻倍"/>
+	</unit>
+	
+	<unit id="27" name="青玉烟笔" quality="6" cost="" prop="HP:21600,ATT:1440,PDEF:360,SDEF:360" skillId="" level="" moduleId="" link_to="" property="" skillPlus="5:2000:0" cutCd="" hitNum="" skillBuff="" desc="天星剑阵附加20%攻击持续伤害" desc1="天星剑阵附加20%攻击持续伤害">
+		<child id="1" name="碎片1" activeCost="2179:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="3060" desc2="激活当前神器碎片1\n合神器天星剑阵增强"/>
+		<child id="2" name="碎片2" activeCost="2180:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="3080" desc2="激活当前神器碎片2\n合神器天星剑阵增强"/>
+		<child id="3" name="碎片3" activeCost="2181:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="3100" desc2="激活当前神器碎片3\n合神器天星剑阵增强"/>
+		<child id="4" name="碎片4" activeCost="2182:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="3120" desc2="激活当前神器碎片4\n合神器天星剑阵增强"/>
+		<child id="5" name="碎片5" activeCost="2183:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="3140" desc2="激活当前神器碎片5\n合神器天星剑阵增强"/>
+		<child id="6" name="碎片6" activeCost="2184:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="3160" desc2="激活当前神器碎片6\n合神器天星剑阵增强"/>
+		<child id="7" name="碎片7" activeCost="2185:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="3180" desc2="激活当前神器碎片7\n合神器天星剑阵增强"/>
+		<child id="8" name="碎片8" activeCost="2186:1" prop="HP:2700,ATT:180,PDEF:45,SDEF:45" port="3200" desc2="天星剑阵持续伤害增强"/>
+	</unit>
+
+  </def>
+

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<def>
+    <config>
+        <field define="id" field="id"/>			<!--id 和道具id相同-->
+        <field define="position" field="position"/>			<!--穿戴位置  1 武器  2衣服  3翅膀-->
+        <field define="itemId" field="itemId"/> <!-- 对应的道具ID -->
+        <field define="prop" field="prop"/>		<!--属性-->
+        <field define="duration" field="duration"/> <!--持续时间（分钟） 0表示永久-->
+        <!--useall 武器用于3职业内容职业id-->
+		
+    </config>
+
+		<!--霸主时装-->
+		<unit id="296" name="霸主神兵" position="1"  itemId="296" prop="HP:60000,ATT:4000,SDEF:1000,PDEF:1000,STRONG_RATE:250" duration="" res="23001" useall=""/>
+		<unit id="297" name="霸主神甲" position="2"  itemId="297" prop="HP:48000,ATT:3200,SDEF:800,PDEF:800,STRONG_RATE:250" duration="" res="23002" useall=""/>
+
+		<!--开服时装-->
+		<unit id="325" name="舞池焦点" position="1"  itemId="325" prop="HP:45000,ATT:3000,SDEF:750,PDEF:750" duration="" res="24001" useall=""/>
+		<unit id="326" name="舞池焦点" position="2"  itemId="326" prop="HP:36000,ATT:2400,SDEF:600,PDEF:600" duration="" res="24002" useall=""/>
+		<unit id="327" name="鬼魅流影" position="3"  itemId="327" prop="HP:27000,ATT:1800,SDEF:450,PDEF:450" duration="" res="wing21003" useall=""/>
+
+		<!--夏日时装-->
+		<unit id="360" name="春风送情" position="1"  itemId="360" prop="HP:30000,ATT:2000,SDEF:500,PDEF:500" duration="" res="21001" useall=""/>
+		<unit id="361" name="春风送情" position="2"  itemId="361" prop="HP:24000,ATT:1600,SDEF:400,PDEF:400" duration="" res="21002" useall=""/>
+		<unit id="362" name="翡翠星焰" position="3"  itemId="362" prop="HP:18000,ATT:1200,SDEF:300,PDEF:300" duration="" res="wing19003" useall=""/>
+
+		<!--舞池焦点-->
+		<unit id="363" name="飞鱼绣春" position="1"  itemId="363" prop="HP:37500,ATT:2500,SDEF:625,PDEF:625" duration="" res="22001" useall=""/>
+		<unit id="364" name="飞鱼绣春" position="2"  itemId="364" prop="HP:30000,ATT:2000,SDEF:500,PDEF:500" duration="" res="22002" useall=""/>
+		<unit id="365" name="凤舞九天" position="3"  itemId="365" prop="HP:22500,ATT:1500,SDEF:375,PDEF:375" duration="" res="wing20003" useall=""/>
+		
+		<!--童心无忌-->
+		<unit id="370" name="童心无忌" position="1"  itemId="944" prop="HP:37500,ATT:2500,SDEF:625,PDEF:625" duration="" res="20001" useall=""/>
+		<unit id="371" name="童心无忌" position="2"  itemId="945" prop="HP:30000,ATT:2000,SDEF:500,PDEF:500" duration="" res="20002" useall=""/>
+		<unit id="372" name="告白风车" position="3"  itemId="946" prop="HP:22500,ATT:1500,SDEF:375,PDEF:375" duration="" res="wing22003" useall=""/>
+		
+		<!--寻仙觅影-->
+		<unit id="380" name="寻仙觅影" position="1"  itemId="947" prop="HP:52500,ATT:3500,SDEF:875,PDEF:875" duration="" res="28001" useall=""/>
+		<unit id="381" name="寻仙觅影" position="2"  itemId="948" prop="HP:42000,ATT:2800,SDEF:700,PDEF:700" duration="" res="28002" useall=""/>
+		<unit id="382" name="湛蓝之光" position="3"  itemId="949" prop="HP:31500,ATT:2100,SDEF:525,PDEF:525" duration="" res="wing23003" useall=""/>
+		
+		<!--白神天翼-->
+		<unit id="392" name="白神天翼" position="3"  itemId="298" prop="HP:20000,ATT:1600,SDEF:400,PDEF:400" duration="" res="wing24003" useall=""/>
+		<unit id="298" name="浪心剑客" position="1"  itemId="300" prop="HP:37500,ATT:2500,SDEF:625,PDEF:625" duration="" res="25001" useall=""/>
+		<unit id="299" name="浪心剑客" position="2"  itemId="299" prop="HP:30000,ATT:2000,SDEF:500,PDEF:500" duration="" res="25002" useall=""/>
+
+		<!--火焰枪-->
+		<unit id="395" name="火焰枪" position="1"  itemId="687" prop="HP:52500,ATT:3500,SDEF:875,PDEF:875" duration="" res="40001" useall="1"/>
+		
+		
+		<!--婚礼时装 限时15分钟-->
+		<unit id="520" name="凤求凰" position="2"  itemId="170011" prop="HP:30000,ATT:2000,SDEF:500,PDEF:500" duration="15" res="52002" useall=""/>
+
+
+		<!--吃鸡时装
+		<unit id="298" name="大道自然" position="1"  itemId="298" prop="HP:36000,ATT:2400,SDEF:600,PDEF:600" duration="" res="19001"/>
+		<unit id="299" name="大道自然" position="2"  itemId="299" prop="HP:30000,ATT:2000,SDEF:500,PDEF:500" duration="" res="19002"/>
+		<unit id="300" name="机械战警" position="3"  itemId="300" prop="HP:24000,ATT:1600,SDEF:400,PDEF:400" duration="" res="wing19003"/>
+		-->
+		
+		
+		<!--圣诞时装
+		<unit id="687" name="圣诞礼赞" position="1"  itemId="687" prop="HP:36000,ATT:2400,SDEF:600,PDEF:600" duration="" res="24001"/>
+		<unit id="688" name="冬日恋歌" position="2"  itemId="688" prop="HP:30000,ATT:2000,SDEF:500,PDEF:500" duration="" res="24002"/>-->
+		<unit id="689" name="冰雪奇缘" position="3"  itemId="689" prop="HP:24000,ATT:1600,SDEF:400,PDEF:400" duration="" res="wing26003"/>
+
+		<!--搞怪时装
+		<unit id="944" name="彩虹风车" position="1"  itemId="944" prop="HP:60000,ATT:4000,SDEF:1000,PDEF:1000" duration="" res="25001"/>
+		<unit id="945" name="梦幻童谣" position="2"  itemId="945" prop="HP:60000,ATT:4000,SDEF:1000,PDEF:1000" duration="" res="25002"/>
+		<unit id="946" name="彩凤之翎" position="3"  itemId="946" prop="HP:60000,ATT:4000,SDEF:1000,PDEF:1000" duration="" res="wing25003"/>
+		-->
+
+		<!--春节
+		<unit id="947" name="辞岁炮竹" position="1"  itemId="947" prop="HP:45000,ATT:3000,SDEF:750,PDEF:750" duration="" res="26001"/>
+		<unit id="948" name="福禄寿喜" position="2"  itemId="948" prop="HP:36000,ATT:2400,SDEF:600,PDEF:600" duration="" res="26002"/>
+		<unit id="949" name="福星高照" position="3"  itemId="949" prop="HP:27000,ATT:1800,SDEF:450,PDEF:450" duration="" res="wing26003"/>
+		-->
+		
+		<!--情人节
+		<unit id="995" name="热恋棒糖" position="1"  itemId="995" prop="HP:45000,ATT:3000,SDEF:750,PDEF:750" duration="" res="27001"/>
+		<unit id="996" name="白色浪漫" position="2"  itemId="996" prop="HP:36000,ATT:2400,SDEF:600,PDEF:600" duration="" res="27002"/>
+		<unit id="997" name="倾心之羽" position="3"  itemId="997" prop="HP:27000,ATT:1800,SDEF:450,PDEF:450" duration="" res="wing27003"/>
+		-->
+		
+		<!--荣耀赛季
+		<unit id="1042" name="荣耀霸主" position="2"  itemId="1042" prop="HP:150000,ATT:10000,SDEF:2500,PDEF:2500" duration="20160" res="28002"/>
+
+		<unit id="1043" name="荣耀枭雄" position="2"  itemId="1043" prop="HP:90000,ATT:6000,SDEF:1500,PDEF:1500" duration="20160" res="29002"/>
+		-->
+
+
+		
+		
+
+		<!--渠道定制
+		<unit id="800" name="渠道专属" position="1"  itemId="800" prop="HP:37500,ATT:2500,SDEF:625,PDEF:625" duration="" res="30001" ischannel="1"/>
+		<unit id="801" name="渠道专属" position="3"  itemId="801" prop="HP:30000,ATT:2000,SDEF:500,PDEF:500" duration="" res="wing30003" ischannel="1"/>
+
+		<unit id="802" name="渠道专属" position="1"  itemId="802" prop="HP:37500,ATT:2500,SDEF:625,PDEF:625" duration="" res="31001" ischannel="1"/>
+		<unit id="803" name="渠道专属" position="3"  itemId="803" prop="HP:30000,ATT:2000,SDEF:500,PDEF:500" duration="" res="wing31003" ischannel="1"/>
+
+		<unit id="804" name="渠道专属" position="1"  itemId="804" prop="HP:37500,ATT:2500,SDEF:625,PDEF:625" duration="" res="32001" ischannel="1"/>
+		<unit id="805" name="渠道专属" position="3"  itemId="805" prop="HP:30000,ATT:2000,SDEF:500,PDEF:500" duration="" res="wing32003" ischannel="1"/>
+
+		<unit id="806" name="渠道专属" position="1"  itemId="806" prop="HP:37500,ATT:2500,SDEF:625,PDEF:625" duration="" res="33001" ischannel="1"/>
+		<unit id="807" name="渠道专属" position="3"  itemId="807" prop="HP:30000,ATT:2000,SDEF:500,PDEF:500" duration="" res="wing33003" ischannel="1"/>
+
+		<unit id="808" name="渠道专属" position="1"  itemId="808" prop="HP:37500,ATT:2500,SDEF:625,PDEF:625" duration="" res="34001" ischannel="1"/>
+		<unit id="809" name="渠道专属" position="3"  itemId="809" prop="HP:30000,ATT:2000,SDEF:500,PDEF:500" duration="" res="wing34003" ischannel="1"/>
+
+		<unit id="810" name="渠道专属" position="1"  itemId="810" prop="HP:37500,ATT:2500,SDEF:625,PDEF:625" duration="" res="35001" ischannel="1" desc="渠道专属"/>
+		<unit id="811" name="渠道专属" position="3"  itemId="811" prop="HP:30000,ATT:2000,SDEF:500,PDEF:500" duration="" res="wing35003" ischannel="1" desc="渠道专属"/>
+
+		<unit id="812" name="渠道专属" position="1"  itemId="812" prop="HP:37500,ATT:2500,SDEF:625,PDEF:625" duration="" res="36001" ischannel="1" desc="渠道专属"/>
+		<unit id="813" name="渠道专属" position="3"  itemId="813" prop="HP:30000,ATT:2000,SDEF:500,PDEF:500" duration="" res="wing36003" ischannel="1" desc="渠道专属"/>
+
+		<unit id="814" name="渠道专属" position="1"  itemId="814" prop="HP:37500,ATT:2500,SDEF:625,PDEF:625" duration="" res="37001" ischannel="1" desc="渠道专属"/>
+		<unit id="815" name="渠道专属" position="3"  itemId="815" prop="HP:30000,ATT:2000,SDEF:500,PDEF:500" duration="" res="wing37003" ischannel="1" desc="渠道专属"/>
+	    -->
+
+</def>
